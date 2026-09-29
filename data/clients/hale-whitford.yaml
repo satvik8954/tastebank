@@ -1,0 +1,313 @@
+# Conservative Boston law firm. Stable taste; one internal contradiction
+# (Managing Partner wants "more modern", Senior Partner says "too trendy").
+id: hale-whitford
+name: Hale & Whitford LLP
+industry: Commercial litigation and estate planning law firm, Boston, founded 1962
+contacts:
+  - name: Margaret Hale
+    role: Managing Partner
+  - name: David Whitford
+    role: Senior Partner
+  - name: Priya Raman
+    role: Marketing Director
+
+brand:
+  palette: { navy: "#1B2A41", burgundy: "#6B1E2E", cream: "#F4EFE6", brass: "#B08D57" }
+  fonts: { heading: "EB Garamond", body: "EB Garamond" }
+  voice: Quiet, confident, formal. Informs, never alarms.
+
+bank:
+  mission: >-
+    You are Round Zero, the pre-review assistant at Northlight Studio for the law firm
+    Hale & Whitford LLP. You remember every piece of feedback the firm's partners and
+    marketing director have given on past design drafts, and you use it to catch problems
+    in new drafts before the firm sees them.
+  disposition: { skepticism: 3, literalism: 4, empathy: 2 }
+  directives:
+    - name: Attorney advertising disclaimer
+      content: >-
+        Every public-facing piece must include the line "Attorney Advertising. Prior results
+        do not guarantee a similar outcome." Flag any draft that is missing it.
+      priority: 10
+    - name: No outcome guarantees
+      content: >-
+        Massachusetts bar rules prohibit implying guaranteed results. Flag copy such as
+        "winning", "we win", "guaranteed", or any promise of a case outcome.
+      priority: 10
+
+events:
+  - id: hw-onboarding
+    date: 2025-01-20T10:00:00
+    by: Priya Raman
+    kind: brief
+    text: >-
+      Onboarding brand brief from Priya Raman (Marketing Director): Our palette is navy
+      #1B2A41 as the primary colour, burgundy #6B1E2E as an accent, cream #F4EFE6 for
+      backgrounds, and brass #B08D57 for fine details. Our typeface is Garamond. Every
+      public piece must carry "Attorney Advertising. Prior results do not guarantee a
+      similar outcome." Our clients are established families and business owners; the
+      tone is quiet and confident.
+
+projects:
+  - id: hw-01
+    name: Firm anniversary LinkedIn post (63 years)
+    format: linkedin_post
+    brief: Celebrate 63 years of the firm on LinkedIn.
+    rounds:
+      - date: 2025-02-10
+        draft: >-
+          Teal-to-blue gradient background (#1FA2B8 to #2B5DAE), bold sans-serif headline
+          "63 Years of Winning for You!", stock photo of a wooden gavel, logo top-left.
+        feedback:
+          - by: Priya Raman
+            quote: Teal isn't us. Our palette is navy, burgundy and cream. Please stay inside it.
+          - by: Margaret Hale
+            quote: Remove the exclamation mark. We don't shout.
+          - by: David Whitford
+            quote: >-
+              "Winning for you" is a problem. Bar rules, we can't imply guaranteed outcomes.
+              Say what we do, not what we promise.
+      - date: 2025-02-14
+        draft: >-
+          Navy background, cream Garamond headline "63 years of counsel", gavel photo kept,
+          logo top-left.
+        feedback:
+          - by: Margaret Hale
+            quote: >-
+              The gavel is a cliché. Every firm on earth uses it. No gavels, no scales of
+              justice, no handshakes.
+      - date: 2025-02-19
+        draft: >-
+          Photograph of the firm's Beacon Street building with a navy overlay, Garamond
+          headline, logo tucked under the headline.
+        feedback:
+          - by: Priya Raman
+            quote: >-
+              Much better. The logo is crowding the headline. Logo goes bottom-right, with
+              real breathing room around it.
+      - date: 2025-02-24
+        draft: Same layout, logo moved bottom-right with generous margin.
+        approved: true
+        feedback:
+          - by: Margaret Hale
+            quote: This is right. Quiet, confident. Approved.
+
+  - id: hw-02
+    name: Estate planning seminar poster
+    format: poster
+    brief: A4 poster for an in-office estate planning seminar.
+    rounds:
+      - date: 2025-04-07
+        draft: >-
+          Cream background, Garamond, six paragraphs of body text explaining trusts and
+          wills, clip-art icons of a family and a house.
+        feedback:
+          - by: David Whitford
+            quote: >-
+              Too much text. Nobody reads a poster with six paragraphs. Date, place, and one
+              line on why they should come.
+          - by: Priya Raman
+            quote: The icons look like clip art. Use typography or a real photograph instead.
+      - date: 2025-04-11
+        draft: >-
+          Typographic poster: large Garamond title, one-line subhead, date set in burgundy,
+          cream background, no imagery.
+        feedback:
+          - by: Margaret Hale
+            quote: >-
+              Good. Burgundy for the date is a nice touch. Keep burgundy as the accent, never
+              the background.
+      - date: 2025-04-15
+        draft: Same, with minor spacing fixes.
+        approved: true
+        feedback:
+          - by: Priya Raman
+            quote: >-
+              Approved. You forgot the "Attorney Advertising" line at the bottom though.
+              It's required on everything we publish, please add it before print.
+
+  - id: hw-03
+    name: Website hero banner refresh
+    format: web_banner
+    brief: Refresh the homepage hero banner.
+    rounds:
+      - date: 2025-06-02
+        draft: >-
+          Classic layout: navy background, centered Garamond headline, framed oil-portrait
+          style photo of the founding partners.
+        feedback:
+          - by: Margaret Hale
+            quote: >-
+              It feels dated. Can we be a bit more modern? Look at what the newer firms are
+              doing.
+      - date: 2025-06-06
+        draft: >-
+          Asymmetric layout with lots of whitespace, large lowercase sans-serif headline
+          (Inter), cream background, thin navy rule.
+        feedback:
+          - by: Margaret Hale
+            quote: Yes, more like this.
+          - by: David Whitford
+            quote: >-
+              This looks like a fintech startup. Our clients are seventy-year-old family
+              business owners. Sans-serif is out, and so is lowercase.
+      - date: 2025-06-11
+        draft: Asymmetric whitespace layout kept, headline switched to Garamond in sentence case.
+        feedback:
+          - by: Priya Raman
+            quote: >-
+              This is the compromise: modern layout, classic typeface. Margaret and David
+              have both signed off on this direction.
+          - by: Margaret Hale
+            quote: Agreed. Modern structure, traditional type. That's the rule going forward.
+      - date: 2025-06-16
+        draft: Added a thick brass (#B08D57) band across the bottom third as a design element.
+        feedback:
+          - by: David Whitford
+            quote: >-
+              The gold band reads as flashy. If you use the brass colour, keep it to thin
+              rules and small details.
+      - date: 2025-06-19
+        draft: Brass reduced to a 2px rule under the headline.
+        approved: true
+        feedback:
+          - by: David Whitford
+            quote: Fine. Approved.
+
+  - id: hw-04
+    name: Client alert social card (new tax rules)
+    format: linkedin_post
+    brief: Social card announcing a client alert on new small-business tax rules.
+    rounds:
+      - date: 2025-08-04
+        draft: Full burgundy background, white Garamond headline, alert icon.
+        feedback:
+          - by: Priya Raman
+            quote: >-
+              Burgundy as a full background is too heavy. It reads as alarming, like a
+              warning notice. Navy or cream backgrounds only.
+      - date: 2025-08-07
+        draft: >-
+          Navy background, headline "URGENT: New Tax Rules Hit Business Owners".
+        feedback:
+          - by: Margaret Hale
+            quote: No all-caps and no "urgent". We inform, we don't alarm.
+      - date: 2025-08-11
+        draft: Navy background, headline "What the new tax rules mean for your business".
+        approved: true
+        feedback:
+          - by: Margaret Hale
+            quote: Approved.
+
+  - id: hw-05
+    name: Partner spotlight carousel
+    format: instagram_carousel
+    brief: Four-slide carousel introducing partner James Okoro.
+    rounds:
+      - date: 2025-11-03
+        draft: >-
+          Candid colour photo of the partner laughing by the office coffee machine, casual
+          caption, cream slides.
+        feedback:
+          - by: David Whitford
+            quote: >-
+              Too casual. Partner portraits should be formal: suit, neutral backdrop, not
+              laughing at a coffee machine.
+      - date: 2025-11-07
+        draft: Formal portrait in full colour, full-bleed.
+        feedback:
+          - by: Priya Raman
+            quote: >-
+              Photos should be black-and-white or desaturated so they sit with the navy.
+              Full colour looks like a stock photo.
+      - date: 2025-11-12
+        draft: Black-and-white formal portrait, pull quote from the partner in italic Garamond.
+        feedback:
+          - by: Margaret Hale
+            quote: The italic pull quote is lovely. Keep that treatment for future spotlights.
+          - by: Priya Raman
+            quote: The "Attorney Advertising" line is missing again. Please don't make me ask.
+      - date: 2025-11-14
+        draft: Disclaimer added to the last slide.
+        approved: true
+        feedback:
+          - by: Priya Raman
+            quote: Approved.
+
+  - id: hw-06
+    name: Year-end digital holiday card
+    format: instagram_post
+    brief: Digital season's greetings card for clients.
+    rounds:
+      - date: 2025-12-01
+        draft: Red and green, snowflakes, a Christmas tree, "Merry Christmas from all of us!"
+        feedback:
+          - by: Margaret Hale
+            quote: >-
+              Not everyone we serve celebrates Christmas. "Season's greetings", no religious
+              imagery, and stay in our palette. No Christmas red and green.
+      - date: 2025-12-05
+        draft: Navy card, thin brass line, Garamond "With gratitude for the year".
+        approved: true
+        feedback:
+          - by: David Whitford
+            quote: Tasteful. This is the tone.
+
+  - id: hw-07
+    name: Recruiting post for summer associates
+    format: instagram_post
+    brief: Recruiting post for the summer associate programme.
+    rounds:
+      - date: 2026-03-02
+        draft: Cream background, Garamond headline "Join the squad 🚀", rocket emoji.
+        feedback:
+          - by: Priya Raman
+            quote: No emoji, ever, on firm channels. And "squad" isn't our voice.
+      - date: 2026-03-05
+        draft: Headline "Begin your practice with us", thin 14px Garamond body copy.
+        feedback:
+          - by: Margaret Hale
+            quote: >-
+              Headline is fine, but the serif gets too thin on mobile at that size. Go a
+              weight heavier for anything under 24px.
+      - date: 2026-03-09
+        draft: Body copy set in Garamond Medium.
+        approved: true
+        feedback:
+          - by: Priya Raman
+            quote: Approved.
+
+  - id: hw-08
+    name: Litigation practice LinkedIn banner
+    format: web_banner
+    brief: New LinkedIn banner for the litigation practice group.
+    reviewed_with_round_zero: true
+    rounds:
+      - date: 2026-07-13
+        draft: >-
+          Navy background, asymmetric layout, Garamond sentence-case headline, thin brass
+          rule, logo bottom-right, disclaimer present.
+        approved: true
+        feedback:
+          - by: Priya Raman
+            quote: >-
+              First-round approval. That's a first. Everything's in our palette and the
+              disclaimer is there.
+
+  - id: hw-09
+    name: Estate planning webinar LinkedIn post
+    format: linkedin_post
+    brief: Promote a live estate planning webinar.
+    reviewed_with_round_zero: true
+    rounds:
+      - date: 2026-09-08
+        draft: Cream background, navy Garamond headline, date line set in brass.
+        feedback:
+          - by: Margaret Hale
+            quote: Small thing. The date in brass on cream is hard to read. Use navy for text.
+      - date: 2026-09-10
+        draft: Date line set in navy.
+        approved: true
+        feedback:
+          - by: Margaret Hale
+            quote: Approved.

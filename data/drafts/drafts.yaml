@@ -1,0 +1,59 @@
+# Demo drafts. PNGs are rendered from templates/ by scripts/make_drafts.py.
+# `planted` lists what a reviewer with memory SHOULD catch. It is used for the demo
+# script and a sanity check; it is never shown to the model.
+- file: hale-whitford_estate-tax-alert_v1.png
+  client: hale-whitford
+  project: Estate tax changes client alert
+  format: linkedin_post
+  planted:
+    - burgundy used as a full background (accent only)
+    - sans-serif bold headline (Garamond; modern layout, classic type)
+    - exclamation mark ("we don't shout")
+    - gavel imagery (cliché, banned)
+    - '"wins for Boston families" implies outcomes (bar rules / directive)'
+    - logo top-left (bottom-right with breathing room)
+    - missing "Attorney Advertising" line (directive)
+
+- file: hale-whitford_estate-tax-alert_v2.png
+  client: hale-whitford
+  project: Estate tax changes client alert
+  format: linkedin_post
+  planted: []   # control: should come back clean or near-clean
+
+- file: crunchd_maple-chipotle_pastel.png
+  client: crunchd
+  project: "Fall flavour: Maple Chipotle"
+  format: instagram_post
+  planted:
+    - "[after rebrand] retired pastel palette: peach background, sage bag, lilac tag"
+    - "[after rebrand] lowercase soft rounded type instead of condensed caps"
+    - "[after rebrand] grain texture / faded warmth"
+  notes: >-
+    Taste-shift demo. Against rz-crunchd (pre-rebrand) this should pass. Against
+    rz-crunchd-after, or rz-crunchd after the live rebrand, it should be flagged as the old brand.
+
+- file: crunchd_fall-lineup_loud.png
+  client: crunchd
+  project: Fall lineup announcement
+  format: instagram_post
+  planted:
+    - five flavour names and three bags (one hero flavour per piece)
+    - lots of on-image text (one line max, rest in caption)
+    - three emoji (one max)
+    - triple exclamation marks
+    - '"guilt free" health claim (directive)'
+  notes: New palette is correct; the rules that survived the rebrand are not.
+
+- file: dewpoint_hydra-mist_v1.png
+  client: dewpoint
+  project: Hydra Mist launch post
+  format: instagram_post
+  planted:
+    - ice-blue clinical palette ("feels like a pharmacy")
+    - '"Heals" drug claim + "in 3 days" timeframe (directive)'
+    - '"anti-aging"'
+    - before/after split (directive)
+    - '"Clinically proven" without a cited study (directive)'
+    - front-facing bottle (three-quarter angle)
+    - no ingredient percentages
+    - gradient fills (flat colour only)

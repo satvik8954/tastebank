@@ -1,0 +1,250 @@
+# D2C skincare. Heavy claims compliance. Contradiction: warm (founder) vs
+# cool/clinical (head of brand), resolved as restrained warm neutrals.
+id: dewpoint
+name: Dewpoint
+industry: D2C barrier-repair skincare brand
+contacts:
+  - name: Amara Nwosu
+    role: Founder
+  - name: Lukas Brandt
+    role: Head of Brand
+  - name: Sofia Reyes
+    role: Regulatory & Claims Lead
+
+brand:
+  palette: { bone: "#F5F0EA", clay: "#C9A58A", stone: "#8C8279", ink: "#2B2826" }
+  fonts: { heading: "Inter Tight", body: "Inter" }
+  voice: Calm, precise, transparent. Explains, never promises.
+
+bank:
+  mission: >-
+    You are Round Zero, the pre-review assistant at Northlight Studio for the skincare
+    brand Dewpoint. You remember every piece of feedback Dewpoint's founder, head of brand
+    and claims lead have given on past design drafts, and you use it to catch problems in
+    new drafts before the client sees them.
+  disposition: { skepticism: 4, literalism: 5, empathy: 2 }
+  directives:
+    - name: No drug claims
+      content: >-
+        Cosmetic products cannot make drug claims. Flag the words "heals", "cures",
+        "treats", "repairs damage", "clinically proven" (without a cited study) and any
+        results timeframe such as "in 7 days".
+      priority: 10
+    - name: No before/after imagery
+      content: Flag any before/after split or comparison imagery. It implies guaranteed results.
+      priority: 10
+
+events:
+  - id: dp-onboarding
+    date: 2025-01-27T11:00:00
+    by: Amara Nwosu
+    kind: brief
+    text: >-
+      Onboarding brief from Amara Nwosu (Founder): Dewpoint is warm, calm and radically
+      transparent. Palette: bone #F5F0EA, clay #C9A58A, stone #8C8279, ink #2B2826. We are
+      not a pharmacy and not a spa. We lead with ingredient percentages on everything.
+
+projects:
+  - id: dp-01
+    name: Barrier Serum launch post
+    format: instagram_post
+    brief: Launch post for the Barrier Serum.
+    rounds:
+      - date: 2025-02-17
+        draft: >-
+          Clinical white and ice-blue (#DDEBF5) background, product shot straight-on,
+          headline "Heals damaged skin in 7 days".
+        feedback:
+          - by: Sofia Reyes
+            quote: >-
+              "Heals" is a drug claim. We can't say it. "Supports the skin barrier" is the
+              approved phrasing, and no timeframe claims without a study reference.
+          - by: Amara Nwosu
+            quote: The blue feels like a pharmacy. We're warm.
+      - date: 2025-02-20
+        draft: Bone background, product straight-on, headline "Supports your skin barrier".
+        feedback:
+          - by: Lukas Brandt
+            quote: >-
+              Product shots are always at a three-quarter angle, never flat front. It shows
+              the dropper and the depth of the bottle.
+      - date: 2025-02-24
+        draft: Three-quarter product angle, no ingredient information on the image.
+        feedback:
+          - by: Amara Nwosu
+            quote: >-
+              Where are the percentages? We lead with ingredient percentages. That's our
+              whole transparency thing.
+      - date: 2025-02-26
+        draft: Added "5% niacinamide · 3% ceramide complex" line under the headline.
+        approved: true
+        feedback:
+          - by: Amara Nwosu
+            quote: Yes. Approved.
+
+  - id: dp-02
+    name: "Real skin campaign: Instagram"
+    format: instagram_post
+    brief: Model-led campaign post.
+    rounds:
+      - date: 2025-04-14
+        draft: Close-up of a model with airbrushed, poreless skin.
+        feedback:
+          - by: Amara Nwosu
+            quote: >-
+              The skin is airbrushed. We never retouch texture. Pores, freckles and fine
+              lines stay. That's non-negotiable.
+      - date: 2025-04-17
+        draft: Unretouched skin, extremely tight crop on the cheek.
+        feedback:
+          - by: Lukas Brandt
+            quote: >-
+              Crop is too tight. It feels like a dermatology textbook. Show more of the
+              person, in natural light.
+      - date: 2025-04-21
+        draft: Shoulders-up crop, natural window light, unretouched.
+        approved: true
+        feedback:
+          - by: Lukas Brandt
+            quote: Approved.
+
+  - id: dp-03
+    name: Reel cover for customer results
+    format: instagram_post
+    brief: Cover frame for a customer results reel.
+    rounds:
+      - date: 2025-06-09
+        draft: Before/after split screen of a customer's cheek.
+        feedback:
+          - by: Sofia Reyes
+            quote: >-
+              No before/after imagery. It implies guaranteed results and we've already had
+              an ad rejected for it. Use a single week-4 texture close-up with "individual
+              results vary".
+      - date: 2025-06-12
+        draft: Single close-up with "individual results vary" in small type.
+        approved: true
+        feedback:
+          - by: Sofia Reyes
+            quote: Cleared.
+
+  - id: dp-04
+    name: "Website banner: winter barrier kit"
+    format: web_banner
+    brief: Homepage banner for the winter kit.
+    rounds:
+      - date: 2025-10-06
+        draft: Heavy clay and peach (#E8A77F) background, candle-lit spa styling.
+        feedback:
+          - by: Lukas Brandt
+            quote: >-
+              Too warm. It's going orange and "spa". We should feel more clinical and
+              precise. Cooler.
+      - date: 2025-10-09
+        draft: Cool grey-blue (#C9D3DB) background, clinical styling.
+        feedback:
+          - by: Amara Nwosu
+            quote: >-
+              No. I said this back in February: blue feels like a pharmacy. We are warm
+              neutrals.
+          - by: Lukas Brandt
+            quote: >-
+              Fine. Warm neutrals, but restrained. Bone and stone as the base, clay only as
+              an accent, and no orange.
+      - date: 2025-10-14
+        draft: Bone base, clay accent, subhead "Anti-aging barrier support for winter".
+        feedback:
+          - by: Sofia Reyes
+            quote: >-
+              We don't use "anti-aging". Just describe what it does: "barrier support for
+              cold, dry air".
+      - date: 2025-10-16
+        draft: Subhead corrected.
+        approved: true
+        feedback:
+          - by: Amara Nwosu
+            quote: Approved.
+
+  - id: dp-05
+    name: "Ingredient explainer carousel: ceramides"
+    format: instagram_carousel
+    brief: Educational carousel about ceramides.
+    rounds:
+      - date: 2025-12-01
+        draft: Six slides with about 80 words each.
+        feedback:
+          - by: Lukas Brandt
+            quote: Too much copy per slide. One idea per slide, max twenty words.
+      - date: 2025-12-04
+        draft: Short slides with gradient-filled molecule illustrations (purple to teal).
+        feedback:
+          - by: Amara Nwosu
+            quote: Gradients look cheap and techy. Flat colour only.
+      - date: 2025-12-08
+        draft: Flat clay and stone illustrations, stat "ceramides make up 50% of the skin barrier".
+        approved: true
+        feedback:
+          - by: Sofia Reyes
+            quote: >-
+              Approved on condition you cite the source for the 50% stat in small type on
+              that slide.
+
+  - id: dp-06
+    name: Mother's Day gift post
+    format: instagram_post
+    brief: Mother's Day gift set promotion.
+    rounds:
+      - date: 2026-04-20
+        draft: Pink florals and a script typeface headline.
+        feedback:
+          - by: Lukas Brandt
+            quote: >-
+              Pink florals are every beauty brand on earth. Stay in our palette, and no
+              script type.
+      - date: 2026-04-23
+        draft: Bone and clay, copy "Flawless skin for mom".
+        feedback:
+          - by: Amara Nwosu
+            quote: >-
+              We never promise flawless. "Healthy skin" or "her skin, supported".
+      - date: 2026-04-24
+        draft: Copy "Her skin, supported".
+        approved: true
+        feedback:
+          - by: Amara Nwosu
+            quote: Approved.
+
+  - id: dp-07
+    name: SPF launch teaser
+    format: instagram_post
+    brief: Teaser for the new daily SPF.
+    reviewed_with_round_zero: true
+    rounds:
+      - date: 2026-07-06
+        draft: Bone background, three-quarter bottle, "Broad Spectrum SPF 30 · all-day protection".
+        feedback:
+          - by: Sofia Reyes
+            quote: >-
+              SPF claims need the exact wording "Broad Spectrum SPF 30" and nothing else.
+              Remove "all-day protection".
+      - date: 2026-07-08
+        draft: Claim trimmed to "Broad Spectrum SPF 30".
+        approved: true
+        feedback:
+          - by: Sofia Reyes
+            quote: Cleared.
+
+  - id: dp-08
+    name: Retinal serum launch
+    format: instagram_post
+    brief: Launch post for the 0.1% retinal serum.
+    reviewed_with_round_zero: true
+    rounds:
+      - date: 2026-09-14
+        draft: >-
+          Bone background, three-quarter bottle, "0.1% retinal · 2% squalane", unretouched
+          skin close-up, stone accents.
+        approved: true
+        feedback:
+          - by: Amara Nwosu
+            quote: No notes. Percentages up front, three-quarter angle, real texture. This is exactly us.

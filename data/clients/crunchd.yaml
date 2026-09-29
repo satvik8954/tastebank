@@ -1,0 +1,307 @@
+# Gen-Z snack brand. Contradiction: minimal vs "show the flavours".
+# TASTE SHIFT: projects/events with `phase: rebrand` (June 2026 onward) flip the brand
+# from muted pastels to loud, saturated colour. They are NOT in the main bank at seed
+# time; the live demo retains them (scripts/demo_rebrand.py), and the pre-seeded
+# `-after` bank already contains them as the fallback.
+id: crunchd
+name: Crunchd
+industry: Gen-Z snack brand, spicy chickpea puffs, sold D2C and in urban convenience stores
+contacts:
+  - name: Theo Lindqvist
+    role: Founder & CEO
+  - name: Jess Okafor
+    role: Head of Brand
+  - name: Mina Park
+    role: Social Lead
+
+brand:
+  palette: { sage: "#A8B5A0", peach: "#F2C4A8", lilac: "#C8B6D8", oat: "#EFE6D8", charcoal: "#3A3A3A" }
+  fonts: { heading: "Nunito", body: "Nunito" }
+  voice: soft, lowercase, cozy, a little dry
+brand_after_rebrand:
+  palette: { orange: "#FF5A1F", lime: "#C6F432", pink: "#FF3EA5", black: "#0D0D0D" }
+  fonts: { heading: "Anton", body: "Space Grotesk" }
+  voice: LOUD, all-caps headlines, chaotic good
+
+bank:
+  mission: >-
+    You are Round Zero, the pre-review assistant at Northlight Studio for the snack brand
+    Crunchd. You remember every piece of feedback Crunchd's founder, head of brand and
+    social lead have given on past design drafts, and you use it to catch problems in new
+    drafts before the client sees them. Crunchd's taste evolves, so always apply their
+    current direction.
+  disposition: { skepticism: 2, literalism: 2, empathy: 3 }
+  directives:
+    - name: No health claims
+      content: >-
+        Flag any copy that makes health or diet claims about the snack ("healthy",
+        "guilt-free", "good for you", "clean eating"). Crunchd's legal team has not
+        cleared them.
+      priority: 5
+
+events:
+  - id: cr-rebrand-brief
+    phase: rebrand
+    date: 2026-06-02T09:30:00
+    by: Theo Lindqvist
+    kind: brief
+    text: >-
+      Rebrand brief from Theo Lindqvist (Founder & CEO) and Jess Okafor (Head of Brand):
+      We are rebranding. The soft pastel look got copied by every D2C snack brand and we
+      are invisible on shelf. New direction is LOUD: electric orange #FF5A1F, acid lime
+      #C6F432 and hot pink #FF3EA5 on black #0D0D0D. Chunky condensed type, all-caps
+      headlines are allowed now. The energy of a mosh pit, not a candle shop. Kill the grain
+      texture and the faded colour grading. The old pastel palette (sage, peach, lilac,
+      oat) is retired. Jess added: "yes, this means neon is ok now lol. i know i said never."
+
+projects:
+  - id: cr-01
+    name: "Launch post: Smoky Maple flavour"
+    format: instagram_post
+    brief: Announce the new Smoky Maple flavour on Instagram.
+    rounds:
+      - date: 2025-03-10
+        draft: >-
+          Red (#E3262B) and yellow (#FFD400) starburst background, bold all-caps headline
+          "NEW FLAVOR ALERT!!!", bag centered.
+        feedback:
+          - by: Jess Okafor
+            quote: >-
+              this is giving 2008 supermarket flyer. we're soft, not loud. muted tones,
+              lowercase.
+          - by: Mina Park
+            quote: >-
+              no "ALERT", no triple exclamation marks. our audience scrolls straight past
+              anything that looks like an ad.
+      - date: 2025-03-13
+        draft: Peach (#F2C4A8) background, lowercase rounded sans headline, bag dead center.
+        feedback:
+          - by: Jess Okafor
+            quote: >-
+              yes!! way closer. can the bag sit off-center though? centered product shots
+              feel like a catalog.
+      - date: 2025-03-17
+        draft: >-
+          Bag off-center, plus ingredient list, price, and three callout bubbles on the
+          image.
+        feedback:
+          - by: Theo Lindqvist
+            quote: Too much text. One line max on the image, everything else goes in the caption.
+      - date: 2025-03-19
+        draft: Off-center bag, single lowercase line "smoky maple is here", peach background.
+        approved: true
+        feedback:
+          - by: Mina Park
+            quote: perfect. this is the vibe.
+
+  - id: cr-02
+    name: "TikTok cover frames: snack audit series"
+    format: instagram_post
+    brief: Cover frames for a recurring TikTok series.
+    rounds:
+      - date: 2025-05-05
+        draft: Sage background, handwritten script headline.
+        feedback:
+          - by: Mina Park
+            quote: handwritten script is unreadable at thumbnail size. rounded sans only.
+      - date: 2025-05-08
+        draft: Rounded sans headline, subtle film grain texture over the sage background.
+        feedback:
+          - by: Jess Okafor
+            quote: the grain texture is so nice. keep it on everything.
+      - date: 2025-05-09
+        draft: Final with grain.
+        approved: true
+        feedback:
+          - by: Jess Okafor
+            quote: approved!
+
+  - id: cr-03
+    name: Brooklyn bus shelter poster
+    format: poster
+    brief: Out-of-home poster for Brooklyn bus shelters.
+    rounds:
+      - date: 2025-07-07
+        draft: Lilac background, just the logo and one word "crunch." in lowercase.
+        feedback:
+          - by: Theo Lindqvist
+            quote: >-
+              I love minimal but nobody will know what we sell. Put the flavour names on it.
+      - date: 2025-07-10
+        draft: All five flavour names listed, three bags shown.
+        feedback:
+          - by: Jess Okafor
+            quote: now it's cluttered. less text!!
+          - by: Mina Park
+            quote: compromise? one flavour, one bag, flavour name big.
+      - date: 2025-07-14
+        draft: One bag (Hot Honey), flavour name huge, lilac background.
+        feedback:
+          - by: Theo Lindqvist
+            quote: >-
+              OK that works. One hero flavour per piece, name it clearly. That's how we do
+              posters from now on.
+          - by: Jess Okafor
+            quote: >-
+              lilac washes out outdoors at a distance. for out-of-home go peach, it holds up
+              better.
+      - date: 2025-07-17
+        draft: Peach background version.
+        approved: true
+        feedback:
+          - by: Theo Lindqvist
+            quote: Approved. Ship it.
+
+  - id: cr-04
+    name: "Carousel: ingredients we don't use"
+    format: instagram_carousel
+    brief: Educational carousel about what's not in the snack.
+    rounds:
+      - date: 2025-09-08
+        draft: Dark charcoal (#2A2A2A) background slides with white text.
+        feedback:
+          - by: Jess Okafor
+            quote: too dark and serious. we never do dark backgrounds. oat or pastel base.
+      - date: 2025-09-11
+        draft: Oat background, four to five emoji per slide.
+        feedback:
+          - by: Mina Park
+            quote: emoji are fine but one per slide max, it gets messy fast.
+      - date: 2025-09-12
+        draft: One emoji per slide.
+        approved: true
+        feedback:
+          - by: Mina Park
+            quote: love it.
+
+  - id: cr-05
+    name: Holiday gift box post
+    format: instagram_post
+    brief: Promote the limited holiday gift box.
+    rounds:
+      - date: 2025-11-10
+        draft: Neon pink and green glitter background, metallic type.
+        feedback:
+          - by: Jess Okafor
+            quote: no neon. ever. it cheapens us.
+      - date: 2025-11-13
+        draft: Peach background, perfectly styled studio flat-lay of the box.
+        feedback:
+          - by: Theo Lindqvist
+            quote: >-
+              Photo feels too styled and perfect. We want real hands, chipped nail polish, a
+              messy desk. Imperfect beats perfect.
+      - date: 2025-11-17
+        draft: Real hands opening the box on a messy desk, warm faded grade.
+        approved: true
+        feedback:
+          - by: Theo Lindqvist
+            quote: That's us. Approved.
+
+  - id: cr-06
+    name: Creator collab announcement
+    format: instagram_post
+    brief: Announce a collab with creator @dannieats.
+    rounds:
+      - date: 2026-02-09
+        draft: Creator's photo in full saturated colour on a sage background.
+        feedback:
+          - by: Jess Okafor
+            quote: >-
+              the creator photo is fully saturated and it clashes. we colour-grade everything
+              warm and faded to match the pastels.
+      - date: 2026-02-11
+        draft: Photo graded warm and faded.
+        approved: true
+        feedback:
+          - by: Jess Okafor
+            quote: perfect.
+
+  - id: cr-07
+    name: "Spring flavour drop: Yuzu Chili"
+    format: instagram_post
+    brief: Launch the Yuzu Chili flavour.
+    rounds:
+      - date: 2026-04-13
+        draft: Bright saturated yuzu yellow (#FFE500) background.
+        feedback:
+          - by: Jess Okafor
+            quote: the yellow is too bright. knock it back to a butter yellow, we stay muted.
+      - date: 2026-04-15
+        draft: Butter yellow (#F5E6A8), big bold headline at 120px.
+        feedback:
+          - by: Mina Park
+            quote: type is getting shouty. keep the headline lowercase and medium weight.
+      - date: 2026-04-17
+        draft: Lowercase medium-weight headline.
+        approved: true
+        feedback:
+          - by: Theo Lindqvist
+            quote: >-
+              Approved. Though honestly, I've been feeling like we blend in lately. Something
+              to talk about.
+
+  # ---- rebrand phase (June 2026 onward) ---------------------------------------
+  - id: cr-08
+    name: Rebrand reveal post
+    format: instagram_post
+    phase: rebrand
+    brief: Reveal the new Crunchd identity.
+    rounds:
+      - date: 2026-06-15
+        draft: >-
+          Agency hedged: peach and sage background with slightly brighter accents, lowercase
+          rounded sans.
+        feedback:
+          - by: Jess Okafor
+            quote: >-
+              this is still the old us. go way louder. black background, electric orange,
+              condensed caps.
+      - date: 2026-06-18
+        draft: Black background, orange condensed caps, but grain texture and faded photo grade kept.
+        feedback:
+          - by: Theo Lindqvist
+            quote: >-
+              Drop the grain and the vintage grade. Crisp, punchy, high contrast. The faded
+              look is the old brand.
+      - date: 2026-06-22
+        draft: Crisp high-contrast black, orange and lime, all-caps condensed headline.
+        approved: true
+        feedback:
+          - by: Mina Park
+            quote: THIS. this is crunchd now.
+
+  - id: cr-09
+    name: "Summer flavour: Mango Habanero"
+    format: instagram_post
+    phase: rebrand
+    reviewed_with_round_zero: true
+    brief: Launch Mango Habanero under the new identity.
+    rounds:
+      - date: 2026-07-20
+        draft: Hot pink and orange on black, one bag off-center, a small lilac tag in the corner.
+        feedback:
+          - by: Jess Okafor
+            quote: >-
+              love. only note: that lilac tag in the corner is a leftover from the old system.
+              swap it to hot pink.
+      - date: 2026-07-21
+        draft: Tag switched to hot pink.
+        approved: true
+        feedback:
+          - by: Jess Okafor
+            quote: approved.
+
+  - id: cr-10
+    name: Back-to-school campus poster
+    format: poster
+    phase: rebrand
+    reviewed_with_round_zero: true
+    brief: Campus poster for the back-to-school sampling tour.
+    rounds:
+      - date: 2026-09-01
+        draft: Acid lime background, one bag, flavour name in huge black condensed caps.
+        approved: true
+        feedback:
+          - by: Mina Park
+            quote: first-round approval. loud, one flavour, name huge. no notes.

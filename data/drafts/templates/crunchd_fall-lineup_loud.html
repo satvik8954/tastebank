@@ -1,0 +1,40 @@
+<!doctype html>
+<!-- Post-rebrand palette is right, but it breaks rules that SURVIVED the rebrand:
+     three bags / five flavour names (one hero flavour per piece), lots of on-image text
+     (one line max), three emoji (one max), plus the "guilt-free" health-claim directive. -->
+<html><head><meta charset="utf-8"><meta name="rz-size" content="1080x1080">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; width: 1080px; height: 1080px; overflow: hidden; position: relative; background: #0D0D0D;
+         font-family: "Space Grotesk", sans-serif; color: #fff; }
+  h1 { position: absolute; left: 60px; top: 50px; margin: 0; font-family: Anton, sans-serif; font-weight: 400;
+       font-size: 128px; line-height: .9; letter-spacing: -.01em; color: #FF5A1F; width: 960px; }
+  h1 em { font-style: normal; color: #C6F432; }
+  .emoji { font-size: 80px; }
+  ul { position: absolute; left: 60px; top: 360px; margin: 0; padding: 0; list-style: none; font-weight: 700;
+       font-size: 30px; line-height: 1.5; text-transform: uppercase; }
+  ul li::before { content: "▲ "; color: #FF3EA5; }
+  p { position: absolute; left: 60px; bottom: 60px; width: 380px; margin: 0; font-size: 24px; line-height: 1.4; color: #ddd; font-weight: 500; }
+  .sticker { position: absolute; right: 70px; top: 330px; width: 190px; height: 190px; border-radius: 50%; background: #FF3EA5;
+             color: #0D0D0D; display: grid; place-items: center; text-align: center; font-family: Anton; font-size: 38px;
+             line-height: 1; transform: rotate(-14deg); z-index: 3; }
+  .bags { position: absolute; right: 0; bottom: 60px; width: 560px; height: 560px; }
+  .bag { position: absolute; width: 230px; height: 330px; border-radius: 14px 14px 30px 30px; display: flex;
+         flex-direction: column; align-items: center; justify-content: center; font-family: Anton; color: #0D0D0D;
+         box-shadow: 0 30px 40px rgba(0,0,0,.5); }
+  .bag b { font-size: 46px; font-weight: 400; } .bag span { font-size: 24px; text-align: center; padding: 0 16px; }
+</style></head>
+<body>
+  <h1>FALL LINEUP <em>IS HERE!!!</em> <span class="emoji">🔥🍂😋</span></h1>
+  <ul>
+    <li>Maple Chipotle</li><li>Hot Honey</li><li>Smoky Maple</li><li>Yuzu Chili</li><li>Mango Habanero</li>
+  </ul>
+  <div class="sticker">GUILT<br>FREE<br>CRUNCH</div>
+  <div class="bags">
+    <div class="bag" style="left:0;top:170px;background:#C6F432;transform:rotate(-10deg)"><b>CRUNCHD</b><span>HOT HONEY</span></div>
+    <div class="bag" style="left:170px;top:110px;background:#FF5A1F;z-index:2"><b>CRUNCHD</b><span>MAPLE CHIPOTLE</span></div>
+    <div class="bag" style="left:330px;top:190px;background:#FF3EA5;transform:rotate(9deg)"><b>CRUNCHD</b><span>YUZU CHILI</span></div>
+  </div>
+  <p>Five bold flavours, 100% chickpea, zero guilt. Grab the full fall bundle for $19.99 — this weekend only at crunchd.com.</p>
+</body></html>

@@ -1,0 +1,48 @@
+<!doctype html>
+<!-- Taste-shift draft: perfectly on-brand for PRE-rebrand Crunchd (peach, lowercase rounded
+     sans, grain texture, faded warmth, lilac tag, off-center bag, one line of copy).
+     After the June 2026 rebrand the same draft should be flagged as "the old brand". -->
+<html><head><meta charset="utf-8"><meta name="rz-size" content="1080x1080">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500;700;800&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; width: 1080px; height: 1080px; overflow: hidden; position: relative;
+         background: radial-gradient(90% 90% at 30% 25%, #F7D5BF 0%, #F2C4A8 55%, #E9B697 100%);
+         font-family: Nunito, sans-serif; color: #3A3A3A; }
+  h1 { position: absolute; left: 90px; top: 110px; margin: 0; font-weight: 700; font-size: 84px; line-height: .98;
+       letter-spacing: -.02em; width: 520px; }
+  .handle { position: absolute; left: 92px; bottom: 90px; font-weight: 700; font-size: 26px; opacity: .7; }
+  .tag { position: absolute; left: 90px; top: 400px; background: #C8B6D8; color: #3A3A3A; font-weight: 800; font-size: 22px;
+         padding: 10px 22px; border-radius: 999px; }
+  .puff { position: absolute; border-radius: 48% 52% 45% 55%; background: #EFE6D8;
+          box-shadow: inset -8px -10px 0 rgba(169,120,80,.18); }
+  svg.bag { position: absolute; right: 70px; top: 230px; width: 520px; transform: rotate(8deg);
+            filter: drop-shadow(0 40px 50px rgba(120,70,40,.28)); }
+  .grain { position: absolute; inset: 0; opacity: .22; mix-blend-mode: multiply; pointer-events: none; }
+</style></head>
+<body>
+  <h1>maple chipotle is here</h1>
+  <div class="tag">new flavour</div>
+  <div class="puff" style="left:150px;top:640px;width:90px;height:80px"></div>
+  <div class="puff" style="left:280px;top:760px;width:70px;height:62px"></div>
+  <div class="puff" style="left:120px;top:830px;width:56px;height:50px"></div>
+  <div class="puff" style="left:400px;top:880px;width:84px;height:74px"></div>
+  <svg class="bag" viewBox="0 0 520 700" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="foil" x1="0" x2="1"><stop offset="0" stop-color="#9FAE97"/><stop offset=".45" stop-color="#B9C6B1"/><stop offset="1" stop-color="#95A48D"/></linearGradient>
+    </defs>
+    <path d="M40 60 L480 60 L500 640 Q260 690 20 640 Z" fill="url(#foil)"/>
+    <path d="M40 60 L480 60 L482 100 L38 100 Z" fill="#8E9C86"/>
+    <path d="M40 60 l20 -18 l20 18 l20 -18 l20 18 l20 -18 l20 18 l20 -18 l20 18 l20 -18 l20 18 l20 -18 l20 18 l20 -18 l20 18 l20 -18 l20 18 l20 -18 l20 18 l20 -18 l20 18 l20 -18 l20 18" fill="#8E9C86"/>
+    <rect x="80" y="210" width="360" height="300" rx="150" fill="#EFE6D8"/>
+    <text x="260" y="330" text-anchor="middle" font-family="Nunito" font-weight="800" font-size="72" fill="#3A3A3A">crunchd</text>
+    <text x="260" y="390" text-anchor="middle" font-family="Nunito" font-weight="700" font-size="34" fill="#B0703F">maple chipotle</text>
+    <text x="260" y="440" text-anchor="middle" font-family="Nunito" font-weight="600" font-size="22" fill="#6B6B6B">spicy chickpea puffs</text>
+    <text x="260" y="600" text-anchor="middle" font-family="Nunito" font-weight="700" font-size="22" fill="#3A3A3A" opacity=".6">net wt 4 oz</text>
+  </svg>
+  <div class="handle">@crunchd</div>
+  <svg class="grain" xmlns="http://www.w3.org/2000/svg" width="1080" height="1080">
+    <filter id="n"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter>
+    <rect width="100%" height="100%" filter="url(#n)"/>
+  </svg>
+</body></html>

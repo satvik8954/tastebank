@@ -1,0 +1,39 @@
+<!doctype html>
+<!-- Planted issues: ice-blue clinical gradient, "Heals ... in 3 days" (drug claim + timeframe),
+     "anti-aging", before/after split, front-facing bottle, gradient fills, no ingredient %. -->
+<html><head><meta charset="utf-8"><meta name="rz-size" content="1080x1080">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; width: 1080px; height: 1080px; overflow: hidden; position: relative;
+         background: linear-gradient(160deg, #EEF5FB 0%, #DDEBF5 45%, #BCD6EC 100%); font-family: Poppins, sans-serif; color: #1D3557; }
+  .brand { position: absolute; top: 60px; left: 70px; font-weight: 600; font-size: 26px; letter-spacing: .3em; }
+  h1 { position: absolute; left: 70px; top: 130px; margin: 0; font-weight: 600; font-size: 76px; line-height: 1.02; width: 620px; letter-spacing: -.02em; }
+  .sub { position: absolute; left: 72px; top: 310px; font-weight: 300; font-size: 30px; width: 560px; line-height: 1.35; }
+  .ba { position: absolute; left: 70px; bottom: 80px; display: flex; gap: 14px; }
+  .ba div { width: 250px; height: 330px; border-radius: 22px; position: relative; overflow: hidden; }
+  .ba .before { background: radial-gradient(circle at 40% 45%, #D9A58B 0 10%, transparent 11%),
+                radial-gradient(circle at 65% 60%, #CF977C 0 7%, transparent 8%),
+                radial-gradient(circle at 30% 75%, #D39C82 0 6%, transparent 7%), linear-gradient(#E3B79F, #D8A78C); }
+  .ba .after { background: linear-gradient(#F4D3C2, #EFC7B3); filter: blur(.4px); }
+  .ba span { position: absolute; left: 16px; bottom: 16px; background: rgba(255,255,255,.9); padding: 6px 14px;
+             border-radius: 999px; font-weight: 600; font-size: 18px; letter-spacing: .12em; }
+  .bottle { position: absolute; right: 150px; top: 380px; width: 240px; height: 560px; }
+  .bottle .cap { width: 110px; height: 120px; margin: 0 auto; border-radius: 18px 18px 6px 6px;
+                 background: linear-gradient(90deg, #7FA7C9, #B5D0E6 50%, #7FA7C9); }
+  .bottle .body { width: 240px; height: 440px; border-radius: 40px; margin-top: -4px;
+                  background: linear-gradient(90deg, #9EC2DE, #E6F1FA 45%, #A9CAE3);
+                  box-shadow: 0 40px 60px rgba(29,53,87,.25); display: flex; flex-direction: column; align-items: center; justify-content: center; }
+  .bottle b { font-weight: 600; letter-spacing: .3em; font-size: 22px; }
+  .bottle i { font-style: normal; font-weight: 300; font-size: 18px; margin-top: 10px; }
+  .badge { position: absolute; right: 90px; top: 330px; background: #1D3557; color: #fff; border-radius: 999px;
+           padding: 12px 22px; font-weight: 500; font-size: 18px; }
+</style></head>
+<body>
+  <div class="brand">DEWPOINT</div>
+  <h1>Heals dry skin in 3 days.</h1>
+  <div class="sub">The anti-aging hydra mist dermatologists can't stop talking about.</div>
+  <div class="ba"><div class="before"><span>BEFORE</span></div><div class="after"><span>AFTER</span></div></div>
+  <div class="badge">Clinically proven</div>
+  <div class="bottle"><div class="cap"></div><div class="body"><b>DEWPOINT</b><i>hydra mist</i></div></div>
+</body></html>
