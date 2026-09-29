@@ -10,8 +10,8 @@ Built for the Hindsight (Vectorize) memory hackathon. Hindsight is the core of t
 not an add-on: remove it and the reviewer falls back to generic design opinions (see
 [Memory ON vs OFF](#memory-on-vs-off)).
 
-> Status: memory layer and reviewer are complete and frozen (reviewer v1.0). The FastAPI +
-> SSE API and Next.js frontend are in progress.
+> Status: memory layer and reviewer complete and frozen (reviewer v1.0); FastAPI + SSE API and
+> Next.js frontend working (review workspace, client dashboard, feedback logging).
 
 ---
 
@@ -94,7 +94,17 @@ python -m venv .venv && .venv/Scripts/pip install -e ".[drafts]"   # Windows pat
 cp .env.example .env        # HINDSIGHT_URL, HINDSIGHT_API_KEY, GROQ_API_KEY
 python scripts/seed.py      # ~7 min on Hindsight Cloud; uses Cloud credits
 python scripts/final_check.py   # re-runs + re-records every demo review
+
+# app
+.venv/Scripts/uvicorn api.main:app --port 8000          # API (SSE review stream)
+cd web && npm install && npm run dev                     # UI on http://localhost:3000
 ```
+
+The UI: **Review** (pick client + draft, compare memory ON vs OFF or before vs after the
+rebrand, with streaming progress and cited flag cards; Live / fallback / Recording switch)
+and **Clients** (taste profile by topic with proof counts and history, revision rounds per
+project, and a form that logs real client feedback via `retain()` and waits for consolidation).
+Logging feedback writes to the client's Hindsight bank: don't use it on demo banks before judging.
 
 | Script | Purpose |
 |---|---|

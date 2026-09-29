@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+/* Round Zero theme: warm paper, ink, and one indigo "memory" accent.
+   Anything that came from Hindsight memory uses the memory colour. */
+:root {
+  --paper: #f6f3ee;
+  --card: #fffdf9;
+  --ink: #1c1a17;
+  --muted: #6b655c;
+  --line: #e4ded4;
+  --memory: #3b4fd8;
+  --memory-soft: #eceffd;
+  --ok: #2f7d4f;
+  --ok-soft: #e6f2ea;
+  --warn: #b86e0b;
+  --warn-soft: #fbf0df;
+  --bad: #b42318;
+  --bad-soft: #fbe9e7;
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-card: var(--card);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-memory: var(--memory);
+  --color-memory-soft: var(--memory-soft);
+  --color-ok: var(--ok);
+  --color-ok-soft: var(--ok-soft);
+  --color-warn: var(--warn);
+  --color-warn-soft: var(--warn-soft);
+  --color-bad: var(--bad);
+  --color-bad-soft: var(--bad-soft);
+  --font-sans: var(--font-inter-tight);
+  --font-serif: var(--font-instrument-serif);
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-inter-tight), system-ui, sans-serif;
+}
+
+@keyframes rz-fade-in {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: none; }
+}
+.rz-enter { animation: rz-fade-in 260ms ease-out both; }
+
+@keyframes rz-pulse { 50% { opacity: 0.35; } }
+.rz-pulse { animation: rz-pulse 1.2s ease-in-out infinite; }
