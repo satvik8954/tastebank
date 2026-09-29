@@ -157,25 +157,54 @@ Return JSON: {"checks": [{"index": <flag index>, "keep": true|false, "severity":
 SCOPE_LIMITABLE_TOPICS = {"imagery", "layout"}
 
 
+def _words(text: str) -> set[str]:
+    return {w for w in "".join(c.lower() if c.isalnum() else " " for c in text).split() if len(w) > 3}
+
+
+def _verify_evidence(flags: list[Flag], evidence: list[Evidence]) -> tuple[list[Evidence], dict[int, list[str]]]:
+    """Only the evidence the proposed flags cite (plus an observation's source quotes), to keep
+    the verify call small (Groq free tier: 8k tokens/min). A flag reflect left uncited gets its
+    3 best word-overlap candidates, found locally with no API call, so it can still be checked."""
+    by_id = {e.id: e for e in evidence}
+    candidates: dict[int, list[str]] = {}
+    wanted: set[str] = set()
+    for i, f in enumerate(flags):
+        ids = [x for x in f.evidence if x in by_id]
+        if not ids:
+            fw = _words(f"{f.issue} {f.suggestion}")
+            scored = sorted(evidence, key=lambda e: -len(fw & _words(e.render())))
+            ids = [e.id for e in scored[:3]]
+            candidates[i] = ids
+        wanted.update(ids)
+        if not any(by_id[x].citation for x in ids):  # observations only: add their quotes
+            for x in ids:
+                wanted.update(by_id[x].source_ids[-3:])
+    ordered = [e for e in evidence if e.id in wanted]  # keeps oldest-first order
+    return ordered, candidates
+
+
 def _verify(
-    output: ReviewOutput, draft: str, evidence: list[Evidence], directives: str
+    output: ReviewOutput, draft: str, evidence: list[Evidence], directives: str, progress: Progress
 ) -> tuple[list[Flag], list[DiscardedFlag]]:
     """Ground every proposed flag (Groq, temperature 0). Also repairs missing evidence ids,
     which reflect sometimes omits even though the schema asks for them."""
     if not output.flags:
         return [], []
+    subset, candidates = _verify_evidence(output.flags, evidence)
     flags_block = "\n".join(
-        f"[{i}] ({f.severity}) [{f.topic}] {f.issue} | proposed evidence: {', '.join(f.evidence) or 'none'}"
-        f"{f' | directive: {f.directive}' if f.directive else ''}"
+        f"[{i}] ({f.severity}) [{f.topic}] {f.issue} | "
+        + (f"proposed evidence: {', '.join(f.evidence)}" if i not in candidates
+           else f"no evidence given; candidates: {', '.join(candidates[i])}")
+        + (f" | directive: {f.directive}" if f.directive else "")
         for i, f in enumerate(output.flags)
     )
-    result = complete_json(
+    result, usage = complete_json(
         [
             {"role": "system", "content": VERIFY_PROMPT},
             {
                 "role": "user",
-                "content": f"{draft}\n\nDIRECTIVES (hard rules):\n{directives}\n\nEVIDENCE (oldest first):\n"
-                + "\n".join(e.render() for e in evidence)
+                "content": f"{draft}\n\nDIRECTIVES (hard rules):\n{directives}\n\nEVIDENCE cited by the flags (oldest first):\n"
+                + "\n".join(e.render() for e in subset)
                 + f"\n\nPROPOSED FLAGS:\n{flags_block}",
             },
         ],
@@ -183,6 +212,11 @@ def _verify(
         temperature=0.0,
         attempts=1,  # stage safety: one try on the primary, then the fast fallback model
         timeout=12.0,
+        return_usage=True,
+    )
+    progress.event(
+        "verify", "progress", f"Verifier read {len(subset)} of {len(evidence)} evidence items",
+        evidence_sent=len(subset), prompt_tokens=usage.get("prompt_tokens"), total_tokens=usage.get("total_tokens"),
     )
     checks = {c.index: c for c in result.checks}
     kept, discarded = [], []
@@ -296,7 +330,7 @@ def review_with_memory(
     progress.event("verify", "start", f"Checking {len(output.flags)} issue(s) against the dated evidence…")
     try:
         with progress.timed("verify"):
-            verified, discarded = _verify(output, _draft_block(project, fmt, analysis), evidence, directives)
+            verified, discarded = _verify(output, _draft_block(project, fmt, analysis), evidence, directives, progress)
         engine += "+verified"
     except LLMError as exc:  # verification is a safety net; never lose the review over it
         log.warning("verification failed, using unverified flags: %s", exc)

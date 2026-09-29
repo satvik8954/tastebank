@@ -1,0 +1,869 @@
+{
+ "reviewer_version": "1.0",
+ "recorded_at": "2026-09-29T06:07:25+00:00",
+ "review": {
+  "client_id": "hale-whitford",
+  "bank_id": "rz-hale-whitford",
+  "memory": true,
+  "engine": "hindsight-reflect+verified",
+  "verdict": "ready_for_client",
+  "summary": "The design draft successfully adheres to all brand standards, typography requirements, and compliance guidelines. No further changes are required before client presentation.",
+  "flags": [],
+  "discarded": [],
+  "evidence": [
+   {
+    "id": "F1",
+    "kind": "feedback",
+    "text": "Hale & Whitford LLP brand palette: navy #1B2A41 (primary), burgundy #6B1E2E (accent), cream #F4EFE6 (background), brass #B08D57 (details). | When: 2025-01-20 | Involving: Priya Raman (Marketing Director) | Brand identity brief | Hale & Whitford LLP typeface is Garamond. | When: 2025-01-20 | Involving: Priya Raman (Marketing Director) | Brand identity brief | Hale & Whitford LLP target clients are established families and business owners; brand tone is quiet and confident. | When: 2025-01-20 | Involving: Priya Raman (Marketing Director) | Brand identity brief | All public pieces must include the legal disclaimer: \"Attorney Advertising. Prior results do not guarantee a similar outcome.\" | When: 2025-01-20 | Involving: Priya Raman (Marketing Director) | Legal compliance requirement",
+    "citation": {
+     "document_id": "hw-onboarding",
+     "quote": "Onboarding brand brief from Priya Raman (Marketing Director): Our palette is navy #1B2A41 as the primary colour, burgundy #6B1E2E as an accent, cream #F4EFE6 for backgrounds, and brass #B08D57 for fine details. Our typeface is Garamond. Every public piece must carry \"Attorney Advertising. Prior results do not guarantee a similar outcome.\" Our clients are established families and business owners; the tone is quiet and confident.",
+     "author": "Priya Raman",
+     "role": "Marketing Director",
+     "date": "2025-01-20",
+     "project_name": null,
+     "round": null,
+     "kind": "brief"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F2",
+    "kind": "feedback",
+    "text": "Priya Raman (Marketing Director at Hale & Whitford LLP) rejected the use of teal in the design draft for the 63rd anniversary LinkedIn post. | When: 2025-02-10 | Involving: Priya Raman (Marketing Director, Hale & Whitford LLP) | The client's brand palette is strictly navy, burgundy, and cream.",
+    "citation": {
+     "document_id": "hw-01-r1-0",
+     "quote": "Teal isn't us. Our palette is navy, burgundy and cream. Please stay inside it.",
+     "author": "Priya Raman",
+     "role": "Marketing Director",
+     "date": "2025-02-10",
+     "project_name": "Firm anniversary LinkedIn post (63 years)",
+     "round": "1",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F3",
+    "kind": "feedback",
+    "text": "The design draft for the Hale & Whitford LLP anniversary LinkedIn post uses a teal-to-blue gradient background (#1FA2B8 to #2B5DAE), a bold sans-serif headline, a stock photo of a wooden gavel, and the logo in the top-left corner. | When: 2025-02-10 | Design specifications for project hw-01. | Margaret Hale (Managing Partner) requested the removal of the exclamation mark from the headline '63 Years of Winning for You!' for the Hale & Whitford LLP anniversary LinkedIn post, stating the firm does not want to appear as if they are shouting. | When: 2025-02-10 | Involving: Margaret Hale (Managing Partner, Hale & Whitford LLP) | Brand tone preference: professional and restrained.",
+    "citation": {
+     "document_id": "hw-01-r1-1",
+     "quote": "Remove the exclamation mark. We don't shout.",
+     "author": "Margaret Hale",
+     "role": "Managing Partner",
+     "date": "2025-02-10",
+     "project_name": "Firm anniversary LinkedIn post (63 years)",
+     "round": "1",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F4",
+    "kind": "feedback",
+    "text": "Design draft for project hw-01 uses a teal-to-blue gradient background (#1FA2B8 to #2B5DAE), a bold sans-serif headline, a stock photo of a wooden gavel, and the logo in the top-left corner. | When: 2025-02-10 | The phrase 'Winning for you' is prohibited in marketing materials for Hale & Whitford LLP to comply with Bar rules regarding guaranteed outcomes. | When: 2025-02-10 | Involving: David Whitford (Senior Partner, Hale & Whitford LLP) | Legal compliance with Bar rules",
+    "citation": {
+     "document_id": "hw-01-r1-2",
+     "quote": "\"Winning for you\" is a problem. Bar rules, we can't imply guaranteed outcomes. Say what we do, not what we promise.",
+     "author": "David Whitford",
+     "role": "Senior Partner",
+     "date": "2025-02-10",
+     "project_name": "Firm anniversary LinkedIn post (63 years)",
+     "round": "1",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F5",
+    "kind": "feedback",
+    "text": "Margaret Hale (Managing Partner) rejected the use of gavels, scales of justice, and handshakes in the design for the Hale & Whitford LLP 63rd anniversary LinkedIn post. | When: 2025-02-14 | Involving: Margaret Hale (Managing Partner, Hale & Whitford LLP) | The client considers these symbols to be clichés.",
+    "citation": {
+     "document_id": "hw-01-r2-0",
+     "quote": "The gavel is a cliché. Every firm on earth uses it. No gavels, no scales of justice, no handshakes.",
+     "author": "Margaret Hale",
+     "role": "Managing Partner",
+     "date": "2025-02-14",
+     "project_name": "Firm anniversary LinkedIn post (63 years)",
+     "round": "2",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F6",
+    "kind": "feedback",
+    "text": "Priya Raman (Marketing Director) requested the logo be moved to the bottom-right corner with more negative space around it for the Hale & Whitford LLP 63rd anniversary LinkedIn post. | When: 2025-02-19 | Involving: Priya Raman (Marketing Director, Hale & Whitford LLP) | The previous layout had the logo crowding the headline.",
+    "citation": {
+     "document_id": "hw-01-r3-0",
+     "quote": "Much better. The logo is crowding the headline. Logo goes bottom-right, with real breathing room around it.",
+     "author": "Priya Raman",
+     "role": "Marketing Director",
+     "date": "2025-02-19",
+     "project_name": "Firm anniversary LinkedIn post (63 years)",
+     "round": "3",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F7",
+    "kind": "feedback",
+    "text": "The approved design layout features the company logo positioned in the bottom-right corner with a generous margin. | When: 2025-02-24 | Involving: Margaret Hale (Managing Partner, Hale & Whitford LLP) | Margaret Hale approved the design for the Hale & Whitford LLP 63rd anniversary LinkedIn post. | When: 2025-02-24 | Involving: Margaret Hale (Managing Partner, Hale & Whitford LLP) | The design was described as quiet and confident.",
+    "citation": {
+     "document_id": "hw-01-r4-0",
+     "quote": "This is right. Quiet, confident. Approved.",
+     "author": "Margaret Hale",
+     "role": "Managing Partner",
+     "date": "2025-02-24",
+     "project_name": "Firm anniversary LinkedIn post (63 years)",
+     "round": "4",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F8",
+    "kind": "feedback",
+    "text": "Client requires a minimalist poster design containing only the date, location, and a single line explaining the value proposition. | Involving: David Whitford (Senior Partner, Hale & Whitford LLP) | To improve readability and engagement for the seminar poster. | David Whitford (Senior Partner) rejected the round 1 design draft for the 'Estate planning seminar poster' project. | When: 2025-04-07 | Involving: David Whitford (Senior Partner, Hale & Whitford LLP) | The draft contained too much text (six paragraphs) and inappropriate clip-art.",
+    "citation": {
+     "document_id": "hw-02-r1-0",
+     "quote": "Too much text. Nobody reads a poster with six paragraphs. Date, place, and one line on why they should come.",
+     "author": "David Whitford",
+     "role": "Senior Partner",
+     "date": "2025-04-07",
+     "project_name": "Estate planning seminar poster",
+     "round": "1",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F9",
+    "kind": "feedback",
+    "text": "Priya Raman (Marketing Director) requires the use of typography or real photography instead of clip-art icons for the Estate planning seminar poster. | When: 2025-04-07 | Involving: Priya Raman (Marketing Director, Hale & Whitford LLP) | Design preference for professional imagery. | Priya Raman (Marketing Director) rejected the use of clip-art icons in the Estate planning seminar poster design. | When: 2025-04-07 | Involving: Priya Raman (Marketing Director, Hale & Whitford LLP) | The icons appeared unprofessional/like clip art.",
+    "citation": {
+     "document_id": "hw-02-r1-1",
+     "quote": "The icons look like clip art. Use typography or a real photograph instead.",
+     "author": "Priya Raman",
+     "role": "Marketing Director",
+     "date": "2025-04-07",
+     "project_name": "Estate planning seminar poster",
+     "round": "1",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F10",
+    "kind": "feedback",
+    "text": "Margaret Hale (Managing Partner) specified that burgundy must be used only as an accent color and never as a background color for the Estate planning seminar poster. | When: 2025-04-11 | Involving: Margaret Hale (Managing Partner, Hale & Whitford LLP) | Design feedback for project hw-02",
+    "citation": {
+     "document_id": "hw-02-r2-0",
+     "quote": "Good. Burgundy for the date is a nice touch. Keep burgundy as the accent, never the background.",
+     "author": "Margaret Hale",
+     "role": "Managing Partner",
+     "date": "2025-04-11",
+     "project_name": "Estate planning seminar poster",
+     "round": "2",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F11",
+    "kind": "feedback",
+    "text": "Priya Raman approved the round 3 design draft for the Estate planning seminar poster, but mandated the inclusion of the 'Attorney Advertising' line at the bottom for legal compliance. | When: 2025-04-15 | Involving: Priya Raman (Marketing Director, Hale & Whitford LLP) | Legal requirement for all published materials.",
+    "citation": {
+     "document_id": "hw-02-r3-0",
+     "quote": "Approved. You forgot the \"Attorney Advertising\" line at the bottom though. It's required on everything we publish, please add it before print.",
+     "author": "Priya Raman",
+     "role": "Marketing Director",
+     "date": "2025-04-15",
+     "project_name": "Estate planning seminar poster",
+     "round": "3",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F12",
+    "kind": "feedback",
+    "text": "Margaret Hale (Managing Partner) rejected the round 1 design draft for the 'Website hero banner refresh' project, stating it feels dated and requesting a more modern aesthetic. | When: 2025-06-02 | Involving: Margaret Hale (Managing Partner, Hale & Whitford LLP) | The client wants the design to align with modern industry standards. | The rejected round 1 design draft featured a navy background, centered Garamond headline, and a framed oil-portrait style photo of the founding partners. | When: 2025-06-02 | Provides context for the client's feedback on the design style.",
+    "citation": {
+     "document_id": "hw-03-r1-0",
+     "quote": "It feels dated. Can we be a bit more modern? Look at what the newer firms are doing.",
+     "author": "Margaret Hale",
+     "role": "Managing Partner",
+     "date": "2025-06-02",
+     "project_name": "Website hero banner refresh",
+     "round": "1",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F13",
+    "kind": "feedback",
+    "text": "Margaret Hale approved the design direction for the website hero banner refresh, specifically the asymmetric layout, whitespace usage, lowercase Inter sans-serif headline, cream background, and thin navy rule. | When: 2025-06-06 | Involving: Margaret Hale (Managing Partner, Hale & Whitford LLP) | Client feedback on round 2 of project hw-03",
+    "citation": {
+     "document_id": "hw-03-r2-0",
+     "quote": "Yes, more like this.",
+     "author": "Margaret Hale",
+     "role": "Managing Partner",
+     "date": "2025-06-06",
+     "project_name": "Website hero banner refresh",
+     "round": "2",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F14",
+    "kind": "feedback",
+    "text": "David Whitford mandated the removal of sans-serif typography and lowercase text from the design. | When: 2025-06-06 | Involving: David Whitford (Senior Partner, Hale & Whitford LLP)",
+    "citation": {
+     "document_id": "hw-03-r2-1",
+     "quote": "This looks like a fintech startup. Our clients are seventy-year-old family business owners. Sans-serif is out, and so is lowercase.",
+     "author": "David Whitford",
+     "role": "Senior Partner",
+     "date": "2025-06-06",
+     "project_name": "Website hero banner refresh",
+     "round": "2",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F15",
+    "kind": "feedback",
+    "text": "Priya Raman (Marketing Director) approved the design direction for the 'Website hero banner refresh' project, which features an asymmetric whitespace layout and Garamond typeface in sentence case. | When: 2025-06-11 | Involving: Priya Raman (Marketing Director), Margaret, David | This direction is a compromise between modern layout and classic typography.",
+    "citation": {
+     "document_id": "hw-03-r3-0",
+     "quote": "This is the compromise: modern layout, classic typeface. Margaret and David have both signed off on this direction.",
+     "author": "Priya Raman",
+     "role": "Marketing Director",
+     "date": "2025-06-11",
+     "project_name": "Website hero banner refresh",
+     "round": "3",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F16",
+    "kind": "feedback",
+    "text": "Margaret Hale established a design rule for the 'Website hero banner refresh' project: modern structure combined with traditional typography. | When: 2025-06-11 | Involving: Margaret Hale (Managing Partner, Hale & Whitford LLP) | Design direction for project hw-03 | The 'Website hero banner refresh' project draft uses an asymmetric whitespace layout and Garamond font in sentence case. | When: 2025-06-11 | Current design state for round 3",
+    "citation": {
+     "document_id": "hw-03-r3-1",
+     "quote": "Agreed. Modern structure, traditional type. That's the rule going forward.",
+     "author": "Margaret Hale",
+     "role": "Managing Partner",
+     "date": "2025-06-11",
+     "project_name": "Website hero banner refresh",
+     "round": "3",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F17",
+    "kind": "feedback",
+    "text": "David Whitford (Senior Partner) rejected the thick brass (#B08D57) band design, stating it appears too flashy. | When: 2025-06-16 | Involving: David Whitford (Senior Partner, Hale & Whitford LLP) | Design feedback for project hw-03 (Website hero banner refresh, round 4). | David Whitford (Senior Partner) specified that the brass colour (#B08D57) must only be used for thin rules and small details. | When: 2025-06-16 | Involving: David Whitford (Senior Partner, Hale & Whitford LLP) | Design constraint for project hw-03 (Website hero banner refresh).",
+    "citation": {
+     "document_id": "hw-03-r4-0",
+     "quote": "The gold band reads as flashy. If you use the brass colour, keep it to thin rules and small details.",
+     "author": "David Whitford",
+     "role": "Senior Partner",
+     "date": "2025-06-16",
+     "project_name": "Website hero banner refresh",
+     "round": "4",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F18",
+    "kind": "feedback",
+    "text": "David Whitford (Senior Partner) approved the design draft for the Hale & Whitford LLP website hero banner refresh, which features a 2px brass rule under the headline. | When: 2025-06-19 | Involving: David Whitford (Senior Partner, Hale & Whitford LLP) | Final approval for project round 5 of 5.",
+    "citation": {
+     "document_id": "hw-03-r5-0",
+     "quote": "Fine. Approved.",
+     "author": "David Whitford",
+     "role": "Senior Partner",
+     "date": "2025-06-19",
+     "project_name": "Website hero banner refresh",
+     "round": "5",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F19",
+    "kind": "feedback",
+    "text": "Priya Raman (Marketing Director at Hale & Whitford LLP) rejected the use of burgundy as a full background color for the 'Client alert social card (new tax rules)' project, stating it appears too alarming. | When: 2025-08-04 | Involving: Priya Raman (Marketing Director, Hale & Whitford LLP) | The client feels burgundy is too heavy and resembles a warning notice. | Priya Raman (Marketing Director at Hale & Whitford LLP) specified that only navy or cream backgrounds are permitted for the 'Client alert social card (new tax rules)' project. | When: 2025-08-04 | Involving: Priya Raman (Marketing Director, Hale & Whitford LLP)",
+    "citation": {
+     "document_id": "hw-04-r1-0",
+     "quote": "Burgundy as a full background is too heavy. It reads as alarming, like a warning notice. Navy or cream backgrounds only.",
+     "author": "Priya Raman",
+     "role": "Marketing Director",
+     "date": "2025-08-04",
+     "project_name": "Client alert social card (new tax rules)",
+     "round": "1",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F20",
+    "kind": "feedback",
+    "text": "Margaret Hale (Managing Partner) rejected the use of all-caps and the word 'urgent' in the 'Client alert social card (new tax rules)' project, stating the firm's tone should be informative rather than alarming. | When: 2025-08-07 | Involving: Margaret Hale (Managing Partner, Hale & Whitford LLP) | Feedback on round 2 design draft for project hw-04.",
+    "citation": {
+     "document_id": "hw-04-r2-0",
+     "quote": "No all-caps and no \"urgent\". We inform, we don't alarm.",
+     "author": "Margaret Hale",
+     "role": "Managing Partner",
+     "date": "2025-08-07",
+     "project_name": "Client alert social card (new tax rules)",
+     "round": "2",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F21",
+    "kind": "feedback",
+    "text": "Margaret Hale approved the design for the 'Client alert social card (new tax rules)' project, which features a navy background and the headline 'What the new tax rules mean for your business'. | When: 2025-08-11 | Involving: Margaret Hale (Managing Partner, Hale & Whitford LLP)",
+    "citation": {
+     "document_id": "hw-04-r3-0",
+     "quote": "Approved.",
+     "author": "Margaret Hale",
+     "role": "Managing Partner",
+     "date": "2025-08-11",
+     "project_name": "Client alert social card (new tax rules)",
+     "round": "3",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F22",
+    "kind": "feedback",
+    "text": "Client requires formal partner portraits for the project: subjects must wear suits, use neutral backdrops, and avoid candid or casual expressions. | When: 2025-11-03 | Involving: David Whitford (Senior Partner, Hale & Whitford LLP) | The client explicitly rejected the previous candid, casual style. | David Whitford (Senior Partner) rejected the round 1 draft for the Partner spotlight carousel project, stating it was too casual. | When: 2025-11-03 | Involving: David Whitford (Senior Partner, Hale & Whitford LLP) | The draft featured a candid photo of a partner laughing by a coffee machine, which the client deemed inappropriate.",
+    "citation": {
+     "document_id": "hw-05-r1-0",
+     "quote": "Too casual. Partner portraits should be formal: suit, neutral backdrop, not laughing at a coffee machine.",
+     "author": "David Whitford",
+     "role": "Senior Partner",
+     "date": "2025-11-03",
+     "project_name": "Partner spotlight carousel",
+     "round": "1",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F23",
+    "kind": "feedback",
+    "text": "Priya Raman (Marketing Director) requires partner portrait photos to be black-and-white or desaturated to match the navy brand color, rejecting full-color photos as they appear like stock photography. | When: 2025-11-07 | Involving: Priya Raman (Marketing Director, Hale & Whitford LLP) | Feedback on round 2 of the Partner spotlight carousel project (hw-05).",
+    "citation": {
+     "document_id": "hw-05-r2-0",
+     "quote": "Photos should be black-and-white or desaturated so they sit with the navy. Full colour looks like a stock photo.",
+     "author": "Priya Raman",
+     "role": "Marketing Director",
+     "date": "2025-11-07",
+     "project_name": "Partner spotlight carousel",
+     "round": "2",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F24",
+    "kind": "feedback",
+    "text": "Margaret Hale approved the use of italic Garamond for pull quotes in future partner spotlight carousels. | When: 2025-11-12 | Involving: Margaret Hale (Managing Partner, Hale & Whitford LLP) | Design preference for project hw-05",
+    "citation": {
+     "document_id": "hw-05-r3-0",
+     "quote": "The italic pull quote is lovely. Keep that treatment for future spotlights.",
+     "author": "Margaret Hale",
+     "role": "Managing Partner",
+     "date": "2025-11-12",
+     "project_name": "Partner spotlight carousel",
+     "round": "3",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F25",
+    "kind": "feedback",
+    "text": "Design draft for Partner spotlight carousel uses black-and-white formal portraits and italic Garamond for partner pull quotes. | When: 2025-11-12 | Priya Raman (Marketing Director) requires the 'Attorney Advertising' disclaimer to be included in the Partner spotlight carousel design. | When: 2025-11-12 | Involving: Priya Raman (Marketing Director, Hale & Whitford LLP) | Legal compliance requirement for attorney advertising.",
+    "citation": {
+     "document_id": "hw-05-r3-1",
+     "quote": "The \"Attorney Advertising\" line is missing again. Please don't make me ask.",
+     "author": "Priya Raman",
+     "role": "Marketing Director",
+     "date": "2025-11-12",
+     "project_name": "Partner spotlight carousel",
+     "round": "3",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F26",
+    "kind": "feedback",
+    "text": "The design draft for the 'Partner spotlight carousel' includes a disclaimer on the final slide. | When: 2025-11-14 | Legal/compliance requirement for the project. | Priya Raman (Marketing Director at Hale & Whitford LLP) approved the design draft for the 'Partner spotlight carousel' project (round 4 of 4). | When: 2025-11-14 | Involving: Priya Raman (Marketing Director, Hale & Whitford LLP) | Final approval for the Instagram carousel design.",
+    "citation": {
+     "document_id": "hw-05-r4-0",
+     "quote": "Approved.",
+     "author": "Priya Raman",
+     "role": "Marketing Director",
+     "date": "2025-11-14",
+     "project_name": "Partner spotlight carousel",
+     "round": "4",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F27",
+    "kind": "feedback",
+    "text": "Margaret Hale (Managing Partner) rejected the round 1 design draft for the 'Year-end digital holiday card' project because it contained religious imagery and Christmas-themed colors. | When: 2025-12-01 | Involving: Margaret Hale (Managing Partner, Hale & Whitford LLP) | The client wants to ensure the holiday card is inclusive of all clients. | The client mandates the use of the phrase 'Season's greetings' and prohibits religious imagery, Christmas red, and Christmas green in the design. | Involving: Margaret Hale (Managing Partner, Hale & Whitford LLP) | To maintain inclusivity and adhere to the firm's established brand palette.",
+    "citation": {
+     "document_id": "hw-06-r1-0",
+     "quote": "Not everyone we serve celebrates Christmas. \"Season's greetings\", no religious imagery, and stay in our palette. No Christmas red and green.",
+     "author": "Margaret Hale",
+     "role": "Managing Partner",
+     "date": "2025-12-01",
+     "project_name": "Year-end digital holiday card",
+     "round": "1",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F28",
+    "kind": "feedback",
+    "text": "The approved design for the 'Year-end digital holiday card' features a navy card, a thin brass line, and the text 'With gratitude for the year' in Garamond typography. | When: 2025-12-05 | Involving: David Whitford (Senior Partner, Hale & Whitford LLP) | Design specifications for the approved project. | David Whitford (Senior Partner) approved the round 2 design for the 'Year-end digital holiday card' project, confirming the tone is 'Tasteful'. | When: 2025-12-05 | Involving: David Whitford (Senior Partner, Hale & Whitford LLP)",
+    "citation": {
+     "document_id": "hw-06-r2-0",
+     "quote": "Tasteful. This is the tone.",
+     "author": "David Whitford",
+     "role": "Senior Partner",
+     "date": "2025-12-05",
+     "project_name": "Year-end digital holiday card",
+     "round": "2",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F29",
+    "kind": "feedback",
+    "text": "Priya Raman (Marketing Director) rejected the use of emojis and the word 'squad' in the 'Recruiting post for summer associates' project for Hale & Whitford LLP. | When: 2026-03-02 | Involving: Priya Raman (Marketing Director, Hale & Whitford LLP) | Firm brand voice and channel guidelines.",
+    "citation": {
+     "document_id": "hw-07-r1-0",
+     "quote": "No emoji, ever, on firm channels. And \"squad\" isn't our voice.",
+     "author": "Priya Raman",
+     "role": "Marketing Director",
+     "date": "2026-03-02",
+     "project_name": "Recruiting post for summer associates",
+     "round": "1",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F30",
+    "kind": "feedback",
+    "text": "Margaret Hale (Managing Partner) requested a heavier font weight for all text under 24px because the current serif font becomes too thin on mobile devices. | When: 2026-03-05 | Involving: Margaret Hale (Managing Partner, Hale & Whitford LLP) | Design feedback for project hw-07 (Recruiting post for summer associates) round 2.",
+    "citation": {
+     "document_id": "hw-07-r2-0",
+     "quote": "Headline is fine, but the serif gets too thin on mobile at that size. Go a weight heavier for anything under 24px.",
+     "author": "Margaret Hale",
+     "role": "Managing Partner",
+     "date": "2026-03-05",
+     "project_name": "Recruiting post for summer associates",
+     "round": "2",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F31",
+    "kind": "feedback",
+    "text": "The approved design for the 'Recruiting post for summer associates' uses Garamond Medium for the body copy. | When: 2026-03-09 | Involving: Priya Raman (Marketing Director, Hale & Whitford LLP) | Design specification approval. | Priya Raman (Marketing Director at Hale & Whitford LLP) approved the round 3 design draft for the 'Recruiting post for summer associates' Instagram post. | When: 2026-03-09 | Involving: Priya Raman (Marketing Director, Hale & Whitford LLP) | Final approval for project hw-07.",
+    "citation": {
+     "document_id": "hw-07-r3-0",
+     "quote": "Approved.",
+     "author": "Priya Raman",
+     "role": "Marketing Director",
+     "date": "2026-03-09",
+     "project_name": "Recruiting post for summer associates",
+     "round": "3",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F32",
+    "kind": "feedback",
+    "text": "Priya Raman approved the round 1 design draft for the Litigation practice LinkedIn banner (project hw-08). | When: 2026-07-13 | Involving: Priya Raman (Marketing Director, Hale & Whitford LLP) | The approved design for the Litigation practice LinkedIn banner features a navy background, asymmetric layout, Garamond sentence-case headline, thin brass rule, logo at bottom-right, and a legal disclaimer. | When: 2026-07-13 | Involving: Priya Raman (Marketing Director, Hale & Whitford LLP) | Design specifications approved by client.",
+    "citation": {
+     "document_id": "hw-08-r1-0",
+     "quote": "First-round approval. That's a first. Everything's in our palette and the disclaimer is there.",
+     "author": "Priya Raman",
+     "role": "Marketing Director",
+     "date": "2026-07-13",
+     "project_name": "Litigation practice LinkedIn banner",
+     "round": "1",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F33",
+    "kind": "feedback",
+    "text": "Margaret Hale (Managing Partner) rejected the use of brass color for the date line on the cream background due to poor readability. | When: 2026-09-08 | Involving: Margaret Hale (Managing Partner, Hale & Whitford LLP) | The brass text on cream background is hard to read. | Margaret Hale (Managing Partner) requires the date line text to be changed to navy. | When: 2026-09-08 | Involving: Margaret Hale (Managing Partner, Hale & Whitford LLP) | To improve readability of the date line.",
+    "citation": {
+     "document_id": "hw-09-r1-0",
+     "quote": "Small thing. The date in brass on cream is hard to read. Use navy for text.",
+     "author": "Margaret Hale",
+     "role": "Managing Partner",
+     "date": "2026-09-08",
+     "project_name": "Estate planning webinar LinkedIn post",
+     "round": "1",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F34",
+    "kind": "feedback",
+    "text": "Margaret Hale approved the round 2 design draft for the Estate planning webinar LinkedIn post. | When: 2026-09-10 | Involving: Margaret Hale (Managing Partner, Hale & Whitford LLP)",
+    "citation": {
+     "document_id": "hw-09-r2-0",
+     "quote": "Approved.",
+     "author": "Margaret Hale",
+     "role": "Managing Partner",
+     "date": "2026-09-10",
+     "project_name": "Estate planning webinar LinkedIn post",
+     "round": "2",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "O1",
+    "kind": "observation",
+    "text": "[Colour] Hale & Whitford LLP brand palette: navy #1B2A41 (primary), burgundy #6B1E2E (accent), cream #F4EFE6 (background), brass #B08D57 (details). Teal is strictly prohibited, as confirmed by Priya Raman on 2025-02-10. Additionally, Margaret Hale specified on 2025-04-11 that burgundy must be used only as an accent color and never as a background color; Priya Raman reaffirmed this on 2025-08-04, noting that burgundy backgrounds appear too alarming and warning-like, and mandated that only navy or cream backgrounds are permitted. As of 2025-06-06, Margaret Hale has approved the use of a cream background and a thin navy rule for website hero banners. On 2025-06-16, David Whitford rejected the use of thick brass bands, mandating that brass #B08D57 must only be used for thin rules and small details; this was reaffirmed on 2025-06-19 with the approval of a 2px brass rule for the website hero banner. Margaret Hale approved a navy background for the 'Client alert social card' project on 2025-08-11. Furthermore, as of 2025-12-01, Margaret Hale prohibits the use of Christmas red and Christmas green in holiday designs to ensure inclusivity. As of 2025-12-05, David Whitford approved a navy card with a thin brass line for the 'Year-end digital holiday card' project. On 2026-07-13, Priya Raman approved a Litigation practice LinkedIn banner featuring a navy background and a thin brass rule. As of 2026-09-08, Margaret Hale prohibits the use of brass color for date lines on cream backgrounds due to poor readability, mandating navy text for date lines instead.",
+    "citation": null,
+    "source_ids": [
+     "F2",
+     "F10",
+     "F13",
+     "F17",
+     "F18",
+     "F19",
+     "F21",
+     "F27",
+     "F28",
+     "F32",
+     "F33",
+     "F1"
+    ]
+   },
+   {
+    "id": "O2",
+    "kind": "observation",
+    "text": "[Typography] Hale & Whitford LLP headlines must avoid bold sans-serif typefaces, preferring a professional and restrained aesthetic. As of 2025-06-06, David Whitford has mandated the removal of all sans-serif typography and lowercase text from designs, superseding the previous exception for website hero banners approved by Margaret Hale earlier that day. On 2025-06-11, Margaret Hale established a design rule for the website hero banner refresh project requiring a modern structure combined with traditional typography, which is reflected in the current use of Garamond in sentence case as approved by Priya Raman. This preference for Garamond in sentence case was reaffirmed by Priya Raman on 2026-07-13 for the Litigation practice LinkedIn banner.",
+    "citation": null,
+    "source_ids": [
+     "F3",
+     "F13",
+     "F14",
+     "F15",
+     "F16",
+     "F32"
+    ]
+   },
+   {
+    "id": "O3",
+    "kind": "observation",
+    "text": "[Typography] Hale & Whitford LLP uses Garamond as the primary typeface. As of 2026-03-05, Margaret Hale has mandated a heavier font weight for all text under 24px to ensure readability on mobile devices, as the standard serif font appears too thin. As of 2025-12-05, David Whitford approved the use of Garamond for the 'Year-end digital holiday card' project. On 2026-03-09, Priya Raman approved the use of Garamond Medium for body copy in the 'Recruiting post for summer associates' project.",
+    "citation": null,
+    "source_ids": [
+     "F28",
+     "F30",
+     "F31",
+     "F1"
+    ]
+   },
+   {
+    "id": "O4",
+    "kind": "observation",
+    "text": "[Typography] Hale & Whitford LLP uses italic Garamond for pull quotes in partner spotlight carousels, as approved by Margaret Hale on 2025-11-12.",
+    "citation": null,
+    "source_ids": [
+     "F24"
+    ]
+   },
+   {
+    "id": "O5",
+    "kind": "observation",
+    "text": "[Imagery] Hale & Whitford LLP imagery should avoid stock photography of gavels, scales of justice, and handshakes, as the firm considers these symbols to be clichés. Additionally, the firm strictly prohibits the use of clip-art icons in design drafts, requiring professional imagery such as typography or real photography instead, as confirmed by David Whitford and Priya Raman on 2025-04-07. As of 2025-06-02, Margaret Hale has rejected oil-portrait style photography, requesting a more modern aesthetic that aligns with industry standards. Furthermore, as of 2025-11-03, David Whitford mandates that partner portraits must be formal, featuring subjects in suits against neutral backdrops, while strictly prohibiting candid or casual expressions. Finally, as of 2025-11-07, Priya Raman requires partner portrait photos to be black-and-white or desaturated to match the navy brand color, rejecting full-color photos as they appear like stock photography.",
+    "citation": null,
+    "source_ids": [
+     "F3",
+     "F5",
+     "F8",
+     "F9",
+     "F12",
+     "F22",
+     "F23"
+    ]
+   },
+   {
+    "id": "O6",
+    "kind": "observation",
+    "text": "[Layout] Hale & Whitford LLP website hero banners should utilize an asymmetric layout with ample whitespace, as approved by Margaret Hale on 2025-06-06 and reaffirmed by Priya Raman on 2025-06-11. Additionally, the Litigation practice LinkedIn banner approved by Priya Raman on 2026-07-13 utilizes an asymmetric layout with the logo positioned at the bottom-right.",
+    "citation": null,
+    "source_ids": [
+     "F3",
+     "F6",
+     "F7",
+     "F13",
+     "F15",
+     "F32"
+    ]
+   },
+   {
+    "id": "O7",
+    "kind": "observation",
+    "text": "[Imagery] Hale & Whitford LLP mandates that holiday-themed designs must be inclusive of all clients, strictly prohibiting religious imagery, Christmas red, and Christmas green, as mandated by Margaret Hale on 2025-12-01.",
+    "citation": null,
+    "source_ids": [
+     "F27"
+    ]
+   },
+   {
+    "id": "O8",
+    "kind": "observation",
+    "text": "[Copy] Hale & Whitford LLP brand tone is quiet and confident, targeting established families and business owners. Headlines must be restrained and professional, specifically avoiding exclamation marks to prevent a 'shouting' appearance (as requested by Margaret Hale on 2025-02-10). Additionally, David Whitford rejected drafts with excessive text (e.g., six paragraphs) on 2025-04-07, requiring brevity. As of 2025-08-07, Margaret Hale has mandated that all-caps and the word 'urgent' are prohibited, as the firm's tone must be informative rather than alarming. As of 2025-12-01, Margaret Hale mandates the use of the phrase 'Season's greetings' for holiday communications. As of 2025-12-05, David Whitford confirmed the tone for the 'Year-end digital holiday card' is 'Tasteful', featuring the text 'With gratitude for the year'. As of 2026-03-02, Priya Raman prohibits the use of emojis and the word 'squad' to maintain the firm's professional brand voice.",
+    "citation": null,
+    "source_ids": [
+     "F3",
+     "F8",
+     "F20",
+     "F27",
+     "F28",
+     "F29",
+     "F1"
+    ]
+   }
+  ],
+  "memories_consulted": 38,
+  "timings": {
+   "extract": 0.0,
+   "recall": 3.63,
+   "reflect": 5.12,
+   "verify": 0.0
+  },
+  "source": "live",
+  "recorded_at": null,
+  "elapsed_s": 8.8
+ },
+ "events": [
+  {
+   "stage": "extract",
+   "status": "start",
+   "message": "Reading the draft: measuring colours, reading layout and copy…",
+   "data": {
+    "cached": true
+   },
+   "t": 0.0
+  },
+  {
+   "stage": "extract",
+   "status": "done",
+   "message": "Palette: muted, deep, dark background; background #1B2A41",
+   "data": {
+    "cached": true,
+    "palette": [
+     "#1A2940",
+     "#F2EDE4",
+     "#555D69",
+     "#A1A2A5"
+    ],
+    "headline": "What the 2027 estate tax changes mean for your family"
+   },
+   "t": 0.0
+  },
+  {
+   "stage": "recall",
+   "status": "start",
+   "message": "Recalling what this client has said about colour…",
+   "data": {
+    "aspect": "colour"
+   },
+   "t": 0.0
+  },
+  {
+   "stage": "recall",
+   "status": "done",
+   "message": "colour: 27 past feedback facts, 1 taste-profile observations",
+   "data": {
+    "aspect": "colour",
+    "facts": 27,
+    "observations": 1,
+    "checking": [
+     "[Colour] Hale & Whitford LLP brand palette: navy #1B2A41 (primary), burgundy #6B1E2E (accent), cream #F4EFE6…"
+    ]
+   },
+   "t": 0.87
+  },
+  {
+   "stage": "recall",
+   "status": "start",
+   "message": "Recalling what this client has said about typography…",
+   "data": {
+    "aspect": "typography"
+   },
+   "t": 0.87
+  },
+  {
+   "stage": "recall",
+   "status": "done",
+   "message": "typography: 24 past feedback facts, 5 taste-profile observations",
+   "data": {
+    "aspect": "typography",
+    "facts": 24,
+    "observations": 5,
+    "checking": [
+     "[Typography] Hale & Whitford LLP headlines must avoid bold sans-serif typefaces, preferring a professional an…",
+     "[Typography] Hale & Whitford LLP uses Garamond as the primary typeface. As of 2026-03-05, Margaret Hale has m…",
+     "[Typography] Hale & Whitford LLP uses italic Garamond for pull quotes in partner spotlight carousels, as appr…",
+     "[Imagery] Hale & Whitford LLP imagery should avoid stock photography of gavels, scales of justice, and handsh…"
+    ]
+   },
+   "t": 1.42
+  },
+  {
+   "stage": "recall",
+   "status": "start",
+   "message": "Recalling what this client has said about layout & imagery…",
+   "data": {
+    "aspect": "layout_imagery"
+   },
+   "t": 1.42
+  },
+  {
+   "stage": "recall",
+   "status": "done",
+   "message": "layout & imagery: 25 past feedback facts, 3 taste-profile observations",
+   "data": {
+    "aspect": "layout_imagery",
+    "facts": 25,
+    "observations": 3,
+    "checking": [
+     "[Layout] Hale & Whitford LLP website hero banners should utilize an asymmetric layout with ample whitespace,…",
+     "[Colour] Hale & Whitford LLP brand palette: navy #1B2A41 (primary), burgundy #6B1E2E (accent), cream #F4EFE6…",
+     "[Imagery] Hale & Whitford LLP mandates that holiday-themed designs must be inclusive of all clients, strictly…"
+    ]
+   },
+   "t": 2.06
+  },
+  {
+   "stage": "recall",
+   "status": "start",
+   "message": "Recalling what this client has said about copy & claims…",
+   "data": {
+    "aspect": "copy"
+   },
+   "t": 2.06
+  },
+  {
+   "stage": "recall",
+   "status": "done",
+   "message": "copy & claims: 28 past feedback facts, 3 taste-profile observations",
+   "data": {
+    "aspect": "copy",
+    "facts": 28,
+    "observations": 3,
+    "checking": [
+     "[Copy] Hale & Whitford LLP brand tone is quiet and confident, targeting established families and business own…",
+     "[Typography] Hale & Whitford LLP uses Garamond as the primary typeface. As of 2026-03-05, Margaret Hale has m…",
+     "[Typography] Hale & Whitford LLP uses italic Garamond for pull quotes in partner spotlight carousels, as appr…"
+    ]
+   },
+   "t": 3.64
+  },
+  {
+   "stage": "evidence",
+   "status": "done",
+   "message": "34 client quotes from 3 people (2025-01-20 to 2026-09-10) and 8 observations ready for review",
+   "data": {
+    "quotes": 34,
+    "observations": 8,
+    "people": [
+     "David Whitford",
+     "Margaret Hale",
+     "Priya Raman"
+    ],
+    "date_span": "2025-01-20 to 2026-09-10"
+   },
+   "t": 3.64
+  },
+  {
+   "stage": "reflect",
+   "status": "start",
+   "message": "Hindsight reflect: reasoning over Hale & Whitford LLP's memory with 4 directives…",
+   "data": {
+    "directives": [
+     "Evidence required",
+     "Most recent direction wins",
+     "Attorney advertising disclaimer",
+     "No outcome guarantees"
+    ]
+   },
+   "t": 3.64
+  },
+  {
+   "stage": "reflect",
+   "status": "done",
+   "message": "0 potential issue(s) proposed after consulting 38 memories",
+   "data": {
+    "proposed": [],
+    "consulted": 38
+   },
+   "t": 8.77
+  },
+  {
+   "stage": "verify",
+   "status": "start",
+   "message": "Checking 0 issue(s) against the dated evidence…",
+   "data": {},
+   "t": 8.77
+  },
+  {
+   "stage": "verify",
+   "status": "done",
+   "message": "0 issue(s) confirmed with client quotes, 0 discarded",
+   "data": {
+    "discarded": []
+   },
+   "t": 8.77
+  },
+  {
+   "stage": "done",
+   "status": "done",
+   "message": "Verdict: ready for client",
+   "data": {
+    "verdict": "ready_for_client"
+   },
+   "t": 8.77
+  }
+ ]
+}

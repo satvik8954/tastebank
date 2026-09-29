@@ -1,0 +1,97 @@
+{
+ "reviewer_version": "1.0",
+ "recorded_at": "2026-09-29T06:06:57+00:00",
+ "review": {
+  "client_id": "hale-whitford",
+  "bank_id": null,
+  "memory": false,
+  "engine": "groq-no-memory",
+  "verdict": "needs_changes",
+  "summary": "The draft needs adjustments for accessibility, readability, and typographic consistency before it can be presented to Hale & Whitford LLP.",
+  "flags": [
+   {
+    "severity": "high",
+    "topic": "Colour",
+    "issue": "Text on the dark blue background may not meet WCAG contrast requirements, risking accessibility non‑compliance.",
+    "suggestion": "Lighten the text color or add a subtle overlay to ensure a contrast ratio of at least 4.5:1 for body copy and 3:1 for large text.",
+    "evidence": [],
+    "directive": null,
+    "citations": [],
+    "observations": []
+   },
+   {
+    "severity": "medium",
+    "topic": "Layout",
+    "issue": "The left panel contains dense blocks of copy, which can overwhelm readers and reduce scan‑ability.",
+    "suggestion": "Introduce more whitespace, increase line‑height, or break the copy into short bullet points to improve hierarchy and readability.",
+    "evidence": [],
+    "directive": null,
+    "citations": [],
+    "observations": []
+   },
+   {
+    "severity": "low",
+    "topic": "Typography",
+    "issue": "All‑caps usage for the logo and top label can hinder legibility and appear overly formal for digital media.",
+    "suggestion": "Switch to title case or small‑caps for the logo and label while keeping the headline in sentence case as specified.",
+    "evidence": [],
+    "directive": null,
+    "citations": [],
+    "observations": []
+   }
+  ],
+  "discarded": [],
+  "evidence": [],
+  "memories_consulted": 0,
+  "timings": {
+   "extract": 0.09,
+   "reflect": 2.29
+  },
+  "source": "live",
+  "recorded_at": null,
+  "elapsed_s": 2.4
+ },
+ "events": [
+  {
+   "stage": "extract",
+   "status": "start",
+   "message": "Reading the draft: measuring colours, reading layout and copy…",
+   "data": {
+    "cached": true
+   },
+   "t": 0.0
+  },
+  {
+   "stage": "extract",
+   "status": "done",
+   "message": "Palette: muted, deep, dark background; background #1B2A41",
+   "data": {
+    "cached": true,
+    "palette": [
+     "#1A2940",
+     "#F2EDE4",
+     "#555D69",
+     "#A1A2A5"
+    ],
+    "headline": "What the 2027 estate tax changes mean for your family"
+   },
+   "t": 0.09
+  },
+  {
+   "stage": "reflect",
+   "status": "start",
+   "message": "Reviewing with general design judgement only (no client memory)…",
+   "data": {},
+   "t": 0.09
+  },
+  {
+   "stage": "done",
+   "status": "done",
+   "message": "Verdict: needs changes",
+   "data": {
+    "verdict": "needs_changes"
+   },
+   "t": 2.38
+  }
+ ]
+}

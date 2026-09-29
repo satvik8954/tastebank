@@ -1,0 +1,912 @@
+{
+ "reviewer_version": "1.0",
+ "recorded_at": "2026-09-29T06:04:01+00:00",
+ "review": {
+  "client_id": "dewpoint",
+  "bank_id": "rz-dewpoint",
+  "memory": true,
+  "engine": "hindsight-reflect+verified",
+  "verdict": "needs_changes",
+  "summary": "The draft requires significant revisions to address prohibited drug and anti-aging claims, imagery standards, and brand transparency requirements. Please update the copy and visual assets to align with these core guidelines before resubmission.",
+  "flags": [
+   {
+    "severity": "high",
+    "topic": "Copy",
+    "issue": "The headline contains the prohibited drug claim 'Heals' and an unverified timeframe claim 'in 3 days'.",
+    "suggestion": "Use 'Supports the skin barrier' instead and provide a cited study reference for any timeframe claims.",
+    "evidence": [
+     "F2",
+     "O11"
+    ],
+    "directive": null,
+    "citations": [
+     {
+      "document_id": "dp-01-r1-0",
+      "quote": "\"Heals\" is a drug claim. We can't say it. \"Supports the skin barrier\" is the approved phrasing, and no timeframe claims without a study reference.",
+      "author": "Sofia Reyes",
+      "role": "Regulatory & Claims Lead",
+      "date": "2025-02-17",
+      "project_name": "Barrier Serum launch post",
+      "round": "1",
+      "kind": "feedback"
+     }
+    ],
+    "observations": [
+     "[Compliance] Prohibited drug claims: the word 'Heals' is forbidden; use 'Supports the skin barrier' instead. As of October 2025, Sofia Reyes (Regulatory & Claims Lead) has mandated that 'anti-aging' is also prohibited in web banner copy, requiring the use of 'barrier support for cold, dry air' instead. As of July 2026, Sofia Reyes requires the exact wording 'Broad Spectrum SPF 30' for SPF claims and explicitly forbids the phrase 'all-day protection'. Timeframe claims must include a study reference; as of December 2025, this includes citing the source for any statistical claims (e.g., 50% skin barrier improvement) in small type on the relevant slide. Before/after imagery is prohibited as it implies guaranteed results and risks ad rejection; use single texture close-up images and include the disclaimer 'individual results vary'. This disclaimer must be presented in small type."
+    ]
+   },
+   {
+    "severity": "high",
+    "topic": "Imagery",
+    "issue": "The use of before/after imagery is prohibited as it implies guaranteed results.",
+    "suggestion": "Use a single texture close-up instead.",
+    "evidence": [
+     "F10",
+     "O11"
+    ],
+    "directive": null,
+    "citations": [
+     {
+      "document_id": "dp-03-r1-0",
+      "quote": "No before/after imagery. It implies guaranteed results and we've already had an ad rejected for it. Use a single week-4 texture close-up with \"individual results vary\".",
+      "author": "Sofia Reyes",
+      "role": "Regulatory & Claims Lead",
+      "date": "2025-06-09",
+      "project_name": "Reel cover for customer results",
+      "round": "1",
+      "kind": "feedback"
+     }
+    ],
+    "observations": [
+     "[Compliance] Prohibited drug claims: the word 'Heals' is forbidden; use 'Supports the skin barrier' instead. As of October 2025, Sofia Reyes (Regulatory & Claims Lead) has mandated that 'anti-aging' is also prohibited in web banner copy, requiring the use of 'barrier support for cold, dry air' instead. As of July 2026, Sofia Reyes requires the exact wording 'Broad Spectrum SPF 30' for SPF claims and explicitly forbids the phrase 'all-day protection'. Timeframe claims must include a study reference; as of December 2025, this includes citing the source for any statistical claims (e.g., 50% skin barrier improvement) in small type on the relevant slide. Before/after imagery is prohibited as it implies guaranteed results and risks ad rejection; use single texture close-up images and include the disclaimer 'individual results vary'. This disclaimer must be presented in small type."
+    ]
+   },
+   {
+    "severity": "medium",
+    "topic": "Imagery",
+    "issue": "Product shots are flat front-on instead of the required three-quarter angle.",
+    "suggestion": "Adjust the product shot to a three-quarter angle to show the dropper and bottle depth.",
+    "evidence": [
+     "F4"
+    ],
+    "directive": null,
+    "citations": [
+     {
+      "document_id": "dp-01-r2-0",
+      "quote": "Product shots are always at a three-quarter angle, never flat front. It shows the dropper and the depth of the bottle.",
+      "author": "Lukas Brandt",
+      "role": "Head of Brand",
+      "date": "2025-02-20",
+      "project_name": "Barrier Serum launch post",
+      "round": "2",
+      "kind": "feedback"
+     }
+    ],
+    "observations": []
+   },
+   {
+    "severity": "medium",
+    "topic": "Layout",
+    "issue": "Ingredient percentages are missing from the design assets.",
+    "suggestion": "Include ingredient percentages on all design assets to maintain transparency.",
+    "evidence": [
+     "F5"
+    ],
+    "directive": null,
+    "citations": [
+     {
+      "document_id": "dp-01-r3-0",
+      "quote": "Where are the percentages? We lead with ingredient percentages. That's our whole transparency thing.",
+      "author": "Amara Nwosu",
+      "role": "Founder",
+      "date": "2025-02-24",
+      "project_name": "Barrier Serum launch post",
+      "round": "3",
+      "kind": "feedback"
+     }
+    ],
+    "observations": []
+   },
+   {
+    "severity": "medium",
+    "topic": "Colour",
+    "issue": "Bottle imagery features gradients, which are prohibited.",
+    "suggestion": "Use flat colors only.",
+    "evidence": [
+     "F18",
+     "O3"
+    ],
+    "directive": null,
+    "citations": [
+     {
+      "document_id": "dp-05-r2-0",
+      "quote": "Gradients look cheap and techy. Flat colour only.",
+      "author": "Amara Nwosu",
+      "role": "Founder",
+      "date": "2025-12-04",
+      "project_name": "Ingredient explainer carousel: ceramides",
+      "round": "2",
+      "kind": "feedback"
+     }
+    ],
+    "observations": [
+     "[Colour] Dewpoint prohibits the use of gradients in design assets, as they are perceived as cheap and techy; flat colors are required."
+    ]
+   },
+   {
+    "severity": "medium",
+    "topic": "Copy",
+    "issue": "The copy uses the prohibited term 'anti-aging'.",
+    "suggestion": "Use 'barrier support for cold, dry air' instead.",
+    "evidence": [
+     "F15",
+     "O11"
+    ],
+    "directive": null,
+    "citations": [
+     {
+      "document_id": "dp-04-r3-0",
+      "quote": "We don't use \"anti-aging\". Just describe what it does: \"barrier support for cold, dry air\".",
+      "author": "Sofia Reyes",
+      "role": "Regulatory & Claims Lead",
+      "date": "2025-10-14",
+      "project_name": "Website banner: winter barrier kit",
+      "round": "3",
+      "kind": "feedback"
+     }
+    ],
+    "observations": [
+     "[Compliance] Prohibited drug claims: the word 'Heals' is forbidden; use 'Supports the skin barrier' instead. As of October 2025, Sofia Reyes (Regulatory & Claims Lead) has mandated that 'anti-aging' is also prohibited in web banner copy, requiring the use of 'barrier support for cold, dry air' instead. As of July 2026, Sofia Reyes requires the exact wording 'Broad Spectrum SPF 30' for SPF claims and explicitly forbids the phrase 'all-day protection'. Timeframe claims must include a study reference; as of December 2025, this includes citing the source for any statistical claims (e.g., 50% skin barrier improvement) in small type on the relevant slide. Before/after imagery is prohibited as it implies guaranteed results and risks ad rejection; use single texture close-up images and include the disclaimer 'individual results vary'. This disclaimer must be presented in small type."
+    ]
+   }
+  ],
+  "discarded": [],
+  "evidence": [
+   {
+    "id": "F1",
+    "kind": "feedback",
+    "text": "Dewpoint color palette: bone #F5F0EA, clay #C9A58A, stone #8C8279, ink #2B2826. | When: 2025-01-27 | Involving: Amara Nwosu (Founder) | Dewpoint requires leading with ingredient percentages on all products. | When: 2025-01-27 | Involving: Amara Nwosu (Founder) | Dewpoint brand identity is warm, calm, and radically transparent. | When: 2025-01-27 | Involving: Amara Nwosu (Founder) | Dewpoint brand positioning: not a pharmacy, not a spa. | When: 2025-01-27 | Involving: Amara Nwosu (Founder)",
+    "citation": {
+     "document_id": "dp-onboarding",
+     "quote": "Onboarding brief from Amara Nwosu (Founder): Dewpoint is warm, calm and radically transparent. Palette: bone #F5F0EA, clay #C9A58A, stone #8C8279, ink #2B2826. We are not a pharmacy and not a spa. We lead with ingredient percentages on everything.",
+     "author": "Amara Nwosu",
+     "role": "Founder",
+     "date": "2025-01-27",
+     "project_name": null,
+     "round": null,
+     "kind": "brief"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F2",
+    "kind": "feedback",
+    "text": "Regulatory requirement: 'Heals' is prohibited; use 'Supports the skin barrier' instead. Timeframe claims require a study reference. | When: 2025-02-17 | Involving: Sofia Reyes (Regulatory & Claims Lead, Dewpoint) | Compliance with drug claim regulations. | Sofia Reyes (Regulatory & Claims Lead) rejected the 'Barrier Serum launch post' draft due to non-compliant claims. | When: 2025-02-17 | Involving: Sofia Reyes (Regulatory & Claims Lead, Dewpoint) | The draft used the word 'Heals' which is considered a drug claim, and included a timeframe claim without a study reference.",
+    "citation": {
+     "document_id": "dp-01-r1-0",
+     "quote": "\"Heals\" is a drug claim. We can't say it. \"Supports the skin barrier\" is the approved phrasing, and no timeframe claims without a study reference.",
+     "author": "Sofia Reyes",
+     "role": "Regulatory & Claims Lead",
+     "date": "2025-02-17",
+     "project_name": "Barrier Serum launch post",
+     "round": "1",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F3",
+    "kind": "feedback",
+    "text": "Amara Nwosu (Founder, Dewpoint) requires a warm color palette for the Barrier Serum launch post. | When: 2025-02-17 | Involving: Amara Nwosu (Founder, Dewpoint) | Amara Nwosu (Founder, Dewpoint) rejected the use of ice-blue (#DDEBF5) in the Barrier Serum launch post design because it feels like a pharmacy. | When: 2025-02-17 | Involving: Amara Nwosu (Founder, Dewpoint) | The brand identity is warm, not clinical.",
+    "citation": {
+     "document_id": "dp-01-r1-1",
+     "quote": "The blue feels like a pharmacy. We're warm.",
+     "author": "Amara Nwosu",
+     "role": "Founder",
+     "date": "2025-02-17",
+     "project_name": "Barrier Serum launch post",
+     "round": "1",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F4",
+    "kind": "feedback",
+    "text": "Lukas Brandt (Head of Brand) requires product shots for the Barrier Serum launch post to be at a three-quarter angle, explicitly forbidding flat front shots to showcase the dropper and bottle depth. | When: 2025-02-20 | Involving: Lukas Brandt (Head of Brand, Dewpoint) | Design feedback for round 2 of the Barrier Serum launch post.",
+    "citation": {
+     "document_id": "dp-01-r2-0",
+     "quote": "Product shots are always at a three-quarter angle, never flat front. It shows the dropper and the depth of the bottle.",
+     "author": "Lukas Brandt",
+     "role": "Head of Brand",
+     "date": "2025-02-20",
+     "project_name": "Barrier Serum launch post",
+     "round": "2",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F5",
+    "kind": "feedback",
+    "text": "Amara Nwosu (Founder, Dewpoint) requires ingredient percentages to be prominently displayed on the Barrier Serum launch post design to maintain the brand's transparency standards. | When: 2025-02-24 | Involving: Amara Nwosu (Founder, Dewpoint) | Transparency is a core brand value for Dewpoint. | Amara Nwosu rejected the round 3 design draft for the Barrier Serum launch post because it lacked ingredient percentages. | When: 2025-02-24 | Involving: Amara Nwosu (Founder, Dewpoint) | The draft featured a three-quarter product angle without ingredient information.",
+    "citation": {
+     "document_id": "dp-01-r3-0",
+     "quote": "Where are the percentages? We lead with ingredient percentages. That's our whole transparency thing.",
+     "author": "Amara Nwosu",
+     "role": "Founder",
+     "date": "2025-02-24",
+     "project_name": "Barrier Serum launch post",
+     "round": "3",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F6",
+    "kind": "feedback",
+    "text": "Amara Nwosu (Founder, Dewpoint) approved the round 4 design draft for the 'Barrier Serum launch post' Instagram post, which includes the text '5% niacinamide · 3% ceramide complex' under the headline. | When: 2025-02-26 | Involving: Amara Nwosu (Founder, Dewpoint) | Final approval for project launch assets.",
+    "citation": {
+     "document_id": "dp-01-r4-0",
+     "quote": "Yes. Approved.",
+     "author": "Amara Nwosu",
+     "role": "Founder",
+     "date": "2025-02-26",
+     "project_name": "Barrier Serum launch post",
+     "round": "4",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F7",
+    "kind": "feedback",
+    "text": "Dewpoint brand rule: Never retouch skin texture in imagery; pores, freckles, and fine lines must remain visible. | Involving: Amara Nwosu (Founder, Dewpoint) | Non-negotiable brand requirement. | Amara Nwosu (Founder, Dewpoint) rejected the current design draft for the 'Real skin campaign: Instagram' because the model's skin is airbrushed. | When: 2025-04-14 | Involving: Amara Nwosu (Founder, Dewpoint)",
+    "citation": {
+     "document_id": "dp-02-r1-0",
+     "quote": "The skin is airbrushed. We never retouch texture. Pores, freckles and fine lines stay. That's non-negotiable.",
+     "author": "Amara Nwosu",
+     "role": "Founder",
+     "date": "2025-04-14",
+     "project_name": "Real skin campaign: Instagram",
+     "round": "1",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F8",
+    "kind": "feedback",
+    "text": "Lukas Brandt requires the design to show more of the person and use natural light. | When: 2025-04-17 | Involving: Lukas Brandt (Head of Brand, Dewpoint) | To avoid the 'dermatology textbook' aesthetic of the previous draft. | Lukas Brandt (Head of Brand, Dewpoint) rejected the round 2 design draft for the 'Real skin campaign: Instagram' project because the crop is too tight and resembles a dermatology textbook. | When: 2025-04-17 | Involving: Lukas Brandt (Head of Brand, Dewpoint)",
+    "citation": {
+     "document_id": "dp-02-r2-0",
+     "quote": "Crop is too tight. It feels like a dermatology textbook. Show more of the person, in natural light.",
+     "author": "Lukas Brandt",
+     "role": "Head of Brand",
+     "date": "2025-04-17",
+     "project_name": "Real skin campaign: Instagram",
+     "round": "2",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F9",
+    "kind": "feedback",
+    "text": "The approved design draft for the 'Real skin campaign: Instagram' project features a shoulders-up crop, natural window light, and is unretouched. | When: 2025-04-21 | Involving: Lukas Brandt (Head of Brand, Dewpoint) | Design specifications for the approved campaign asset. | Lukas Brandt (Head of Brand, Dewpoint) approved the design draft for the 'Real skin campaign: Instagram' project. | When: 2025-04-21 | Involving: Lukas Brandt (Head of Brand, Dewpoint) | Final approval for round 3 of 3.",
+    "citation": {
+     "document_id": "dp-02-r3-0",
+     "quote": "Approved.",
+     "author": "Lukas Brandt",
+     "role": "Head of Brand",
+     "date": "2025-04-21",
+     "project_name": "Real skin campaign: Instagram",
+     "round": "3",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F10",
+    "kind": "feedback",
+    "text": "Sofia Reyes (Regulatory & Claims Lead) rejected the use of before/after imagery for the Dewpoint 'Reel cover for customer results' project because it implies guaranteed results and risks ad rejection. | When: 2025-06-09 | Involving: Sofia Reyes (Regulatory & Claims Lead, Dewpoint) | Compliance requirement to avoid ad rejection. | Sofia Reyes mandated the use of a single week-4 texture close-up image and the inclusion of the disclaimer 'individual results vary' for the Reel cover. | When: 2025-06-09 | Involving: Sofia Reyes (Regulatory & Claims Lead, Dewpoint) | Design requirement for regulatory compliance.",
+    "citation": {
+     "document_id": "dp-03-r1-0",
+     "quote": "No before/after imagery. It implies guaranteed results and we've already had an ad rejected for it. Use a single week-4 texture close-up with \"individual results vary\".",
+     "author": "Sofia Reyes",
+     "role": "Regulatory & Claims Lead",
+     "date": "2025-06-09",
+     "project_name": "Reel cover for customer results",
+     "round": "1",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F11",
+    "kind": "feedback",
+    "text": "Sofia Reyes (Regulatory & Claims Lead) approved the round 2 design draft for the 'Reel cover for customer results' project, which features a single close-up image and the disclaimer 'individual results vary' in small type. | When: 2025-06-12 | Involving: Sofia Reyes (Regulatory & Claims Lead, Dewpoint) | Regulatory compliance approval for Instagram post design.",
+    "citation": {
+     "document_id": "dp-03-r2-0",
+     "quote": "Cleared.",
+     "author": "Sofia Reyes",
+     "role": "Regulatory & Claims Lead",
+     "date": "2025-06-12",
+     "project_name": "Reel cover for customer results",
+     "round": "2",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F12",
+    "kind": "feedback",
+    "text": "Lukas Brandt (Head of Brand) rejected the round 1 design draft for the 'Website banner: winter barrier kit' project because the aesthetic was too warm and spa-like. | When: 2025-10-06 | Involving: Lukas Brandt (Head of Brand, Dewpoint) | The design used a heavy clay and peach (#E8A77F) background with candle-lit styling, which the client felt was inappropriate. | Lukas Brandt (Head of Brand) specified that the design for the 'Website banner: winter barrier kit' must be clinical, precise, and cooler in tone. | When: 2025-10-06 | Involving: Lukas Brandt (Head of Brand, Dewpoint) | To correct the previous 'spa' and 'orange' aesthetic.",
+    "citation": {
+     "document_id": "dp-04-r1-0",
+     "quote": "Too warm. It's going orange and \"spa\". We should feel more clinical and precise. Cooler.",
+     "author": "Lukas Brandt",
+     "role": "Head of Brand",
+     "date": "2025-10-06",
+     "project_name": "Website banner: winter barrier kit",
+     "round": "1",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F13",
+    "kind": "feedback",
+    "text": "Amara Nwosu (Founder, Dewpoint) rejected the use of blue in the website banner design, stating it feels like a pharmacy and that the brand identity is based on warm neutrals. | When: 2025-10-09 | Involving: Amara Nwosu (Founder, Dewpoint) | Feedback on round 2 of the 'Website banner: winter barrier kit' project. | Amara Nwosu (Founder, Dewpoint) previously established a brand preference for warm neutrals over blue in February 2025. | When: 2025-02-01 to 2025-02-28 | Involving: Amara Nwosu (Founder, Dewpoint)",
+    "citation": {
+     "document_id": "dp-04-r2-0",
+     "quote": "No. I said this back in February: blue feels like a pharmacy. We are warm neutrals.",
+     "author": "Amara Nwosu",
+     "role": "Founder",
+     "date": "2025-10-09",
+     "project_name": "Website banner: winter barrier kit",
+     "round": "2",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F14",
+    "kind": "feedback",
+    "text": "Lukas Brandt specified a new color palette for the project: warm neutrals (bone and stone) as the base, clay as an accent, and explicitly prohibited orange. | When: 2025-10-09 | Involving: Lukas Brandt (Head of Brand, Dewpoint) | Lukas Brandt (Head of Brand) rejected the cool grey-blue (#C9D3DB) background and clinical styling for the 'Website banner: winter barrier kit' project. | When: 2025-10-09 | Involving: Lukas Brandt (Head of Brand, Dewpoint)",
+    "citation": {
+     "document_id": "dp-04-r2-1",
+     "quote": "Fine. Warm neutrals, but restrained. Bone and stone as the base, clay only as an accent, and no orange.",
+     "author": "Lukas Brandt",
+     "role": "Head of Brand",
+     "date": "2025-10-09",
+     "project_name": "Website banner: winter barrier kit",
+     "round": "2",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F15",
+    "kind": "feedback",
+    "text": "Sofia Reyes (Regulatory & Claims Lead) rejected the use of 'anti-aging' in the Dewpoint winter barrier kit web banner copy and mandated the use of 'barrier support for cold, dry air' instead. | When: 2025-10-14 | Involving: Sofia Reyes (Regulatory & Claims Lead, Dewpoint) | Regulatory compliance requirement for the project 'Website banner: winter barrier kit'.",
+    "citation": {
+     "document_id": "dp-04-r3-0",
+     "quote": "We don't use \"anti-aging\". Just describe what it does: \"barrier support for cold, dry air\".",
+     "author": "Sofia Reyes",
+     "role": "Regulatory & Claims Lead",
+     "date": "2025-10-14",
+     "project_name": "Website banner: winter barrier kit",
+     "round": "3",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F16",
+    "kind": "feedback",
+    "text": "Amara Nwosu (Founder, Dewpoint) approved the round 4 design draft for the 'Website banner: winter barrier kit' project. | When: 2025-10-16 | Involving: Amara Nwosu (Founder, Dewpoint) | Final approval for the project.",
+    "citation": {
+     "document_id": "dp-04-r4-0",
+     "quote": "Approved.",
+     "author": "Amara Nwosu",
+     "role": "Founder",
+     "date": "2025-10-16",
+     "project_name": "Website banner: winter barrier kit",
+     "round": "4",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F17",
+    "kind": "feedback",
+    "text": "Client requires a maximum of twenty words per slide and strictly one idea per slide for the 'Ingredient explainer carousel: ceramides' project. | When: 2025-12-01 | Involving: Lukas Brandt (Head of Brand, Dewpoint) | Lukas Brandt specified this as a correction to the round 1 draft. | Lukas Brandt (Head of Brand) rejected round 1 of the 'Ingredient explainer carousel: ceramides' project due to excessive copy. | When: 2025-12-01 | Involving: Lukas Brandt (Head of Brand, Dewpoint) | The draft contained six slides with approximately 80 words each, which exceeded the client's requirements.",
+    "citation": {
+     "document_id": "dp-05-r1-0",
+     "quote": "Too much copy per slide. One idea per slide, max twenty words.",
+     "author": "Lukas Brandt",
+     "role": "Head of Brand",
+     "date": "2025-12-01",
+     "project_name": "Ingredient explainer carousel: ceramides",
+     "round": "1",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F18",
+    "kind": "feedback",
+    "text": "Amara Nwosu (Founder, Dewpoint) rejected the use of gradients in the 'Ingredient explainer carousel: ceramides' project, stating they look cheap and techy, and requested flat colors only. | When: 2025-12-04 | Involving: Amara Nwosu (Founder, Dewpoint) | Design feedback for round 2 of project dp-05",
+    "citation": {
+     "document_id": "dp-05-r2-0",
+     "quote": "Gradients look cheap and techy. Flat colour only.",
+     "author": "Amara Nwosu",
+     "role": "Founder",
+     "date": "2025-12-04",
+     "project_name": "Ingredient explainer carousel: ceramides",
+     "round": "2",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F19",
+    "kind": "feedback",
+    "text": "Sofia Reyes (Regulatory & Claims Lead) approved the round 3 design draft for the 'Ingredient explainer carousel: ceramides' project, provided that the source for the 50% skin barrier statistic is cited in small type on the relevant slide. | When: 2025-12-08 | Involving: Sofia Reyes (Regulatory & Claims Lead), Dewpoint | Regulatory compliance requirement for claims.",
+    "citation": {
+     "document_id": "dp-05-r3-0",
+     "quote": "Approved on condition you cite the source for the 50% stat in small type on that slide.",
+     "author": "Sofia Reyes",
+     "role": "Regulatory & Claims Lead",
+     "date": "2025-12-08",
+     "project_name": "Ingredient explainer carousel: ceramides",
+     "round": "3",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F20",
+    "kind": "feedback",
+    "text": "Lukas Brandt rejected the use of pink florals and script typography for the Mother's Day gift post, requiring the design to adhere to the brand palette. | When: 2026-04-20 | Involving: Lukas Brandt (Head of Brand, Dewpoint) | Lukas Brandt stated that pink florals are overused by beauty brands.",
+    "citation": {
+     "document_id": "dp-06-r1-0",
+     "quote": "Pink florals are every beauty brand on earth. Stay in our palette, and no script type.",
+     "author": "Lukas Brandt",
+     "role": "Head of Brand",
+     "date": "2026-04-20",
+     "project_name": "Mother's Day gift post",
+     "round": "1",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F21",
+    "kind": "feedback",
+    "text": "Amara Nwosu (Founder, Dewpoint) mandated the use of 'Healthy skin' or 'her skin, supported' as approved copy alternatives. | When: 2026-04-23 | Involving: Amara Nwosu (Founder, Dewpoint) | Amara Nwosu (Founder, Dewpoint) rejected the copy 'Flawless skin for mom' for the Mother's Day gift post, stating the brand never promises 'flawless'. | When: 2026-04-23 | Involving: Amara Nwosu (Founder, Dewpoint) | Brand guidelines prohibit promising 'flawless' skin.",
+    "citation": {
+     "document_id": "dp-06-r2-0",
+     "quote": "We never promise flawless. \"Healthy skin\" or \"her skin, supported\".",
+     "author": "Amara Nwosu",
+     "role": "Founder",
+     "date": "2026-04-23",
+     "project_name": "Mother's Day gift post",
+     "round": "2",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F22",
+    "kind": "feedback",
+    "text": "Amara Nwosu (Founder, Dewpoint) approved the copy 'Her skin, supported' for the Mother's Day gift post Instagram design draft. | When: 2026-04-24 | Involving: Amara Nwosu (Founder, Dewpoint) | Final approval for round 3 of 3.",
+    "citation": {
+     "document_id": "dp-06-r3-0",
+     "quote": "Approved.",
+     "author": "Amara Nwosu",
+     "role": "Founder",
+     "date": "2026-04-24",
+     "project_name": "Mother's Day gift post",
+     "round": "3",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F23",
+    "kind": "feedback",
+    "text": "Sofia Reyes (Regulatory & Claims Lead) requires the exact wording 'Broad Spectrum SPF 30' for SPF claims and explicitly forbids the phrase 'all-day protection' on the SPF launch teaser project. | When: 2026-07-06 | Involving: Sofia Reyes (Regulatory & Claims Lead, Dewpoint) | Regulatory compliance for SPF claims. | Round 1 design draft for the 'SPF launch teaser' project is not approved. | When: 2026-07-06 | Involving: Sofia Reyes (Regulatory & Claims Lead, Dewpoint) | Non-compliance with required SPF claim wording.",
+    "citation": {
+     "document_id": "dp-07-r1-0",
+     "quote": "SPF claims need the exact wording \"Broad Spectrum SPF 30\" and nothing else. Remove \"all-day protection\".",
+     "author": "Sofia Reyes",
+     "role": "Regulatory & Claims Lead",
+     "date": "2026-07-06",
+     "project_name": "SPF launch teaser",
+     "round": "1",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F24",
+    "kind": "feedback",
+    "text": "Sofia Reyes (Regulatory & Claims Lead) approved the claim 'Broad Spectrum SPF 30' for the 'SPF launch teaser' Instagram post. | When: 2026-07-08 | Involving: Sofia Reyes (Regulatory & Claims Lead, Dewpoint) | Regulatory clearance for project dp-07",
+    "citation": {
+     "document_id": "dp-07-r2-0",
+     "quote": "Cleared.",
+     "author": "Sofia Reyes",
+     "role": "Regulatory & Claims Lead",
+     "date": "2026-07-08",
+     "project_name": "SPF launch teaser",
+     "round": "2",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F25",
+    "kind": "feedback",
+    "text": "Approved design elements for Retinal serum launch: bone background, three-quarter bottle angle, text '0.1% retinal · 2% squalane', unretouched skin close-up, and stone accents. | When: 2026-09-14 | Involving: Amara Nwosu (Founder, Dewpoint) | Design preferences for Dewpoint: percentages up front, three-quarter bottle angle, and real, unretouched skin texture. | When: 2026-09-14 | Involving: Amara Nwosu (Founder, Dewpoint) | Amara Nwosu (Founder, Dewpoint) approved the round 1 design draft for the Retinal serum launch project. | When: 2026-09-14 | Involving: Amara Nwosu (Founder, Dewpoint)",
+    "citation": {
+     "document_id": "dp-08-r1-0",
+     "quote": "No notes. Percentages up front, three-quarter angle, real texture. This is exactly us.",
+     "author": "Amara Nwosu",
+     "role": "Founder",
+     "date": "2026-09-14",
+     "project_name": "Retinal serum launch",
+     "round": "1",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "O1",
+    "kind": "observation",
+    "text": "[Colour] Dewpoint color palette: bone #F5F0EA, clay #C9A58A, stone #8C8279, ink #2B2826.",
+    "citation": null,
+    "source_ids": [
+     "F1"
+    ]
+   },
+   {
+    "id": "O2",
+    "kind": "observation",
+    "text": "[Colour] Dewpoint requires a warm color palette; ice-blue (#DDEBF5) and cool grey-blue (#C9D3DB) are prohibited as they feel too clinical. As of October 2025, Lukas Brandt (Head of Brand) has mandated a shift for the 'Website banner: winter barrier kit' project, requiring a palette of warm neutrals (bone and stone) as the base and clay as an accent, while explicitly prohibiting orange. This replaces the previous clinical/cool aesthetic request for this project. Additionally, as of April 2026, Lukas Brandt prohibits the use of pink florals in design assets, noting they are overused by beauty brands.",
+    "citation": null,
+    "source_ids": [
+     "F3",
+     "F12",
+     "F13",
+     "F14",
+     "F20"
+    ]
+   },
+   {
+    "id": "O3",
+    "kind": "observation",
+    "text": "[Colour] Dewpoint prohibits the use of gradients in design assets, as they are perceived as cheap and techy; flat colors are required.",
+    "citation": null,
+    "source_ids": [
+     "F18"
+    ]
+   },
+   {
+    "id": "O4",
+    "kind": "observation",
+    "text": "[Compliance] Dewpoint brand identity is warm, calm, and radically transparent.",
+    "citation": null,
+    "source_ids": [
+     "F1"
+    ]
+   },
+   {
+    "id": "O5",
+    "kind": "observation",
+    "text": "[Imagery] Dewpoint brand rule: Never retouch skin texture in imagery; pores, freckles, and fine lines must remain visible.",
+    "citation": null,
+    "source_ids": [
+     "F7"
+    ]
+   },
+   {
+    "id": "O6",
+    "kind": "observation",
+    "text": "[Copy] Dewpoint requires a maximum of twenty words per slide and strictly one idea per slide for carousel projects, as mandated by Lukas Brandt (Head of Brand) in December 2025 following a rejection of excessive copy.",
+    "citation": null,
+    "source_ids": [
+     "F17"
+    ]
+   },
+   {
+    "id": "O7",
+    "kind": "observation",
+    "text": "[Layout] Dewpoint requires final approval from Amara Nwosu (Founder) for all project design drafts.",
+    "citation": null,
+    "source_ids": [
+     "F16"
+    ]
+   },
+   {
+    "id": "O8",
+    "kind": "observation",
+    "text": "[Compliance] Dewpoint brand positioning: not a pharmacy, not a spa.",
+    "citation": null,
+    "source_ids": [
+     "F1"
+    ]
+   },
+   {
+    "id": "O9",
+    "kind": "observation",
+    "text": "[Typography] Dewpoint prohibits the use of script typography in design assets, as mandated by Lukas Brandt (Head of Brand) in April 2026.",
+    "citation": null,
+    "source_ids": [
+     "F20"
+    ]
+   },
+   {
+    "id": "O10",
+    "kind": "observation",
+    "text": "[Copy] Dewpoint brand rule: Never promise 'flawless' skin; use 'Healthy skin' or 'her skin, supported' as approved alternatives. Amara Nwosu (Founder) confirmed 'her skin, supported' as approved copy for the Mother's Day gift post in April 2026.",
+    "citation": null,
+    "source_ids": [
+     "F21",
+     "F22"
+    ]
+   },
+   {
+    "id": "O11",
+    "kind": "observation",
+    "text": "[Compliance] Prohibited drug claims: the word 'Heals' is forbidden; use 'Supports the skin barrier' instead. As of October 2025, Sofia Reyes (Regulatory & Claims Lead) has mandated that 'anti-aging' is also prohibited in web banner copy, requiring the use of 'barrier support for cold, dry air' instead. As of July 2026, Sofia Reyes requires the exact wording 'Broad Spectrum SPF 30' for SPF claims and explicitly forbids the phrase 'all-day protection'. Timeframe claims must include a study reference; as of December 2025, this includes citing the source for any statistical claims (e.g., 50% skin barrier improvement) in small type on the relevant slide. Before/after imagery is prohibited as it implies guaranteed results and risks ad rejection; use single texture close-up images and include the disclaimer 'individual results vary'. This disclaimer must be presented in small type.",
+    "citation": null,
+    "source_ids": [
+     "F2",
+     "F10",
+     "F11",
+     "F15",
+     "F19",
+     "F23",
+     "F24"
+    ]
+   },
+   {
+    "id": "O12",
+    "kind": "observation",
+    "text": "[Imagery] Dewpoint brand rule: Imagery must show more of the person and use natural light to avoid a clinical, dermatology-textbook aesthetic; tight crops are prohibited. The approved 'Real skin campaign: Instagram' asset features a shoulders-up crop, natural window light, and is unretouched.",
+    "citation": null,
+    "source_ids": [
+     "F8",
+     "F9"
+    ]
+   }
+  ],
+  "memories_consulted": 12,
+  "timings": {
+   "extract": 0.0,
+   "recall": 4.45,
+   "reflect": 8.25,
+   "verify": 4.8
+  },
+  "source": "live",
+  "recorded_at": null,
+  "elapsed_s": 17.5
+ },
+ "events": [
+  {
+   "stage": "extract",
+   "status": "start",
+   "message": "Reading the draft: measuring colours, reading layout and copy…",
+   "data": {
+    "cached": true
+   },
+   "t": 0.01
+  },
+  {
+   "stage": "extract",
+   "status": "done",
+   "message": "Palette: muted / pastel, light background; background #E5F0F8",
+   "data": {
+    "cached": true,
+    "palette": [
+     "#DAE9F4",
+     "#B5CEE4",
+     "#DDAF95",
+     "#F1CCB9",
+     "#9DB6CD"
+    ],
+    "headline": "Heals dry skin in 3 days."
+   },
+   "t": 0.01
+  },
+  {
+   "stage": "recall",
+   "status": "start",
+   "message": "Recalling what this client has said about colour…",
+   "data": {
+    "aspect": "colour"
+   },
+   "t": 0.01
+  },
+  {
+   "stage": "recall",
+   "status": "done",
+   "message": "colour: 28 past feedback facts, 8 taste-profile observations",
+   "data": {
+    "aspect": "colour",
+    "facts": 28,
+    "observations": 8,
+    "checking": [
+     "[Colour] Dewpoint color palette: bone #F5F0EA, clay #C9A58A, stone #8C8279, ink #2B2826.",
+     "[Colour] Dewpoint requires a warm color palette; ice-blue (#DDEBF5) and cool grey-blue (#C9D3DB) are prohibit…",
+     "[Colour] Dewpoint prohibits the use of gradients in design assets, as they are perceived as cheap and techy;…",
+     "[Compliance] Dewpoint brand identity is warm, calm, and radically transparent."
+    ]
+   },
+   "t": 1.77
+  },
+  {
+   "stage": "recall",
+   "status": "start",
+   "message": "Recalling what this client has said about typography…",
+   "data": {
+    "aspect": "typography"
+   },
+   "t": 1.77
+  },
+  {
+   "stage": "recall",
+   "status": "done",
+   "message": "typography: 20 past feedback facts, 11 taste-profile observations",
+   "data": {
+    "aspect": "typography",
+    "facts": 20,
+    "observations": 11,
+    "checking": [
+     "[Typography] Dewpoint prohibits the use of script typography in design assets, as mandated by Lukas Brandt (H…",
+     "[Colour] Dewpoint prohibits the use of gradients in design assets, as they are perceived as cheap and techy;…",
+     "[Imagery] Dewpoint brand rule: Never retouch skin texture in imagery; pores, freckles, and fine lines must re…",
+     "[Colour] Dewpoint color palette: bone #F5F0EA, clay #C9A58A, stone #8C8279, ink #2B2826."
+    ]
+   },
+   "t": 3.08
+  },
+  {
+   "stage": "recall",
+   "status": "start",
+   "message": "Recalling what this client has said about layout & imagery…",
+   "data": {
+    "aspect": "layout_imagery"
+   },
+   "t": 3.08
+  },
+  {
+   "stage": "recall",
+   "status": "done",
+   "message": "layout & imagery: 22 past feedback facts, 12 taste-profile observations",
+   "data": {
+    "aspect": "layout_imagery",
+    "facts": 22,
+    "observations": 12,
+    "checking": [
+     "[Imagery] Dewpoint requires product shots to be at a three-quarter angle to showcase dropper and bottle depth…",
+     "[Imagery] Dewpoint brand rule: Imagery must show more of the person and use natural light to avoid a clinical…",
+     "[Copy] Dewpoint brand rule: Never promise 'flawless' skin; use 'Healthy skin' or 'her skin, supported' as app…",
+     "[Imagery] Dewpoint brand rule: Never retouch skin texture in imagery; pores, freckles, and fine lines must re…"
+    ]
+   },
+   "t": 3.86
+  },
+  {
+   "stage": "recall",
+   "status": "start",
+   "message": "Recalling what this client has said about copy & claims…",
+   "data": {
+    "aspect": "copy"
+   },
+   "t": 3.86
+  },
+  {
+   "stage": "recall",
+   "status": "done",
+   "message": "copy & claims: 19 past feedback facts, 12 taste-profile observations",
+   "data": {
+    "aspect": "copy",
+    "facts": 19,
+    "observations": 12,
+    "checking": [
+     "[Compliance] Prohibited drug claims: the word 'Heals' is forbidden; use 'Supports the skin barrier' instead.…",
+     "[Copy] Dewpoint brand rule: Never promise 'flawless' skin; use 'Healthy skin' or 'her skin, supported' as app…",
+     "[Imagery] Dewpoint brand rule: Never retouch skin texture in imagery; pores, freckles, and fine lines must re…",
+     "[Imagery] Dewpoint brand rule: Imagery must show more of the person and use natural light to avoid a clinical…"
+    ]
+   },
+   "t": 4.46
+  },
+  {
+   "stage": "evidence",
+   "status": "done",
+   "message": "25 client quotes from 3 people (2025-01-27 to 2026-09-14) and 12 observations ready for review",
+   "data": {
+    "quotes": 25,
+    "observations": 12,
+    "people": [
+     "Amara Nwosu",
+     "Lukas Brandt",
+     "Sofia Reyes"
+    ],
+    "date_span": "2025-01-27 to 2026-09-14"
+   },
+   "t": 4.46
+  },
+  {
+   "stage": "reflect",
+   "status": "start",
+   "message": "Hindsight reflect: reasoning over Dewpoint's memory with 4 directives…",
+   "data": {
+    "directives": [
+     "Evidence required",
+     "Most recent direction wins",
+     "No drug claims",
+     "No before/after imagery"
+    ]
+   },
+   "t": 4.46
+  },
+  {
+   "stage": "reflect",
+   "status": "done",
+   "message": "6 potential issue(s) proposed after consulting 12 memories",
+   "data": {
+    "proposed": [
+     "[Copy] The headline contains the prohibited drug claim 'Heals' and an unverified timeframe claim 'in 3 days'.",
+     "[Imagery] The use of before/after imagery is prohibited as it implies guaranteed results.",
+     "[Imagery] Product shots are flat front-on instead of the required three-quarter angle.",
+     "[Layout] Ingredient percentages are missing from the design assets.",
+     "[Colour] Bottle imagery features gradients, which are prohibited.",
+     "[Copy] The copy uses the prohibited term 'anti-aging'."
+    ],
+    "consulted": 12
+   },
+   "t": 12.71
+  },
+  {
+   "stage": "verify",
+   "status": "start",
+   "message": "Checking 6 issue(s) against the dated evidence…",
+   "data": {},
+   "t": 12.71
+  },
+  {
+   "stage": "verify",
+   "status": "progress",
+   "message": "Verifier read 8 of 37 evidence items",
+   "data": {
+    "evidence_sent": 8,
+    "prompt_tokens": 2006,
+    "total_tokens": 3357
+   },
+   "t": 17.52
+  },
+  {
+   "stage": "verify",
+   "status": "done",
+   "message": "6 issue(s) confirmed with client quotes, 0 discarded",
+   "data": {
+    "discarded": []
+   },
+   "t": 17.52
+  },
+  {
+   "stage": "done",
+   "status": "done",
+   "message": "Verdict: needs changes",
+   "data": {
+    "verdict": "needs_changes"
+   },
+   "t": 17.52
+  }
+ ]
+}

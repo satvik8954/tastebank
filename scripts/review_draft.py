@@ -32,7 +32,8 @@ def draft_info(image: Path) -> dict:
 def print_event(e: ReviewEvent) -> None:
     """Live progress, as the UI will stream it."""
     mark = "…" if e.status == "start" else "✓"
-    print(f"  {e.t:5.1f}s {mark} [{e.stage}] {e.message}", flush=True)
+    tokens = f" ({e.data['prompt_tokens']} prompt tokens)" if e.data.get("prompt_tokens") else ""
+    print(f"  {e.t:5.1f}s {mark} [{e.stage}] {e.message}{tokens}", flush=True)
     for line in e.data.get("checking", []):
         print(f"           checking: {line}", flush=True)
 

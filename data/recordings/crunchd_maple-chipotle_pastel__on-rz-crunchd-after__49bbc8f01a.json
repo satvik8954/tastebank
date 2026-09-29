@@ -1,0 +1,970 @@
+{
+ "reviewer_version": "1.0",
+ "recorded_at": "2026-09-29T06:05:29+00:00",
+ "review": {
+  "client_id": "crunchd",
+  "bank_id": "rz-crunchd-after",
+  "memory": true,
+  "engine": "hindsight-reflect+verified",
+  "verdict": "needs_changes",
+  "summary": "The design draft does not align with the mandatory 2026 'LOUD' visual identity. Please revise the color palette, remove grain textures, and update the typography to meet brand standards.",
+  "flags": [
+   {
+    "severity": "high",
+    "topic": "Colour",
+    "issue": "The draft uses a retired pastel orange and muted green palette instead of the required electric 'LOUD' identity colors.",
+    "suggestion": "Replace the current palette with the approved high-contrast colors: electric orange, acid lime, hot pink, and black.",
+    "evidence": [
+     "O2"
+    ],
+    "directive": null,
+    "citations": [
+     {
+      "document_id": "cr-09-r1-0",
+      "quote": "love. only note: that lilac tag in the corner is a leftover from the old system. swap it to hot pink.",
+      "author": "Jess Okafor",
+      "role": "Head of Brand",
+      "date": "2026-07-20",
+      "project_name": "Summer flavour: Mango Habanero",
+      "round": "1",
+      "kind": "feedback"
+     },
+     {
+      "document_id": "cr-rebrand-brief",
+      "quote": "Rebrand brief from Theo Lindqvist (Founder & CEO) and Jess Okafor (Head of Brand): We are rebranding. The soft pastel look got copied by every D2C snack brand and we are invisible on shelf. New direction is LOUD: electric orange #FF5A1F, acid lime #C6F432 and hot pink #FF3EA5 on black #0D0D0D. Chunky condensed type, all-caps headlines are allowed now. The energy of a mosh pit, not a candle shop. Kill the grain texture and the faded colour grading. The old pastel palette (sage, peach, lilac, oat) is retired. Jess added: \"yes, this means neon is ok now lol. i know i said never.\"",
+      "author": "Theo Lindqvist",
+      "role": "Founder & CEO",
+      "date": "2026-06-02",
+      "project_name": null,
+      "round": null,
+      "kind": "brief"
+     }
+    ],
+    "observations": [
+     "[Colour] Crunchd brand identity requires a 'LOUD' visual identity using electric orange #FF5A1F, acid lime #C6F432, hot pink #FF3EA5, and black #0D0D0D, superseding the previous soft pastel palette (sage, peach, lilac, oat) as of 2026-06-02. As of 2026-07-20, the use of lilac tags is explicitly prohibited as a legacy element, with hot pink preferred for design accents; this preference was confirmed by the approval of the 'Mango Habanero' post on 2026-07-21."
+    ]
+   },
+   {
+    "severity": "high",
+    "topic": "Imagery",
+    "issue": "The draft includes film grain and noise texture, which is prohibited under the new brand guidelines.",
+    "suggestion": "Remove all grain texture and vintage grading to achieve a crisp, punchy, and high-contrast look.",
+    "evidence": [
+     "O1"
+    ],
+    "directive": null,
+    "citations": [
+     {
+      "document_id": "cr-08-r2-0",
+      "quote": "Drop the grain and the vintage grade. Crisp, punchy, high contrast. The faded look is the old brand.",
+      "author": "Theo Lindqvist",
+      "role": "Founder & CEO",
+      "date": "2026-06-18",
+      "project_name": "Rebrand reveal post",
+      "round": "2",
+      "kind": "feedback"
+     },
+     {
+      "document_id": "cr-rebrand-brief",
+      "quote": "Rebrand brief from Theo Lindqvist (Founder & CEO) and Jess Okafor (Head of Brand): We are rebranding. The soft pastel look got copied by every D2C snack brand and we are invisible on shelf. New direction is LOUD: electric orange #FF5A1F, acid lime #C6F432 and hot pink #FF3EA5 on black #0D0D0D. Chunky condensed type, all-caps headlines are allowed now. The energy of a mosh pit, not a candle shop. Kill the grain texture and the faded colour grading. The old pastel palette (sage, peach, lilac, oat) is retired. Jess added: \"yes, this means neon is ok now lol. i know i said never.\"",
+      "author": "Theo Lindqvist",
+      "role": "Founder & CEO",
+      "date": "2026-06-02",
+      "project_name": null,
+      "round": null,
+      "kind": "brief"
+     }
+    ],
+    "observations": [
+     "[Imagery] Crunchd brand identity prohibits grain texture and faded color grading as of 2026-06-02, as part of the new 'LOUD' visual identity; as of 2026-06-18, Theo Lindqvist explicitly requires designs to be crisp, punchy, and high contrast, specifically rejecting any remaining grain or vintage photo grading in the 'Rebrand reveal post' (project cr-08)."
+    ]
+   },
+   {
+    "severity": "high",
+    "topic": "Typography",
+    "issue": "The draft uses a clean, modern lowercase sans-serif font, which contradicts the 'mosh pit' energy requirement.",
+    "suggestion": "Update the typography to chunky, condensed, all-caps headlines.",
+    "evidence": [
+     "O5"
+    ],
+    "directive": null,
+    "citations": [
+     {
+      "document_id": "cr-08-r3-0",
+      "quote": "THIS. this is crunchd now.",
+      "author": "Mina Park",
+      "role": "Social Lead",
+      "date": "2026-06-22",
+      "project_name": "Rebrand reveal post",
+      "round": "3",
+      "kind": "feedback"
+     },
+     {
+      "document_id": "cr-08-r1-0",
+      "quote": "this is still the old us. go way louder. black background, electric orange, condensed caps.",
+      "author": "Jess Okafor",
+      "role": "Head of Brand",
+      "date": "2026-06-15",
+      "project_name": "Rebrand reveal post",
+      "round": "1",
+      "kind": "feedback"
+     }
+    ],
+    "observations": [
+     "[Typography] Crunchd brand identity requires chunky condensed type and permits all-caps headlines to reflect a mosh pit energy, as of 2026-06-02; as of 2026-06-15, condensed caps typography is specifically required for the 'Rebrand reveal post' to achieve a 'louder' brand aesthetic, which was confirmed by the approval of the final design on 2026-06-22."
+    ]
+   }
+  ],
+  "discarded": [],
+  "evidence": [
+   {
+    "id": "F1",
+    "kind": "feedback",
+    "text": "Crunchd brand identity requires a 'soft' and 'muted' aesthetic, specifically requesting muted tones and lowercase typography for the 'Launch post: Smoky Maple flavour' project. | When: 2025-03-10 | Involving: Jess Okafor (Head of Brand, Crunchd) | Feedback on round 1 design draft | Jess Okafor (Head of Brand, Crunchd) rejected the round 1 design draft for the 'Launch post: Smoky Maple flavour' project, stating it feels like a '2008 supermarket flyer'. | When: 2025-03-10 | Involving: Jess Okafor (Head of Brand, Crunchd)",
+    "citation": {
+     "document_id": "cr-01-r1-0",
+     "quote": "this is giving 2008 supermarket flyer. we're soft, not loud. muted tones, lowercase.",
+     "author": "Jess Okafor",
+     "role": "Head of Brand",
+     "date": "2025-03-10",
+     "project_name": "Launch post: Smoky Maple flavour",
+     "round": "1",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F2",
+    "kind": "feedback",
+    "text": "Design constraints for 'Launch post: Smoky Maple flavour': do not use the word 'ALERT' and do not use triple exclamation marks. | When: 2025-03-10 | Involving: Mina Park (Social Lead, Crunchd) | To avoid the appearance of an advertisement. | Mina Park (Social Lead) rejected the current design draft for the 'Launch post: Smoky Maple flavour' project, specifically citing the use of 'ALERT' and triple exclamation marks as too advertisement-like. | When: 2025-03-10 | Involving: Mina Park (Social Lead, Crunchd) | The audience scrolls past content that looks like an advertisement.",
+    "citation": {
+     "document_id": "cr-01-r1-1",
+     "quote": "no \"ALERT\", no triple exclamation marks. our audience scrolls straight past anything that looks like an ad.",
+     "author": "Mina Park",
+     "role": "Social Lead",
+     "date": "2025-03-10",
+     "project_name": "Launch post: Smoky Maple flavour",
+     "round": "1",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F3",
+    "kind": "feedback",
+    "text": "The design draft for 'Launch post: Smoky Maple flavour' uses a Peach (#F2C4A8) background and a lowercase rounded sans headline. | When: 2025-03-13 | Design specifications for round 2. | Jess Okafor (Head of Brand) requested the product bag be positioned off-center for the 'Launch post: Smoky Maple flavour' project, stating that centered product shots feel like a catalog. | When: 2025-03-13 | Involving: Jess Okafor (Head of Brand, Crunchd) | Design feedback for round 2 of the Instagram post.",
+    "citation": {
+     "document_id": "cr-01-r2-0",
+     "quote": "yes!! way closer. can the bag sit off-center though? centered product shots feel like a catalog.",
+     "author": "Jess Okafor",
+     "role": "Head of Brand",
+     "date": "2025-03-13",
+     "project_name": "Launch post: Smoky Maple flavour",
+     "round": "2",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F4",
+    "kind": "feedback",
+    "text": "Design rule established: Instagram post images must contain a maximum of one line of text; all other copy must be placed in the caption. | When: 2025-03-17 | Involving: Theo Lindqvist (Founder & CEO, Crunchd) | Theo Lindqvist (Founder & CEO, Crunchd) rejected the round 3 design draft for the 'Launch post: Smoky Maple flavour' Instagram post, citing excessive text on the image. | When: 2025-03-17 | Involving: Theo Lindqvist (Founder & CEO, Crunchd)",
+    "citation": {
+     "document_id": "cr-01-r3-0",
+     "quote": "Too much text. One line max on the image, everything else goes in the caption.",
+     "author": "Theo Lindqvist",
+     "role": "Founder & CEO",
+     "date": "2025-03-17",
+     "project_name": "Launch post: Smoky Maple flavour",
+     "round": "3",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F5",
+    "kind": "feedback",
+    "text": "The approved design for the 'Launch post: Smoky Maple flavour' project features an off-center bag, a peach background, and the lowercase text 'smoky maple is here'. | When: 2025-03-19 | Involving: Mina Park (Social Lead, Crunchd) | Mina Park (Social Lead) approved the design for the 'Launch post: Smoky Maple flavour' Instagram post. | When: 2025-03-19 | Involving: Mina Park (Social Lead, Crunchd) | The design met the brand's desired vibe.",
+    "citation": {
+     "document_id": "cr-01-r4-0",
+     "quote": "perfect. this is the vibe.",
+     "author": "Mina Park",
+     "role": "Social Lead",
+     "date": "2025-03-19",
+     "project_name": "Launch post: Smoky Maple flavour",
+     "round": "4",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F6",
+    "kind": "feedback",
+    "text": "Mina Park (Social Lead) rejected the use of handwritten script for the 'TikTok cover frames: snack audit series' project because it is unreadable at thumbnail size. | When: 2025-05-05 | Involving: Mina Park (Social Lead, Crunchd) | Design feedback for project cr-02 | Mina Park (Social Lead) mandated the use of rounded sans-serif typography for the 'TikTok cover frames: snack audit series' project. | When: 2025-05-05 | Involving: Mina Park (Social Lead, Crunchd) | Design requirement for project cr-02",
+    "citation": {
+     "document_id": "cr-02-r1-0",
+     "quote": "handwritten script is unreadable at thumbnail size. rounded sans only.",
+     "author": "Mina Park",
+     "role": "Social Lead",
+     "date": "2025-05-05",
+     "project_name": "TikTok cover frames: snack audit series",
+     "round": "1",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F7",
+    "kind": "feedback",
+    "text": "Jess Okafor (Head of Brand, Crunchd) approved the use of film grain texture for all designs in the 'TikTok cover frames: snack audit series' project. | When: 2025-05-08 | Involving: Jess Okafor (Head of Brand, Crunchd) | Client feedback on round 2 design draft.",
+    "citation": {
+     "document_id": "cr-02-r2-0",
+     "quote": "the grain texture is so nice. keep it on everything.",
+     "author": "Jess Okafor",
+     "role": "Head of Brand",
+     "date": "2025-05-08",
+     "project_name": "TikTok cover frames: snack audit series",
+     "round": "2",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F8",
+    "kind": "feedback",
+    "text": "Jess Okafor (Head of Brand, Crunchd) approved the final design draft with grain for the 'TikTok cover frames: snack audit series' project. | When: 2025-05-09 | Involving: Jess Okafor (Head of Brand, Crunchd) | Final approval for round 3 of 3.",
+    "citation": {
+     "document_id": "cr-02-r3-0",
+     "quote": "approved!",
+     "author": "Jess Okafor",
+     "role": "Head of Brand",
+     "date": "2025-05-09",
+     "project_name": "TikTok cover frames: snack audit series",
+     "round": "3",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F9",
+    "kind": "feedback",
+    "text": "Theo Lindqvist requires the addition of flavour names to the Brooklyn bus shelter poster design. | When: 2025-07-07 | Involving: Theo Lindqvist (Founder & CEO, Crunchd) | To ensure the public understands what the product is. | Theo Lindqvist (Founder & CEO, Crunchd) rejected the round 1 design draft for the Brooklyn bus shelter poster, which featured a lilac background and only the logo with the word 'crunch.' in lowercase. | When: 2025-07-07 | Involving: Theo Lindqvist (Founder & CEO, Crunchd) | The design was too minimal and failed to communicate the product being sold.",
+    "citation": {
+     "document_id": "cr-03-r1-0",
+     "quote": "I love minimal but nobody will know what we sell. Put the flavour names on it.",
+     "author": "Theo Lindqvist",
+     "role": "Founder & CEO",
+     "date": "2025-07-07",
+     "project_name": "Brooklyn bus shelter poster",
+     "round": "1",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F10",
+    "kind": "feedback",
+    "text": "Jess Okafor (Head of Brand, Crunchd) rejected the round 2 design draft for the 'Brooklyn bus shelter poster' project, stating it is cluttered and requires less text. | When: 2025-07-10 | Involving: Jess Okafor (Head of Brand, Crunchd) | The current design includes all five flavour names and three bags, which the client considers cluttered.",
+    "citation": {
+     "document_id": "cr-03-r2-0",
+     "quote": "now it's cluttered. less text!!",
+     "author": "Jess Okafor",
+     "role": "Head of Brand",
+     "date": "2025-07-10",
+     "project_name": "Brooklyn bus shelter poster",
+     "round": "2",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F11",
+    "kind": "feedback",
+    "text": "Mina Park (Social Lead) specified a new design requirement for the 'Brooklyn bus shelter poster' project: display only one flavour and one bag, with the flavour name in a large font size. | When: 2025-07-10 | Involving: Mina Park (Social Lead, Crunchd) | Design revision for project cr-03 | Mina Park (Social Lead) rejected the round 2 design for the 'Brooklyn bus shelter poster' project, which featured five flavour names and three bags. | When: 2025-07-10 | Involving: Mina Park (Social Lead, Crunchd)",
+    "citation": {
+     "document_id": "cr-03-r2-1",
+     "quote": "compromise? one flavour, one bag, flavour name big.",
+     "author": "Mina Park",
+     "role": "Social Lead",
+     "date": "2025-07-10",
+     "project_name": "Brooklyn bus shelter poster",
+     "round": "2",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F12",
+    "kind": "feedback",
+    "text": "Theo Lindqvist (Founder & CEO) established a new design rule for Crunchd posters: each poster must feature only one hero flavour with the flavour name displayed clearly and prominently. | When: 2025-07-14 | Involving: Theo Lindqvist (Founder & CEO, Crunchd) | Standardizing poster design strategy for the Brooklyn bus shelter poster project.",
+    "citation": {
+     "document_id": "cr-03-r3-0",
+     "quote": "OK that works. One hero flavour per piece, name it clearly. That's how we do posters from now on.",
+     "author": "Theo Lindqvist",
+     "role": "Founder & CEO",
+     "date": "2025-07-14",
+     "project_name": "Brooklyn bus shelter poster",
+     "round": "3",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F13",
+    "kind": "feedback",
+    "text": "Jess Okafor (Head of Brand, Crunchd) rejected the lilac background for the Brooklyn bus shelter poster, stating it washes out outdoors at a distance. | When: 2025-07-14 | Involving: Jess Okafor (Head of Brand, Crunchd) | Design feedback for project cr-03 (Brooklyn bus shelter poster) round 3.",
+    "citation": {
+     "document_id": "cr-03-r3-1",
+     "quote": "lilac washes out outdoors at a distance. for out-of-home go peach, it holds up better.",
+     "author": "Jess Okafor",
+     "role": "Head of Brand",
+     "date": "2025-07-14",
+     "project_name": "Brooklyn bus shelter poster",
+     "round": "3",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F14",
+    "kind": "feedback",
+    "text": "Theo Lindqvist (Founder & CEO, Crunchd) approved the peach background version of the Brooklyn bus shelter poster design. | When: 2025-07-17 | Involving: Theo Lindqvist (Founder & CEO, Crunchd) | Final approval for round 4 of 4.",
+    "citation": {
+     "document_id": "cr-03-r4-0",
+     "quote": "Approved. Ship it.",
+     "author": "Theo Lindqvist",
+     "role": "Founder & CEO",
+     "date": "2025-07-17",
+     "project_name": "Brooklyn bus shelter poster",
+     "round": "4",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F15",
+    "kind": "feedback",
+    "text": "Jess Okafor (Head of Brand) requires an oat or pastel base for the 'Carousel: ingredients we don't use' project. | When: 2025-09-08 | Involving: Jess Okafor (Head of Brand, Crunchd) | Jess Okafor (Head of Brand) rejected the dark charcoal (#2A2A2A) background and white text design for the 'Carousel: ingredients we don't use' project, stating it is too dark and serious. | When: 2025-09-08 | Involving: Jess Okafor (Head of Brand, Crunchd) | Brand guidelines prohibit dark backgrounds.",
+    "citation": {
+     "document_id": "cr-04-r1-0",
+     "quote": "too dark and serious. we never do dark backgrounds. oat or pastel base.",
+     "author": "Jess Okafor",
+     "role": "Head of Brand",
+     "date": "2025-09-08",
+     "project_name": "Carousel: ingredients we don't use",
+     "round": "1",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F16",
+    "kind": "feedback",
+    "text": "Mina Park (Social Lead) specified a maximum of one emoji per slide for the 'Carousel: ingredients we don't use' project to avoid visual clutter. | When: 2025-09-11 | Involving: Mina Park (Social Lead, Crunchd) | The previous draft contained four to five emojis per slide, which was deemed too messy.",
+    "citation": {
+     "document_id": "cr-04-r2-0",
+     "quote": "emoji are fine but one per slide max, it gets messy fast.",
+     "author": "Mina Park",
+     "role": "Social Lead",
+     "date": "2025-09-11",
+     "project_name": "Carousel: ingredients we don't use",
+     "round": "2",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F17",
+    "kind": "feedback",
+    "text": "Mina Park (Social Lead) approved the design draft for the 'Carousel: ingredients we don't use' project, which features one emoji per slide. | When: 2025-09-12 | Involving: Mina Park (Social Lead, Crunchd) | Final approval for round 3 of 3.",
+    "citation": {
+     "document_id": "cr-04-r3-0",
+     "quote": "love it.",
+     "author": "Mina Park",
+     "role": "Social Lead",
+     "date": "2025-09-12",
+     "project_name": "Carousel: ingredients we don't use",
+     "round": "3",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F18",
+    "kind": "feedback",
+    "text": "Jess Okafor (Head of Brand, Crunchd) explicitly prohibited the use of neon colors in the 'Holiday gift box post' design, stating it cheapens the brand. | When: 2025-11-10 | Involving: Jess Okafor (Head of Brand, Crunchd) | Feedback on round 1 design draft for project cr-05.",
+    "citation": {
+     "document_id": "cr-05-r1-0",
+     "quote": "no neon. ever. it cheapens us.",
+     "author": "Jess Okafor",
+     "role": "Head of Brand",
+     "date": "2025-11-10",
+     "project_name": "Holiday gift box post",
+     "round": "1",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F19",
+    "kind": "feedback",
+    "text": "Theo Lindqvist requires imagery for the 'Holiday gift box post' to feature real hands, chipped nail polish, and a messy desk to achieve an imperfect aesthetic. | When: 2025-11-13 | Involving: Theo Lindqvist (Founder & CEO, Crunchd) | Client prefers an imperfect, authentic look over a styled studio aesthetic. | Theo Lindqvist (Founder & CEO, Crunchd) rejected the round 2 design draft for the 'Holiday gift box post' project, stating the studio flat-lay photo is too styled and perfect. | When: 2025-11-13 | Involving: Theo Lindqvist (Founder & CEO, Crunchd)",
+    "citation": {
+     "document_id": "cr-05-r2-0",
+     "quote": "Photo feels too styled and perfect. We want real hands, chipped nail polish, a messy desk. Imperfect beats perfect.",
+     "author": "Theo Lindqvist",
+     "role": "Founder & CEO",
+     "date": "2025-11-13",
+     "project_name": "Holiday gift box post",
+     "round": "2",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F20",
+    "kind": "feedback",
+    "text": "The approved design for the 'Holiday gift box post' features real hands opening the box on a messy desk with a warm faded grade. | When: 2025-11-17 | Theo Lindqvist approved the design draft for the 'Holiday gift box post' (project cr-05) during round 3. | When: 2025-11-17 | Involving: Theo Lindqvist (Founder & CEO, Crunchd)",
+    "citation": {
+     "document_id": "cr-05-r3-0",
+     "quote": "That's us. Approved.",
+     "author": "Theo Lindqvist",
+     "role": "Founder & CEO",
+     "date": "2025-11-17",
+     "project_name": "Holiday gift box post",
+     "round": "3",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F21",
+    "kind": "feedback",
+    "text": "Jess Okafor (Head of Brand) rejected the round 1 design draft for the 'Creator collab announcement' project because the creator photo's full saturation clashes with the brand's aesthetic. | When: 2026-02-09 | Involving: Jess Okafor (Head of Brand, Crunchd) | The brand requires all imagery to be colour-graded warm and faded to match the pastel colour palette.",
+    "citation": {
+     "document_id": "cr-06-r1-0",
+     "quote": "the creator photo is fully saturated and it clashes. we colour-grade everything warm and faded to match the pastels.",
+     "author": "Jess Okafor",
+     "role": "Head of Brand",
+     "date": "2026-02-09",
+     "project_name": "Creator collab announcement",
+     "round": "1",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F22",
+    "kind": "feedback",
+    "text": "Jess Okafor (Head of Brand) approved the round 2 design draft for the 'Creator collab announcement' Instagram post, specifically noting the warm and faded photo grading as 'perfect'. | When: 2026-02-11 | Involving: Jess Okafor (Head of Brand, Crunchd) | Final approval for project cr-06",
+    "citation": {
+     "document_id": "cr-06-r2-0",
+     "quote": "perfect.",
+     "author": "Jess Okafor",
+     "role": "Head of Brand",
+     "date": "2026-02-11",
+     "project_name": "Creator collab announcement",
+     "round": "2",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F23",
+    "kind": "feedback",
+    "text": "Jess Okafor (Head of Brand) rejected the current background color (#FFE500) for the 'Spring flavour drop: Yuzu Chili' Instagram post, requesting a muted butter yellow instead. | When: 2026-04-13 | Involving: Jess Okafor (Head of Brand, Crunchd) | The current yellow is too bright and does not align with the brand's muted aesthetic.",
+    "citation": {
+     "document_id": "cr-07-r1-0",
+     "quote": "the yellow is too bright. knock it back to a butter yellow, we stay muted.",
+     "author": "Jess Okafor",
+     "role": "Head of Brand",
+     "date": "2026-04-13",
+     "project_name": "Spring flavour drop: Yuzu Chili",
+     "round": "1",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F24",
+    "kind": "feedback",
+    "text": "The current design draft for the 'Spring flavour drop: Yuzu Chili' project uses butter yellow (#F5E6A8) and a big bold headline at 120px. | When: 2026-04-15 | Context for the design feedback provided. | Mina Park (Social Lead) requested that the headline for the 'Spring flavour drop: Yuzu Chili' project be changed to lowercase and medium weight, noting the current design is too 'shouty'. | When: 2026-04-15 | Involving: Mina Park (Social Lead, Crunchd) | Design feedback for round 2 of the Instagram post draft.",
+    "citation": {
+     "document_id": "cr-07-r2-0",
+     "quote": "type is getting shouty. keep the headline lowercase and medium weight.",
+     "author": "Mina Park",
+     "role": "Social Lead",
+     "date": "2026-04-15",
+     "project_name": "Spring flavour drop: Yuzu Chili",
+     "round": "2",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F25",
+    "kind": "feedback",
+    "text": "Theo Lindqvist expressed concern that the brand's current design direction is blending in too much. | When: 2026-04-17 | Involving: Theo Lindqvist (Founder & CEO, Crunchd) | Theo Lindqvist approved the round 3 design draft for the 'Spring flavour drop: Yuzu Chili' Instagram post. | When: 2026-04-17 | Involving: Theo Lindqvist (Founder & CEO, Crunchd)",
+    "citation": {
+     "document_id": "cr-07-r3-0",
+     "quote": "Approved. Though honestly, I've been feeling like we blend in lately. Something to talk about.",
+     "author": "Theo Lindqvist",
+     "role": "Founder & CEO",
+     "date": "2026-04-17",
+     "project_name": "Spring flavour drop: Yuzu Chili",
+     "round": "3",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F26",
+    "kind": "feedback",
+    "text": "New brand color palette: electric orange #FF5A1F, acid lime #C6F432, hot pink #FF3EA5, and black #0D0D0D. | When: 2026-06-02 | Involving: Theo Lindqvist (Founder & CEO), Jess Okafor (Head of Brand) | Prohibited design elements: grain texture, faded color grading, and the retired pastel palette (sage, peach, lilac, oat). | When: 2026-06-02 | Involving: Theo Lindqvist (Founder & CEO), Jess Okafor (Head of Brand) | Crunchd is rebranding to a 'LOUD' visual identity to differentiate from competitors. | When: 2026-06-02 | Involving: Theo Lindqvist (Founder & CEO), Jess Okafor (Head of Brand) | The previous soft pastel look was copied by other D2C snack brands, making the product invisible on shelf. | Jess Okafor reversed her previous stance on neon colors, confirming they are now permitted. | When: 2026-06-02 | Involving: Jess Okafor (Head of Brand) | Typography and style requirements: use chunky condensed type, all-caps headlines are permitted, and the aesthetic should reflect the energy of a mosh pit. | When: 2026-06-02 | Involving: Theo Lindqvist (Founder & CEO), Jess Okafor (Head of Brand)",
+    "citation": {
+     "document_id": "cr-rebrand-brief",
+     "quote": "Rebrand brief from Theo Lindqvist (Founder & CEO) and Jess Okafor (Head of Brand): We are rebranding. The soft pastel look got copied by every D2C snack brand and we are invisible on shelf. New direction is LOUD: electric orange #FF5A1F, acid lime #C6F432 and hot pink #FF3EA5 on black #0D0D0D. Chunky condensed type, all-caps headlines are allowed now. The energy of a mosh pit, not a candle shop. Kill the grain texture and the faded colour grading. The old pastel palette (sage, peach, lilac, oat) is retired. Jess added: \"yes, this means neon is ok now lol. i know i said never.\"",
+     "author": "Theo Lindqvist",
+     "role": "Founder & CEO",
+     "date": "2026-06-02",
+     "project_name": null,
+     "round": null,
+     "kind": "brief"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F27",
+    "kind": "feedback",
+    "text": "Jess Okafor specified new design requirements for the 'Rebrand reveal post': black background, electric orange accents, and condensed caps typography. | When: 2026-06-15 | Involving: Jess Okafor (Head of Brand, Crunchd) | To achieve a 'louder' brand aesthetic. | Jess Okafor (Head of Brand) rejected the round 1 design draft for the 'Rebrand reveal post' project, stating it does not align with the new brand identity. | When: 2026-06-15 | Involving: Jess Okafor (Head of Brand, Crunchd) | The draft was too similar to the old brand identity.",
+    "citation": {
+     "document_id": "cr-08-r1-0",
+     "quote": "this is still the old us. go way louder. black background, electric orange, condensed caps.",
+     "author": "Jess Okafor",
+     "role": "Head of Brand",
+     "date": "2026-06-15",
+     "project_name": "Rebrand reveal post",
+     "round": "1",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F28",
+    "kind": "feedback",
+    "text": "Theo Lindqvist requires the 'Rebrand reveal post' design to be crisp, punchy, and high contrast, specifically requesting the removal of grain and vintage photo grading. | When: 2026-06-18 | Involving: Theo Lindqvist (Founder & CEO, Crunchd) | To move away from the aesthetic of the old brand. | Theo Lindqvist (Founder & CEO) rejected the current design draft for the 'Rebrand reveal post' (project cr-08) because it retains grain texture and a faded photo grade, which he associates with the old brand. | When: 2026-06-18 | Involving: Theo Lindqvist (Founder & CEO, Crunchd)",
+    "citation": {
+     "document_id": "cr-08-r2-0",
+     "quote": "Drop the grain and the vintage grade. Crisp, punchy, high contrast. The faded look is the old brand.",
+     "author": "Theo Lindqvist",
+     "role": "Founder & CEO",
+     "date": "2026-06-18",
+     "project_name": "Rebrand reveal post",
+     "round": "2",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F29",
+    "kind": "feedback",
+    "text": "Mina Park (Social Lead) approved the design draft for the 'Rebrand reveal post' (project cr-08) which features a high-contrast black, orange, and lime color palette with an all-caps condensed headline. | When: 2026-06-22 | Involving: Mina Park (Social Lead, Crunchd)",
+    "citation": {
+     "document_id": "cr-08-r3-0",
+     "quote": "THIS. this is crunchd now.",
+     "author": "Mina Park",
+     "role": "Social Lead",
+     "date": "2026-06-22",
+     "project_name": "Rebrand reveal post",
+     "round": "3",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F30",
+    "kind": "feedback",
+    "text": "The 'Summer flavour: Mango Habanero' design draft uses a color palette of hot pink and orange on a black background with one bag positioned off-center. | When: 2026-07-20 | Design context for the project. | Jess Okafor (Head of Brand) requested changing the lilac tag in the corner of the 'Summer flavour: Mango Habanero' design to hot pink, noting the lilac color is a leftover from the old system. | When: 2026-07-20 | Involving: Jess Okafor (Head of Brand, Crunchd) | The lilac tag is a legacy element from the old system.",
+    "citation": {
+     "document_id": "cr-09-r1-0",
+     "quote": "love. only note: that lilac tag in the corner is a leftover from the old system. swap it to hot pink.",
+     "author": "Jess Okafor",
+     "role": "Head of Brand",
+     "date": "2026-07-20",
+     "project_name": "Summer flavour: Mango Habanero",
+     "round": "1",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F31",
+    "kind": "feedback",
+    "text": "Jess Okafor (Head of Brand) approved the round 2 design draft for the Crunchd 'Summer flavour: Mango Habanero' Instagram post, which features a hot pink tag. | When: 2026-07-21 | Involving: Jess Okafor (Head of Brand, Crunchd) | Final approval for project cr-09",
+    "citation": {
+     "document_id": "cr-09-r2-0",
+     "quote": "approved.",
+     "author": "Jess Okafor",
+     "role": "Head of Brand",
+     "date": "2026-07-21",
+     "project_name": "Summer flavour: Mango Habanero",
+     "round": "2",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "F32",
+    "kind": "feedback",
+    "text": "Design requirements for the 'Back-to-school campus poster' are: acid lime background, one bag image, and the flavour name in huge black condensed caps. | When: 2026-09-01 | Involving: Mina Park (Social Lead, Crunchd) | Design specifications approved by client. | Mina Park (Social Lead) approved the first round of the 'Back-to-school campus poster' design. | When: 2026-09-01 | Involving: Mina Park (Social Lead, Crunchd)",
+    "citation": {
+     "document_id": "cr-10-r1-0",
+     "quote": "first-round approval. loud, one flavour, name huge. no notes.",
+     "author": "Mina Park",
+     "role": "Social Lead",
+     "date": "2026-09-01",
+     "project_name": "Back-to-school campus poster",
+     "round": "1",
+     "kind": "feedback"
+    },
+    "source_ids": []
+   },
+   {
+    "id": "O1",
+    "kind": "observation",
+    "text": "[Imagery] Crunchd brand identity prohibits grain texture and faded color grading as of 2026-06-02, as part of the new 'LOUD' visual identity; as of 2026-06-18, Theo Lindqvist explicitly requires designs to be crisp, punchy, and high contrast, specifically rejecting any remaining grain or vintage photo grading in the 'Rebrand reveal post' (project cr-08).",
+    "citation": null,
+    "source_ids": [
+     "F28",
+     "F26"
+    ]
+   },
+   {
+    "id": "O2",
+    "kind": "observation",
+    "text": "[Colour] Crunchd brand identity requires a 'LOUD' visual identity using electric orange #FF5A1F, acid lime #C6F432, hot pink #FF3EA5, and black #0D0D0D, superseding the previous soft pastel palette (sage, peach, lilac, oat) as of 2026-06-02. As of 2026-07-20, the use of lilac tags is explicitly prohibited as a legacy element, with hot pink preferred for design accents; this preference was confirmed by the approval of the 'Mango Habanero' post on 2026-07-21.",
+    "citation": null,
+    "source_ids": [
+     "F30",
+     "F31",
+     "F26"
+    ]
+   },
+   {
+    "id": "O3",
+    "kind": "observation",
+    "text": "[Compliance] Crunchd brand identity requires that designs avoid blending in with other content; as of 2026-06-02, the brand has adopted a 'LOUD' visual identity to ensure visibility on shelf, replacing the previous soft pastel look which was deemed too generic.",
+    "citation": null,
+    "source_ids": [
+     "F25",
+     "F26"
+    ]
+   },
+   {
+    "id": "O4",
+    "kind": "observation",
+    "text": "[Imagery] Crunchd brand identity allows the use of one emoji per slide in carousel-style design assets, as approved for the 'Carousel: ingredients we don't use' project on 2025-09-12.",
+    "citation": null,
+    "source_ids": [
+     "F17"
+    ]
+   },
+   {
+    "id": "O5",
+    "kind": "observation",
+    "text": "[Typography] Crunchd brand identity requires chunky condensed type and permits all-caps headlines to reflect a mosh pit energy, as of 2026-06-02; as of 2026-06-15, condensed caps typography is specifically required for the 'Rebrand reveal post' to achieve a 'louder' brand aesthetic, which was confirmed by the approval of the final design on 2026-06-22.",
+    "citation": null,
+    "source_ids": [
+     "F27",
+     "F29",
+     "F26"
+    ]
+   },
+   {
+    "id": "O6",
+    "kind": "observation",
+    "text": "[Typography] Handwritten script is prohibited for use in design assets because it is unreadable at thumbnail size.",
+    "citation": null,
+    "source_ids": [
+     "F6"
+    ]
+   },
+   {
+    "id": "O7",
+    "kind": "observation",
+    "text": "[Layout] Instagram post images must contain a maximum of one line of text; all other copy must be placed in the caption.",
+    "citation": null,
+    "source_ids": [
+     "F4"
+    ]
+   },
+   {
+    "id": "O8",
+    "kind": "observation",
+    "text": "[Layout] Crunchd brand identity requires that designs clearly communicate the product being sold, avoiding excessive minimalism that obscures the product identity; additionally, designs must avoid clutter and limit the amount of text used. As of 2025-07-14, this includes a specific requirement for the 'Brooklyn bus shelter poster' project that each poster must feature only one hero flavour with the flavour name displayed clearly and prominently, replacing the previous requirement of one flavour and one bag. This supersedes the earlier rejection of designs with multiple flavour names and multiple bags.",
+    "citation": null,
+    "source_ids": [
+     "F9",
+     "F10",
+     "F11",
+     "F12"
+    ]
+   },
+   {
+    "id": "O9",
+    "kind": "observation",
+    "text": "[Layout] Crunchd brand identity requires product shots to be positioned off-center to avoid a catalog-like appearance.",
+    "citation": null,
+    "source_ids": [
+     "F3"
+    ]
+   },
+   {
+    "id": "O10",
+    "kind": "observation",
+    "text": "[Layout] Crunchd brand identity for the 'Back-to-school campus poster' requires an acid lime background, one bag image, and the flavour name in huge black condensed caps.",
+    "citation": null,
+    "source_ids": [
+     "F32"
+    ]
+   },
+   {
+    "id": "O11",
+    "kind": "observation",
+    "text": "[Layout] Crunchd brand identity requires a maximum of one emoji per slide for the 'Carousel: ingredients we don't use' project to prevent visual clutter, replacing the previous draft's use of four to five emojis.",
+    "citation": null,
+    "source_ids": [
+     "F16"
+    ]
+   },
+   {
+    "id": "O12",
+    "kind": "observation",
+    "text": "[Copy] Crunchd brand identity prohibits the use of the word 'ALERT' and triple exclamation marks to avoid an advertisement-like appearance.",
+    "citation": null,
+    "source_ids": [
+     "F2"
+    ]
+   }
+  ],
+  "memories_consulted": 43,
+  "timings": {
+   "extract": 0.01,
+   "recall": 3.53,
+   "reflect": 10.0,
+   "verify": 2.65
+  },
+  "source": "live",
+  "recorded_at": null,
+  "elapsed_s": 16.2
+ },
+ "events": [
+  {
+   "stage": "extract",
+   "status": "start",
+   "message": "Reading the draft: measuring colours, reading layout and copy…",
+   "data": {
+    "cached": true
+   },
+   "t": 0.01
+  },
+  {
+   "stage": "extract",
+   "status": "done",
+   "message": "Palette: muted / pastel, light background; background #E5B699; grain texture detected",
+   "data": {
+    "cached": true,
+    "palette": [
+     "#ECC3AA",
+     "#A0AC97",
+     "#E7DED1"
+    ],
+    "headline": "maple chipotle is here"
+   },
+   "t": 0.01
+  },
+  {
+   "stage": "recall",
+   "status": "start",
+   "message": "Recalling what this client has said about colour…",
+   "data": {
+    "aspect": "colour"
+   },
+   "t": 0.01
+  },
+  {
+   "stage": "recall",
+   "status": "done",
+   "message": "colour: 27 past feedback facts, 4 taste-profile observations",
+   "data": {
+    "aspect": "colour",
+    "facts": 27,
+    "observations": 4,
+    "checking": [
+     "[Imagery] Crunchd brand identity prohibits grain texture and faded color grading as of 2026-06-02, as part of…",
+     "[Colour] Crunchd brand identity requires a 'LOUD' visual identity using electric orange #FF5A1F, acid lime #C…",
+     "[Compliance] Crunchd brand identity requires that designs avoid blending in with other content; as of 2026-06…",
+     "[Imagery] Crunchd brand identity allows the use of one emoji per slide in carousel-style design assets, as ap…"
+    ]
+   },
+   "t": 0.96
+  },
+  {
+   "stage": "recall",
+   "status": "start",
+   "message": "Recalling what this client has said about typography…",
+   "data": {
+    "aspect": "typography"
+   },
+   "t": 0.96
+  },
+  {
+   "stage": "recall",
+   "status": "done",
+   "message": "typography: 24 past feedback facts, 7 taste-profile observations",
+   "data": {
+    "aspect": "typography",
+    "facts": 24,
+    "observations": 7,
+    "checking": [
+     "[Typography] Crunchd brand identity requires chunky condensed type and permits all-caps headlines to reflect…",
+     "[Typography] Handwritten script is prohibited for use in design assets because it is unreadable at thumbnail…",
+     "[Layout] Instagram post images must contain a maximum of one line of text; all other copy must be placed in t…",
+     "[Layout] Crunchd brand identity requires that designs clearly communicate the product being sold, avoiding ex…"
+    ]
+   },
+   "t": 1.51
+  },
+  {
+   "stage": "recall",
+   "status": "start",
+   "message": "Recalling what this client has said about layout & imagery…",
+   "data": {
+    "aspect": "layout_imagery"
+   },
+   "t": 1.51
+  },
+  {
+   "stage": "recall",
+   "status": "done",
+   "message": "layout & imagery: 26 past feedback facts, 9 taste-profile observations",
+   "data": {
+    "aspect": "layout_imagery",
+    "facts": 26,
+    "observations": 9,
+    "checking": [
+     "[Layout] Crunchd brand identity for the 'Back-to-school campus poster' requires an acid lime background, one…",
+     "[Imagery] Crunchd brand identity prohibits grain texture and faded color grading as of 2026-06-02, as part of…",
+     "[Imagery] Crunchd brand identity allows the use of one emoji per slide in carousel-style design assets, as ap…",
+     "[Layout] Crunchd brand identity requires product shots to be positioned off-center to avoid a catalog-like ap…"
+    ]
+   },
+   "t": 2.97
+  },
+  {
+   "stage": "recall",
+   "status": "start",
+   "message": "Recalling what this client has said about copy & claims…",
+   "data": {
+    "aspect": "copy"
+   },
+   "t": 2.97
+  },
+  {
+   "stage": "recall",
+   "status": "done",
+   "message": "copy & claims: 21 past feedback facts, 11 taste-profile observations",
+   "data": {
+    "aspect": "copy",
+    "facts": 21,
+    "observations": 11,
+    "checking": [
+     "[Copy] Crunchd brand identity prohibits the use of the word 'ALERT' and triple exclamation marks to avoid an…",
+     "[Typography] Crunchd brand identity requires chunky condensed type and permits all-caps headlines to reflect…",
+     "[Layout] Instagram post images must contain a maximum of one line of text; all other copy must be placed in t…",
+     "[Layout] Crunchd brand identity requires a maximum of one emoji per slide for the 'Carousel: ingredients we d…"
+    ]
+   },
+   "t": 3.54
+  },
+  {
+   "stage": "evidence",
+   "status": "done",
+   "message": "32 client quotes from 3 people (2025-03-10 to 2026-09-01) and 12 observations ready for review",
+   "data": {
+    "quotes": 32,
+    "observations": 12,
+    "people": [
+     "Jess Okafor",
+     "Mina Park",
+     "Theo Lindqvist"
+    ],
+    "date_span": "2025-03-10 to 2026-09-01"
+   },
+   "t": 3.54
+  },
+  {
+   "stage": "reflect",
+   "status": "start",
+   "message": "Hindsight reflect: reasoning over Crunchd's memory with 3 directives…",
+   "data": {
+    "directives": [
+     "Evidence required",
+     "Most recent direction wins",
+     "No health claims"
+    ]
+   },
+   "t": 3.54
+  },
+  {
+   "stage": "reflect",
+   "status": "done",
+   "message": "3 potential issue(s) proposed after consulting 43 memories",
+   "data": {
+    "proposed": [
+     "[Colour] The draft uses a retired pastel orange and muted green palette instead of the required electric 'LOUD' identity colors.",
+     "[Imagery] The draft includes film grain and noise texture, which is prohibited under the new brand guidelines.",
+     "[Typography] The draft uses a clean, modern lowercase sans-serif font, which contradicts the 'mosh pit' energy requirement."
+    ],
+    "consulted": 43
+   },
+   "t": 13.54
+  },
+  {
+   "stage": "verify",
+   "status": "start",
+   "message": "Checking 3 issue(s) against the dated evidence…",
+   "data": {},
+   "t": 13.54
+  },
+  {
+   "stage": "verify",
+   "status": "progress",
+   "message": "Verifier read 6 of 44 evidence items",
+   "data": {
+    "evidence_sent": 6,
+    "prompt_tokens": 1940,
+    "total_tokens": 2700
+   },
+   "t": 16.19
+  },
+  {
+   "stage": "verify",
+   "status": "done",
+   "message": "3 issue(s) confirmed with client quotes, 0 discarded",
+   "data": {
+    "discarded": []
+   },
+   "t": 16.19
+  },
+  {
+   "stage": "done",
+   "status": "done",
+   "message": "Verdict: needs changes",
+   "data": {
+    "verdict": "needs_changes"
+   },
+   "t": 16.19
+  }
+ ]
+}

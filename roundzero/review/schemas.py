@@ -128,10 +128,16 @@ class FlagCheck(BaseModel):
     reason: str = ""
     failed: str | None = None  # which criterion failed: "a" | "b" | "c" | "d"
 
-    @field_validator("severity", "failed", mode="before")
+    @field_validator("severity", mode="before")
     @classmethod
-    def _lower(cls, v):
-        return _lower(v) or None if isinstance(v, str) else v
+    def _severity(cls, v):
+        # The verifier often sends null severity on discarded flags; irrelevant there.
+        return _lower(v) or "low" if isinstance(v, str) or v is None else v
+
+    @field_validator("failed", mode="before")
+    @classmethod
+    def _failed(cls, v):
+        return (_lower(v) or None) if isinstance(v, str) else v
 
     @field_validator("evidence", mode="before")
     @classmethod
@@ -165,6 +171,8 @@ class Review(BaseModel):
     evidence: list[Evidence] = Field(default_factory=list)
     memories_consulted: int = 0
     timings: dict[str, float] = Field(default_factory=dict)  # seconds per stage
+    source: str = "live"  # "live" or "replay" (stage fallback, see review/replay.py)
+    recorded_at: str | None = None
     elapsed_s: float = 0.0
 
     @property

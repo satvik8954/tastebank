@@ -1,0 +1,116 @@
+{
+ "reviewer_version": "1.0",
+ "recorded_at": "2026-09-29T06:04:23+00:00",
+ "review": {
+  "client_id": "crunchd",
+  "bank_id": null,
+  "memory": false,
+  "engine": "groq-no-memory",
+  "verdict": "needs_changes",
+  "summary": "Adjust the visual tone and copy to better match Crunchd’s bold, spicy brand personality and ensure the layout feels purposeful.",
+  "flags": [
+   {
+    "severity": "medium",
+    "topic": "Colour",
+    "issue": "The pastel orange/green palette feels too muted for a spicy, bold snack and may not attract the target Gen‑Z audience.",
+    "suggestion": "Introduce a vibrant accent color such as a hot red or bright orange in the headline or small graphic elements to convey heat.",
+    "evidence": [],
+    "directive": null,
+    "citations": [],
+    "observations": []
+   },
+   {
+    "severity": "low",
+    "topic": "Typography",
+    "issue": "All‑lowercase headline reduces visual impact and may conflict with the brand’s energetic voice.",
+    "suggestion": "Use title case or a mixed‑case headline with a bolder weight for the key words (e.g., \"Maple Chipotle is Here\").",
+    "evidence": [],
+    "directive": null,
+    "citations": [],
+    "observations": []
+   },
+   {
+    "severity": "medium",
+    "topic": "Copy",
+    "issue": "The headline \"maple chipotle is here\" is bland and lacks a clear call‑to‑action, which could limit engagement.",
+    "suggestion": "Add excitement and a CTA, e.g., \"maple chipotle is here 🔥 try it now!\" or \"new flavor drop – grab yours!\"",
+    "evidence": [],
+    "directive": null,
+    "citations": [],
+    "observations": []
+   },
+   {
+    "severity": "low",
+    "topic": "Layout",
+    "issue": "The decorative star adds visual noise without functional purpose.",
+    "suggestion": "Remove the star or replace it with a brand‑relevant icon (e.g., a flame) that reinforces the spicy theme.",
+    "evidence": [],
+    "directive": null,
+    "citations": [],
+    "observations": []
+   },
+   {
+    "severity": "low",
+    "topic": "Compliance",
+    "issue": "Instagram posts for food products typically need a brief allergen disclaimer or a link to full nutrition info.",
+    "suggestion": "Add a small note like \"*contains soy\" or a swipe‑up link to the product page for full details.",
+    "evidence": [],
+    "directive": null,
+    "citations": [],
+    "observations": []
+   }
+  ],
+  "discarded": [],
+  "evidence": [],
+  "memories_consulted": 0,
+  "timings": {
+   "extract": 0.01,
+   "reflect": 2.41
+  },
+  "source": "live",
+  "recorded_at": null,
+  "elapsed_s": 2.4
+ },
+ "events": [
+  {
+   "stage": "extract",
+   "status": "start",
+   "message": "Reading the draft: measuring colours, reading layout and copy…",
+   "data": {
+    "cached": true
+   },
+   "t": 0.0
+  },
+  {
+   "stage": "extract",
+   "status": "done",
+   "message": "Palette: muted / pastel, light background; background #E5B699; grain texture detected",
+   "data": {
+    "cached": true,
+    "palette": [
+     "#ECC3AA",
+     "#A0AC97",
+     "#E7DED1"
+    ],
+    "headline": "maple chipotle is here"
+   },
+   "t": 0.01
+  },
+  {
+   "stage": "reflect",
+   "status": "start",
+   "message": "Reviewing with general design judgement only (no client memory)…",
+   "data": {},
+   "t": 0.01
+  },
+  {
+   "stage": "done",
+   "status": "done",
+   "message": "Verdict: needs changes",
+   "data": {
+    "verdict": "needs_changes"
+   },
+   "t": 2.43
+  }
+ ]
+}

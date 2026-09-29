@@ -1,0 +1,118 @@
+{
+ "reviewer_version": "1.0",
+ "recorded_at": "2026-09-29T06:03:23+00:00",
+ "review": {
+  "client_id": "dewpoint",
+  "bank_id": null,
+  "memory": false,
+  "engine": "groq-no-memory",
+  "verdict": "needs_changes",
+  "summary": "The concept is clean and modern, but the medical claims need compliance review, the palette could be stronger for a clinical brand, the layout may under‑play the product on Instagram, and the fully vector imagery might feel less authentic.",
+  "flags": [
+   {
+    "severity": "high",
+    "topic": "Compliance",
+    "issue": "The headline \"Heals dry skin in 3 days.\" is a medical claim that may be unsubstantiated.",
+    "suggestion": "Replace with a softer benefit statement such as \"helps improve skin hydration in just days\" and ensure supporting data is available.",
+    "evidence": [],
+    "directive": null,
+    "citations": [],
+    "observations": []
+   },
+   {
+    "severity": "medium",
+    "topic": "Compliance",
+    "issue": "The phrase \"Clinically proven\" is used without citation, which could be challenged.",
+    "suggestion": "Add a footnote or reference to the supporting study, or rephrase to \"Backed by clinical research\".",
+    "evidence": [],
+    "directive": null,
+    "citations": [],
+    "observations": []
+   },
+   {
+    "severity": "medium",
+    "topic": "Colour",
+    "issue": "The pastel, muted palette may not convey the clinical, trustworthy tone Dewpoint seeks.",
+    "suggestion": "Introduce a deeper, more saturated blue or teal accent to reinforce a clinical feel while preserving overall softness.",
+    "evidence": [],
+    "directive": null,
+    "citations": [],
+    "observations": []
+   },
+   {
+    "severity": "medium",
+    "topic": "Layout",
+    "issue": "The product bottle sits in the right third, which may be less eye‑catching in Instagram’s square feed.",
+    "suggestion": "Shift the bottle toward the center or increase its size so it becomes the primary focal point.",
+    "evidence": [],
+    "directive": null,
+    "citations": [],
+    "observations": []
+   },
+   {
+    "severity": "low",
+    "topic": "Imagery",
+    "issue": "A fully vector illustration may feel less authentic for a skincare product.",
+    "suggestion": "Consider using a high‑resolution photo of the actual bottle alongside the illustration, or add subtle texture to the bottle rendering for realism.",
+    "evidence": [],
+    "directive": null,
+    "citations": [],
+    "observations": []
+   }
+  ],
+  "discarded": [],
+  "evidence": [],
+  "memories_consulted": 0,
+  "timings": {
+   "extract": 0.0,
+   "reflect": 3.28
+  },
+  "source": "live",
+  "recorded_at": null,
+  "elapsed_s": 3.4
+ },
+ "events": [
+  {
+   "stage": "extract",
+   "status": "start",
+   "message": "Reading the draft: measuring colours, reading layout and copy…",
+   "data": {
+    "cached": true
+   },
+   "t": 0.08
+  },
+  {
+   "stage": "extract",
+   "status": "done",
+   "message": "Palette: muted / pastel, light background; background #E5F0F8",
+   "data": {
+    "cached": true,
+    "palette": [
+     "#DAE9F4",
+     "#B5CEE4",
+     "#DDAF95",
+     "#F1CCB9",
+     "#9DB6CD"
+    ],
+    "headline": "Heals dry skin in 3 days."
+   },
+   "t": 0.08
+  },
+  {
+   "stage": "reflect",
+   "status": "start",
+   "message": "Reviewing with general design judgement only (no client memory)…",
+   "data": {},
+   "t": 0.08
+  },
+  {
+   "stage": "done",
+   "status": "done",
+   "message": "Verdict: needs changes",
+   "data": {
+    "verdict": "needs_changes"
+   },
+   "t": 3.36
+  }
+ ]
+}
