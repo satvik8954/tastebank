@@ -49,14 +49,34 @@ app.mount("/files/uploads", StaticFiles(directory=UPLOADS_DIR), name="uploads")
 
 # --- clients & memory ---------------------------------------------------------------------
 
+# Clients with a sandbox bank (scripts/reset_sandbox.py): a clone that is safe to write to
+# during live demos, so logging feedback never touches the demo banks.
+SANDBOX_CLIENTS = {"crunchd"}
+
+
 def _banks_for(client) -> list[dict]:
-    banks = [{"id": bank_id(client.id), "label": "Current memory"}]
+    banks = [{"id": bank_id(client.id), "label": "Current memory", "kind": "main"}]
     if "rebrand" in client.phases:
         banks += [
-            {"id": bank_id(client.id, "before"), "label": "Before rebrand (Jun 2026)"},
-            {"id": bank_id(client.id, "after"), "label": "After rebrand"},
+            {"id": bank_id(client.id, "before"), "label": "Before rebrand (Jun 2026)", "kind": "before"},
+            {"id": bank_id(client.id, "after"), "label": "After rebrand", "kind": "after"},
         ]
+    if client.id in SANDBOX_CLIENTS:
+        banks.append({"id": bank_id(client.id, "sandbox"), "label": "Sandbox (safe to write)", "kind": "sandbox"})
     return banks
+
+
+def _feedback_bank(client_id: str, requested: str | None) -> str:
+    """Default to the sandbox when there is one; never write to frozen demo snapshots."""
+    client = load_clients()[client_id]
+    banks = {b["id"]: b for b in _banks_for(client)}
+    if requested is None:
+        return next((b["id"] for b in banks.values() if b["kind"] == "sandbox"), bank_id(client_id))
+    if requested not in banks:
+        raise HTTPException(400, f"{requested} is not a bank of {client_id}")
+    if banks[requested]["kind"] in ("before", "after"):
+        raise HTTPException(400, "before/after rebrand banks are frozen demo snapshots; use the sandbox")
+    return requested
 
 
 @app.get("/api/config")
@@ -81,10 +101,11 @@ def clients() -> list[dict]:
 
 
 @app.get("/api/clients/{client_id}/projects")
-def projects(client_id: str) -> list[dict]:
+def projects(client_id: str, bank: str | None = None) -> list[dict]:
+    """Seeded (synthetic) project history, plus feedback logged live to `bank`."""
     if client_id not in load_clients():
         raise HTTPException(404, "unknown client")
-    return project_rounds(client_id)
+    return project_rounds(client_id, bank)
 
 
 _TOPIC = re.compile(r"^\[(\w+)\]\s*")
@@ -137,7 +158,9 @@ def operations(bank: str) -> dict:
 
 @app.post("/api/feedback")
 def feedback(fb: FeedbackIn, bank: str | None = None) -> dict:
-    target = bank or bank_id(fb.client_id)
+    if fb.client_id not in load_clients():
+        raise HTTPException(404, "unknown client")
+    target = _feedback_bank(fb.client_id, bank)
     item = log_feedback(fb, target)
     return {"bank": target, "document_id": item.document_id, "project_id": item.project_id}
 

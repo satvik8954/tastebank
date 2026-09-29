@@ -89,8 +89,9 @@ def logged_feedback() -> list[dict]:
     return [json.loads(line) for line in LOG_PATH.read_text(encoding="utf-8").splitlines() if line.strip()]
 
 
-def project_rounds(client_id: str) -> list[dict]:
-    """Revision rounds per project, oldest first: seeded history plus live-logged feedback."""
+def project_rounds(client_id: str, bank_id: str | None = None) -> list[dict]:
+    """Revision rounds per project, oldest first: seeded history plus live-logged feedback
+    (only feedback logged to `bank_id`, when given)."""
     client = load_clients()[client_id]
     rows = {
         p.id: {
@@ -107,7 +108,7 @@ def project_rounds(client_id: str) -> list[dict]:
         for p in client.projects
     }
     for e in logged_feedback():
-        if e["client_id"] != client_id:
+        if e["client_id"] != client_id or (bank_id and e.get("bank_id") != bank_id):
             continue
         row = rows.setdefault(
             e["project_id"],

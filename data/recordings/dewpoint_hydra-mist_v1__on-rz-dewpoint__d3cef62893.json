@@ -1,24 +1,24 @@
 {
  "reviewer_version": "1.0",
- "recorded_at": "2026-09-29T06:04:01+00:00",
+ "recorded_at": "2026-09-29T08:52:07+00:00",
  "review": {
   "client_id": "dewpoint",
   "bank_id": "rz-dewpoint",
   "memory": true,
   "engine": "hindsight-reflect+verified",
   "verdict": "needs_changes",
-  "summary": "The draft requires significant revisions to address prohibited drug and anti-aging claims, imagery standards, and brand transparency requirements. Please update the copy and visual assets to align with these core guidelines before resubmission.",
+  "summary": "The Hydra Mist launch post draft requires significant revisions to address prohibited drug claims, imagery violations, and brand-specific design requirements. Please update the copy, product photography, and color palette to align with current client standards.",
   "flags": [
    {
     "severity": "high",
     "topic": "Copy",
-    "issue": "The headline contains the prohibited drug claim 'Heals' and an unverified timeframe claim 'in 3 days'.",
-    "suggestion": "Use 'Supports the skin barrier' instead and provide a cited study reference for any timeframe claims.",
+    "issue": "The headline uses the prohibited drug claim 'Heals' and includes an unsupported timeframe 'in 3 days'.",
+    "suggestion": "Replace the headline with the approved phrasing: 'Supports the skin barrier'.",
     "evidence": [
      "F2",
      "O11"
     ],
-    "directive": null,
+    "directive": "No drug claims",
     "citations": [
      {
       "document_id": "dp-01-r1-0",
@@ -38,13 +38,13 @@
    {
     "severity": "high",
     "topic": "Imagery",
-    "issue": "The use of before/after imagery is prohibited as it implies guaranteed results.",
-    "suggestion": "Use a single texture close-up instead.",
+    "issue": "The draft includes a 'before/after' graphic which is explicitly prohibited.",
+    "suggestion": "Remove the before/after imagery entirely.",
     "evidence": [
      "F10",
      "O11"
     ],
-    "directive": null,
+    "directive": "No before/after imagery",
     "citations": [
      {
       "document_id": "dp-03-r1-0",
@@ -62,12 +62,13 @@
     ]
    },
    {
-    "severity": "medium",
+    "severity": "high",
     "topic": "Imagery",
-    "issue": "Product shots are flat front-on instead of the required three-quarter angle.",
-    "suggestion": "Adjust the product shot to a three-quarter angle to show the dropper and bottle depth.",
+    "issue": "The product bottle is depicted front-on instead of at the required three-quarter angle.",
+    "suggestion": "Update the product shot to a three-quarter angle to show depth and the dropper.",
     "evidence": [
-     "F4"
+     "F4",
+     "O11"
     ],
     "directive": null,
     "citations": [
@@ -82,36 +83,15 @@
       "kind": "feedback"
      }
     ],
-    "observations": []
+    "observations": [
+     "[Compliance] Prohibited drug claims: the word 'Heals' is forbidden; use 'Supports the skin barrier' instead. As of October 2025, Sofia Reyes (Regulatory & Claims Lead) has mandated that 'anti-aging' is also prohibited in web banner copy, requiring the use of 'barrier support for cold, dry air' instead. As of July 2026, Sofia Reyes requires the exact wording 'Broad Spectrum SPF 30' for SPF claims and explicitly forbids the phrase 'all-day protection'. Timeframe claims must include a study reference; as of December 2025, this includes citing the source for any statistical claims (e.g., 50% skin barrier improvement) in small type on the relevant slide. Before/after imagery is prohibited as it implies guaranteed results and risks ad rejection; use single texture close-up images and include the disclaimer 'individual results vary'. This disclaimer must be presented in small type."
+    ]
    },
    {
     "severity": "medium",
-    "topic": "Layout",
-    "issue": "Ingredient percentages are missing from the design assets.",
-    "suggestion": "Include ingredient percentages on all design assets to maintain transparency.",
-    "evidence": [
-     "F5"
-    ],
-    "directive": null,
-    "citations": [
-     {
-      "document_id": "dp-01-r3-0",
-      "quote": "Where are the percentages? We lead with ingredient percentages. That's our whole transparency thing.",
-      "author": "Amara Nwosu",
-      "role": "Founder",
-      "date": "2025-02-24",
-      "project_name": "Barrier Serum launch post",
-      "round": "3",
-      "kind": "feedback"
-     }
-    ],
-    "observations": []
-   },
-   {
-    "severity": "medium",
-    "topic": "Colour",
-    "issue": "Bottle imagery features gradients, which are prohibited.",
-    "suggestion": "Use flat colors only.",
+    "topic": "Imagery",
+    "issue": "The use of gradients on the product bottle is considered inconsistent with the brand's minimalist aesthetic.",
+    "suggestion": "Use flat colors only for the product bottle.",
     "evidence": [
      "F18",
      "O3"
@@ -136,27 +116,90 @@
    {
     "severity": "medium",
     "topic": "Copy",
-    "issue": "The copy uses the prohibited term 'anti-aging'.",
-    "suggestion": "Use 'barrier support for cold, dry air' instead.",
+    "issue": "The draft lacks required ingredient percentages.",
+    "suggestion": "Include ingredient percentages to meet the brand's radical transparency requirement.",
     "evidence": [
-     "F15",
+     "F5",
+     "O4",
      "O11"
     ],
     "directive": null,
     "citations": [
      {
-      "document_id": "dp-04-r3-0",
-      "quote": "We don't use \"anti-aging\". Just describe what it does: \"barrier support for cold, dry air\".",
-      "author": "Sofia Reyes",
-      "role": "Regulatory & Claims Lead",
-      "date": "2025-10-14",
-      "project_name": "Website banner: winter barrier kit",
+      "document_id": "dp-01-r3-0",
+      "quote": "Where are the percentages? We lead with ingredient percentages. That's our whole transparency thing.",
+      "author": "Amara Nwosu",
+      "role": "Founder",
+      "date": "2025-02-24",
+      "project_name": "Barrier Serum launch post",
       "round": "3",
       "kind": "feedback"
      }
     ],
     "observations": [
+     "[Compliance] Dewpoint brand identity is warm, calm, and radically transparent.",
      "[Compliance] Prohibited drug claims: the word 'Heals' is forbidden; use 'Supports the skin barrier' instead. As of October 2025, Sofia Reyes (Regulatory & Claims Lead) has mandated that 'anti-aging' is also prohibited in web banner copy, requiring the use of 'barrier support for cold, dry air' instead. As of July 2026, Sofia Reyes requires the exact wording 'Broad Spectrum SPF 30' for SPF claims and explicitly forbids the phrase 'all-day protection'. Timeframe claims must include a study reference; as of December 2025, this includes citing the source for any statistical claims (e.g., 50% skin barrier improvement) in small type on the relevant slide. Before/after imagery is prohibited as it implies guaranteed results and risks ad rejection; use single texture close-up images and include the disclaimer 'individual results vary'. This disclaimer must be presented in small type."
+    ]
+   },
+   {
+    "severity": "medium",
+    "topic": "Colour",
+    "issue": "The background uses a cool blue tint, which is rejected by the client.",
+    "suggestion": "Use the approved warm neutral palette: bone (#F5F0EA), stone (#8C8279), and clay (#C9A58A).",
+    "evidence": [
+     "F3",
+     "F13",
+     "F1",
+     "F14",
+     "O1",
+     "O2"
+    ],
+    "directive": null,
+    "citations": [
+     {
+      "document_id": "dp-04-r2-0",
+      "quote": "No. I said this back in February: blue feels like a pharmacy. We are warm neutrals.",
+      "author": "Amara Nwosu",
+      "role": "Founder",
+      "date": "2025-10-09",
+      "project_name": "Website banner: winter barrier kit",
+      "round": "2",
+      "kind": "feedback"
+     },
+     {
+      "document_id": "dp-04-r2-1",
+      "quote": "Fine. Warm neutrals, but restrained. Bone and stone as the base, clay only as an accent, and no orange.",
+      "author": "Lukas Brandt",
+      "role": "Head of Brand",
+      "date": "2025-10-09",
+      "project_name": "Website banner: winter barrier kit",
+      "round": "2",
+      "kind": "feedback"
+     },
+     {
+      "document_id": "dp-01-r1-1",
+      "quote": "The blue feels like a pharmacy. We're warm.",
+      "author": "Amara Nwosu",
+      "role": "Founder",
+      "date": "2025-02-17",
+      "project_name": "Barrier Serum launch post",
+      "round": "1",
+      "kind": "feedback"
+     },
+     {
+      "document_id": "dp-onboarding",
+      "quote": "Onboarding brief from Amara Nwosu (Founder): Dewpoint is warm, calm and radically transparent. Palette: bone #F5F0EA, clay #C9A58A, stone #8C8279, ink #2B2826. We are not a pharmacy and not a spa. We lead with ingredient percentages on everything.",
+      "author": "Amara Nwosu",
+      "role": "Founder",
+      "date": "2025-01-27",
+      "project_name": null,
+      "round": null,
+      "kind": "brief"
+     }
+    ],
+    "observations": [
+     "[Colour] Dewpoint color palette: bone #F5F0EA, clay #C9A58A, stone #8C8279, ink #2B2826.",
+     "[Colour] Dewpoint requires a warm color palette; ice-blue (#DDEBF5) and cool grey-blue (#C9D3DB) are prohibited as they feel too clinical. As of October 2025, Lukas Brandt (Head of Brand) has mandated a shift for the 'Website banner: winter barrier kit' project, requiring a palette of warm neutrals (bone and stone) as the base and clay as an accent, while explicitly prohibiting orange. This replaces the previous clinical/cool aesthetic request for this project. Additionally, as of April 2026, Lukas Brandt prohibits the use of pink florals in design assets, noting they are overused by beauty brands."
     ]
    }
   ],
@@ -683,16 +726,16 @@
     ]
    }
   ],
-  "memories_consulted": 12,
+  "memories_consulted": 20,
   "timings": {
    "extract": 0.0,
-   "recall": 4.45,
-   "reflect": 8.25,
-   "verify": 4.8
+   "recall": 3.51,
+   "reflect": 8.5,
+   "verify": 3.64
   },
   "source": "live",
   "recorded_at": null,
-  "elapsed_s": 17.5
+  "elapsed_s": 15.7
  },
  "events": [
   {
@@ -702,7 +745,7 @@
    "data": {
     "cached": true
    },
-   "t": 0.01
+   "t": 0.0
   },
   {
    "stage": "extract",
@@ -719,7 +762,7 @@
     ],
     "headline": "Heals dry skin in 3 days."
    },
-   "t": 0.01
+   "t": 0.0
   },
   {
    "stage": "recall",
@@ -728,7 +771,7 @@
    "data": {
     "aspect": "colour"
    },
-   "t": 0.01
+   "t": 0.0
   },
   {
    "stage": "recall",
@@ -745,7 +788,7 @@
      "[Compliance] Dewpoint brand identity is warm, calm, and radically transparent."
     ]
    },
-   "t": 1.77
+   "t": 1.7
   },
   {
    "stage": "recall",
@@ -754,7 +797,7 @@
    "data": {
     "aspect": "typography"
    },
-   "t": 1.77
+   "t": 1.7
   },
   {
    "stage": "recall",
@@ -771,7 +814,7 @@
      "[Colour] Dewpoint color palette: bone #F5F0EA, clay #C9A58A, stone #8C8279, ink #2B2826."
     ]
    },
-   "t": 3.08
+   "t": 2.18
   },
   {
    "stage": "recall",
@@ -780,7 +823,7 @@
    "data": {
     "aspect": "layout_imagery"
    },
-   "t": 3.08
+   "t": 2.18
   },
   {
    "stage": "recall",
@@ -797,7 +840,7 @@
      "[Imagery] Dewpoint brand rule: Never retouch skin texture in imagery; pores, freckles, and fine lines must re…"
     ]
    },
-   "t": 3.86
+   "t": 2.9
   },
   {
    "stage": "recall",
@@ -806,7 +849,7 @@
    "data": {
     "aspect": "copy"
    },
-   "t": 3.86
+   "t": 2.9
   },
   {
    "stage": "recall",
@@ -823,7 +866,7 @@
      "[Imagery] Dewpoint brand rule: Imagery must show more of the person and use natural light to avoid a clinical…"
     ]
    },
-   "t": 4.46
+   "t": 3.52
   },
   {
    "stage": "evidence",
@@ -839,7 +882,7 @@
     ],
     "date_span": "2025-01-27 to 2026-09-14"
    },
-   "t": 4.46
+   "t": 3.52
   },
   {
    "stage": "reflect",
@@ -853,42 +896,42 @@
      "No before/after imagery"
     ]
    },
-   "t": 4.46
+   "t": 3.52
   },
   {
    "stage": "reflect",
    "status": "done",
-   "message": "6 potential issue(s) proposed after consulting 12 memories",
+   "message": "6 potential issue(s) proposed after consulting 20 memories",
    "data": {
     "proposed": [
-     "[Copy] The headline contains the prohibited drug claim 'Heals' and an unverified timeframe claim 'in 3 days'.",
-     "[Imagery] The use of before/after imagery is prohibited as it implies guaranteed results.",
-     "[Imagery] Product shots are flat front-on instead of the required three-quarter angle.",
-     "[Layout] Ingredient percentages are missing from the design assets.",
-     "[Colour] Bottle imagery features gradients, which are prohibited.",
-     "[Copy] The copy uses the prohibited term 'anti-aging'."
+     "[Copy] The headline uses the prohibited drug claim 'Heals' and includes an unsupported timeframe 'in 3 days'.",
+     "[Imagery] The draft includes a 'before/after' graphic which is explicitly prohibited.",
+     "[Imagery] The product bottle is depicted front-on instead of at the required three-quarter angle.",
+     "[Imagery] The use of gradients on the product bottle is considered inconsistent with the brand's minimalist aesthetic.",
+     "[Copy] The draft lacks required ingredient percentages.",
+     "[Colour] The background uses a cool blue tint, which is rejected by the client."
     ],
-    "consulted": 12
+    "consulted": 20
    },
-   "t": 12.71
+   "t": 12.02
   },
   {
    "stage": "verify",
    "status": "start",
    "message": "Checking 6 issue(s) against the dated evidence…",
    "data": {},
-   "t": 12.71
+   "t": 12.02
   },
   {
    "stage": "verify",
    "status": "progress",
-   "message": "Verifier read 8 of 37 evidence items",
+   "message": "Verifier read 14 of 37 evidence items",
    "data": {
-    "evidence_sent": 8,
-    "prompt_tokens": 2006,
-    "total_tokens": 3357
+    "evidence_sent": 14,
+    "prompt_tokens": 2446,
+    "total_tokens": 3754
    },
-   "t": 17.52
+   "t": 15.66
   },
   {
    "stage": "verify",
@@ -897,7 +940,7 @@
    "data": {
     "discarded": []
    },
-   "t": 17.52
+   "t": 15.66
   },
   {
    "stage": "done",
@@ -906,7 +949,7 @@
    "data": {
     "verdict": "needs_changes"
    },
-   "t": 17.52
+   "t": 15.66
   }
  ]
 }
