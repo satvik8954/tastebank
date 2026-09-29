@@ -10,6 +10,7 @@ from __future__ import annotations
 
 from ..extract.draft import DraftAnalysis
 from ..memory.client import hindsight
+from .progress import Progress
 from .schemas import Citation, Evidence
 
 MAX_FEEDBACK = 36
@@ -42,7 +43,17 @@ def _citation(result) -> Citation | None:
     )
 
 
-def gather_evidence(bank_id: str, analysis: DraftAnalysis, budget: str = "mid") -> list[Evidence]:
+ASPECT_LABELS = {"colour": "colour", "typography": "typography", "layout_imagery": "layout & imagery", "copy": "copy & claims"}
+
+
+def _short(text: str, n: int = 110) -> str:
+    return text if len(text) <= n else text[: n - 1].rstrip() + "…"
+
+
+def gather_evidence(
+    bank_id: str, analysis: DraftAnalysis, budget: str = "mid", progress: Progress | None = None
+) -> list[Evidence]:
+    progress = progress or Progress()
     hs = hindsight()
     facts_by_doc: dict[str, tuple[Citation, list[str]]] = {}
     observations: dict[str, tuple[str, list[str]]] = {}  # obs id -> (text, source document ids)
@@ -56,17 +67,31 @@ def gather_evidence(bank_id: str, analysis: DraftAnalysis, budget: str = "mid") 
             entry[1].append(res.text)
         return cit.document_id
 
-    for query in aspect_queries(analysis).values():
-        resp = hs.recall(
-            bank_id=bank_id,
-            query=query,
-            types=["observation", "world", "experience"],
-            budget=budget,
-            max_tokens=2048,
-            include_source_facts=True,
-            max_source_facts_tokens=2048,
-        )
+    for aspect, query in aspect_queries(analysis).items():
+        label = ASPECT_LABELS[aspect]
+        progress.event("recall", "start", f"Recalling what this client has said about {label}…", aspect=aspect)
+        with progress.timed("recall"):
+            resp = hs.recall(
+                bank_id=bank_id,
+                query=query,
+                types=["observation", "world", "experience"],
+                budget=budget,
+                max_tokens=2048,
+                include_source_facts=True,
+                max_source_facts_tokens=2048,
+            )
         source_facts = resp.source_facts or {}
+        obs = [r for r in resp.results if r.type == "observation"]
+        facts = [r for r in resp.results if r.type != "observation"]
+        progress.event(
+            "recall",
+            "done",
+            f"{label}: {len(facts)} past feedback facts, {len(obs)} taste-profile observations",
+            aspect=aspect,
+            facts=len(facts),
+            observations=len(obs),
+            checking=[_short(o.text) for o in obs[:4]],
+        )
         for res in resp.results:
             if res.type == "observation":
                 docs = []
@@ -93,4 +118,17 @@ def gather_evidence(bank_id: str, analysis: DraftAnalysis, budget: str = "mid") 
         evidence.append(
             Evidence(id=f"O{i}", kind="observation", text=text, source_ids=[doc_to_id[d] for d in docs if d in doc_to_id])
         )
+    quotes = [e for e in evidence if e.citation]
+    people = sorted({e.citation.author for e in quotes})
+    span = f"{quotes[0].citation.date} to {quotes[-1].citation.date}" if quotes else ""
+    progress.event(
+        "evidence",
+        "done",
+        f"{len(quotes)} client quotes from {len(people)} people ({span}) and "
+        f"{len(evidence) - len(quotes)} observations ready for review",
+        quotes=len(quotes),
+        observations=len(evidence) - len(quotes),
+        people=people,
+        date_span=span,
+    )
     return evidence

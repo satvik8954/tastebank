@@ -30,18 +30,26 @@ class LLMError(RuntimeError):
     pass
 
 
-def _post(payload: dict) -> dict:
+def _post(payload: dict, timeout: float = 120.0) -> dict:
     if not settings.groq_api_key:
         raise LLMError("GROQ_API_KEY is not set")
     for attempt in range(3):  # transport-level retries (429 / 5xx)
-        resp = httpx.post(
-            GROQ_URL,
-            headers={"Authorization": f"Bearer {settings.groq_api_key}"},
-            json=payload,
-            timeout=120,
-        )
+        try:
+            resp = httpx.post(
+                GROQ_URL,
+                headers={"Authorization": f"Bearer {settings.groq_api_key}"},
+                json=payload,
+                timeout=timeout,
+            )
+        except httpx.TimeoutException as exc:
+            raise LLMError(f"Groq timed out after {timeout:.0f}s") from exc
         if resp.status_code in (429, 500, 502, 503) and attempt < 2:
-            time.sleep(float(resp.headers.get("retry-after", 2 * (attempt + 1))))
+            wait = float(resp.headers.get("retry-after", 2 * (attempt + 1)))
+            log.warning(
+                "Groq %s on %s; waiting %.1fs (tokens remaining: %s)",
+                resp.status_code, payload.get("model"), wait, resp.headers.get("x-ratelimit-remaining-tokens"),
+            )
+            time.sleep(wait)
             continue
         if resp.status_code >= 400:
             raise LLMError(f"Groq {resp.status_code}: {resp.text[:500]}")
@@ -67,6 +75,7 @@ def complete_json(
     attempts: int = 3,
     temperature: float = 0.2,
     max_tokens: int = 4096,
+    timeout: float = 120.0,
 ) -> T:
     models = [model or settings.llm_model]
     if model is None and settings.llm_fallback_model not in models:
@@ -85,7 +94,8 @@ def complete_json(
                         "temperature": temperature,
                         "max_tokens": max_tokens,
                         "seed": 7,  # best-effort determinism for repeatable demos
-                    }
+                    },
+                    timeout=timeout,
                 )
                 content = data["choices"][0]["message"].get("content") or ""
                 return schema.model_validate(_extract_json(content))

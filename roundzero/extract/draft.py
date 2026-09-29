@@ -46,10 +46,15 @@ class DraftAnalysis(BaseModel):
         )
 
 
+def cache_path(path: str | Path) -> Path:
+    sha = hashlib.sha1(Path(path).read_bytes()).hexdigest()
+    return CACHE_DIR / f"{sha}.v{EXTRACT_VERSION}.json"
+
+
 def analyse_draft(path: str | Path, *, refresh: bool = False) -> DraftAnalysis:
     path = Path(path)
     sha = hashlib.sha1(path.read_bytes()).hexdigest()
-    cached = CACHE_DIR / f"{sha}.v{EXTRACT_VERSION}.json"
+    cached = cache_path(path)
     if cached.exists() and not refresh:
         try:
             return DraftAnalysis.model_validate_json(cached.read_text(encoding="utf-8"))

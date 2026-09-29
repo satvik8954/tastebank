@@ -20,6 +20,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from roundzero.config import DATA_DIR, bank_id  # noqa: E402
 from roundzero.review.reviewer import review_with_memory, review_without_memory  # noqa: E402
+from roundzero.review.progress import ReviewEvent  # noqa: E402
 from roundzero.review.schemas import Review  # noqa: E402
 
 
@@ -28,9 +29,18 @@ def draft_info(image: Path) -> dict:
     return next((d for d in manifest if d["file"] == image.name), {})
 
 
+def print_event(e: ReviewEvent) -> None:
+    """Live progress, as the UI will stream it."""
+    mark = "…" if e.status == "start" else "✓"
+    print(f"  {e.t:5.1f}s {mark} [{e.stage}] {e.message}", flush=True)
+    for line in e.data.get("checking", []):
+        print(f"           checking: {line}", flush=True)
+
+
 def print_review(r: Review) -> None:
     label = f"memory ON · {r.bank_id}" if r.memory else "memory OFF"
-    print(f"\n=== {label} · engine={r.engine} · {r.elapsed_s}s · verdict: {r.verdict.upper()}")
+    timings = " ".join(f"{k}={v:.1f}s" for k, v in r.timings.items())
+    print(f"\n=== {label} · engine={r.engine} · {r.elapsed_s}s ({timings}) · verdict: {r.verdict.upper()}")
     print(textwrap.fill(r.summary, 110, initial_indent="  ", subsequent_indent="  "))
     if r.memory:
         print(f"  evidence: {sum(e.kind == 'feedback' for e in r.evidence)} client quotes, "
@@ -68,9 +78,9 @@ def main() -> None:
     fmt = args.format or info.get("format", "instagram_post")
 
     if args.no_memory:
-        print_review(review_without_memory(client, args.image, project, fmt))
+        print_review(review_without_memory(client, args.image, project, fmt, emit=print_event))
     else:
-        print_review(review_with_memory(client, args.bank or bank_id(client), args.image, project, fmt))
+        print_review(review_with_memory(client, args.bank or bank_id(client), args.image, project, fmt, emit=print_event))
 
 
 if __name__ == "__main__":

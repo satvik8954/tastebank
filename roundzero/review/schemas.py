@@ -126,11 +126,12 @@ class FlagCheck(BaseModel):
     severity: Severity
     evidence: list[str] = Field(default_factory=list)
     reason: str = ""
+    failed: str | None = None  # which criterion failed: "a" | "b" | "c" | "d"
 
-    @field_validator("severity", mode="before")
+    @field_validator("severity", "failed", mode="before")
     @classmethod
     def _lower(cls, v):
-        return _lower(v)
+        return _lower(v) or None if isinstance(v, str) else v
 
     @field_validator("evidence", mode="before")
     @classmethod
@@ -163,6 +164,7 @@ class Review(BaseModel):
     discarded: list[DiscardedFlag] = Field(default_factory=list)  # proposed but not grounded
     evidence: list[Evidence] = Field(default_factory=list)
     memories_consulted: int = 0
+    timings: dict[str, float] = Field(default_factory=dict)  # seconds per stage
     elapsed_s: float = 0.0
 
     @property
