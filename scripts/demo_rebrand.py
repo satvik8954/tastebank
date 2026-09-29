@@ -13,8 +13,10 @@ projects) in order, waits for consolidation, then prints which observations were
 from __future__ import annotations
 
 import argparse
+import itertools
 import sys
 import textwrap
+import time
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
@@ -67,11 +69,13 @@ def show_changes(bank: str, before: dict[str, object], after: dict[str, object])
 
 def reset() -> None:
     main_bank, snapshot = bank_id(CLIENT), bank_id(CLIENT, "before")
+    t0 = time.monotonic()
     delete_bank_if_exists(main_bank)
     op_id = hindsight().clone_bank(snapshot, main_bank)
     wait_for_operation(snapshot, op_id)
     wait_until_idle(main_bank, label=f"restoring {main_bank}")
-    print(f"{main_bank} restored from {snapshot}: {len(observations(main_bank))} observations")
+    print(f"{main_bank} restored from {snapshot}: {len(observations(main_bank))} observations "
+          f"in {time.monotonic() - t0:.0f}s")
 
 
 def live() -> None:
@@ -83,17 +87,27 @@ def live() -> None:
     before = observations(bank)
     print(f"{bank}: {len(before)} observations before the rebrand\n")
 
-    current_group = None
-    for item in items:
-        group = item.project_id or item.document_id
-        if current_group and group != current_group:
-            wait_until_idle(bank, label=f"consolidating {current_group}")
-        current_group = group
-        print(wrap(f"{item.metadata['author']}: \"{item.metadata['quote']}\"", f"  retain [{item.metadata['date']}] "))
-        retain_item(bank, item)
-    wait_until_idle(bank, label=f"consolidating {current_group}")
+    # Timing: is this stage-safe? retain() is synchronous (fact extraction); consolidation
+    # into observations runs afterwards as a background operation.
+    timings: list[tuple[str, float, float]] = []  # (step, retain seconds, consolidation seconds)
+    t_start = time.monotonic()
+    for group, group_items in itertools.groupby(items, key=lambda i: i.project_id or i.document_id):
+        t0 = time.monotonic()
+        for item in group_items:
+            print(wrap(f"{item.metadata['author']}: \"{item.metadata['quote']}\"", f"  retain [{item.metadata['date']}] "))
+            retain_item(bank, item)
+        t1 = time.monotonic()
+        wait_until_idle(bank, label=f"consolidating {group}")
+        timings.append((group, t1 - t0, time.monotonic() - t1))
+    total = time.monotonic() - t_start
 
     show_changes(bank, before, observations(bank))
+
+    print("\n=== TIMING (retain -> consolidation done)")
+    for step, t_ret, t_con in timings:
+        print(f"  {step:<18} retain {t_ret:5.1f}s   consolidation {t_con:5.1f}s")
+    print(f"  {'TOTAL':<18} {total:.1f}s  ({sum(t for _, t, _ in timings):.1f}s retain, "
+          f"{sum(t for _, _, t in timings):.1f}s consolidation)")
 
 
 def fallback(topic: str | None) -> None:
